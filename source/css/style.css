@@ -208,13 +208,13 @@ header, footer, nav, section, article, hgroup, figure {
 
 /* line 100, scss/base/_global-classes.scss */
 .font-secondary {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Droid Sans", sans-serif;
 }
 
 /* line 1, scss/base/_main.scss */
 body {
   background: #fff;
-  font: 100%/1.5 "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+  font: 100%/1.5 "Varela", sans-serif;
   -webkit-text-size-adjust: 100%;
   color: #333;
 }
@@ -251,7 +251,7 @@ h3, .gamma {
 /* Subheadings */
 /* line 28, scss/base/_headings.scss */
 .subheading {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Droid Sans", sans-serif;
   font-weight: normal;
 }
 
@@ -969,7 +969,7 @@ td {
 
 /* line 8, scss/objects/_text.scss */
 .pullquote {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Droid Sans", sans-serif;
   font-size: 1.4375em;
 }
 
@@ -1481,7 +1481,7 @@ td {
 .acc-handle {
   background: #131313;
   color: #fff;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: "Droid Sans", sans-serif;
   font-weight: bold;
   display: block;
   position: relative;
