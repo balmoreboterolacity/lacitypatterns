@@ -3,16 +3,33 @@
 \*------------------------------------*/
 
 //Colors
-$gray : #808080;
-$gray-light : #f9f9f9;
-$gray-light-2 : #eee;
-$gray-light-3 : #ddd;
-$gray-med : #666;
-$gray-dark : #333;
-$gray-dark-2 : #131313;
+
+//Vibrant
+$lightblue: #63C9F7;
+$richred: #CC2A14;
+$lightgreen: #92CC4E;
+$yellow: #FFEB3B;
+
+//Business
+$orange: #CC4E10;
+$classicblue: #014982;
+$teal: #00758C;
+$burgundy: #800D20;
+$richgreen: #326E1E;
+$classicgold: #F9B000;
+
+//Shades & Tints
+$gray : #E0E0E0;
+$gray-light : $gray;
+$gray-light-2 : $gray;
+$gray-light-3 : $gray;
+$gray-med : #474747;
+$gray-dark : $gray-med;
+$gray-dark-2 : $gray-med;
 $white : #fff;
-$black : #000000;
+$black : #212121;
 $dim : rgba(0,0,0,0.5);
+
 $error : #f00;
 $valid : #089e00;
 $warning : #fff664;

@@ -216,19 +216,19 @@ body {
   background: #fff;
   font: 100%/1.5 "Varela", sans-serif;
   -webkit-text-size-adjust: 100%;
-  color: #333;
+  color: #474747;
 }
 
 /* Links */
 /* line 2, scss/base/_links.scss */
 a {
-  color: #333;
+  color: #474747;
   text-decoration: none;
   outline: 0;
 }
 /* line 7, scss/base/_links.scss */
 a:hover, a:focus {
-  color: #808080;
+  color: #E0E0E0;
 }
 
 /* Headings */
@@ -265,8 +265,8 @@ p {
 /* line 7, scss/base/_text.scss */
 blockquote {
   font-style: italic;
-  border-left: 1px solid #808080;
-  color: #808080;
+  border-left: 1px solid #E0E0E0;
+  color: #E0E0E0;
   padding-left: 1em;
   margin-bottom: 1em;
 }
@@ -276,13 +276,13 @@ blockquote {
 hr {
   border: 0;
   height: 2px;
-  background: #eee;
+  background: #E0E0E0;
   margin: 2em 0;
 }
 
 /* line 23, scss/base/_text.scss */
 abbr {
-  border-bottom: 1px dotted #808080;
+  border-bottom: 1px dotted #E0E0E0;
   cursor: help;
 }
 
@@ -371,7 +371,7 @@ button, input, select, textarea {
 /* line 26, scss/base/_forms.scss */
 input, textarea {
   width: 100%;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   padding: 0.5em 0.65rem;
 }
 
@@ -383,8 +383,8 @@ input[type=text], input[type=search], input[type=url], input[type=number], texta
 /* line 36, scss/base/_forms.scss */
 button, input[type="submit"] {
   padding: 0.5em;
-  background: #333;
-  border: 1px solid #808080;
+  background: #474747;
+  border: 1px solid #E0E0E0;
   cursor: pointer;
 }
 
@@ -420,7 +420,7 @@ input[type="search"]::-webkit-search-decoration {
 .inline-form input[type=submit], .inline-form button, .inline-form .btn {
   font-size: 0.875em;
   padding: 0.65rem 1.3rem;
-  background: #333;
+  background: #474747;
   position: absolute;
   top: 0;
   right: 0;
@@ -429,7 +429,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 /* line 79, scss/base/_forms.scss */
 .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
-  background: #808080;
+  background: #E0E0E0;
   color: #fff;
 }
 
@@ -458,8 +458,8 @@ input[type="search"]::-webkit-search-decoration {
   background: none;
   padding: 0.78em 1em;
   border: 0;
-  border-left: 1px solid #808080;
-  color: #808080;
+  border-left: 1px solid #E0E0E0;
+  color: #E0E0E0;
 }
 
 /*------------------------------------*\
@@ -469,20 +469,20 @@ input[type="search"]::-webkit-search-decoration {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   width: 100%;
 }
 
 /* line 10, scss/base/_tables.scss */
 th {
   text-align: left;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   padding: 0.2em;
 }
 
 /* line 15, scss/base/_tables.scss */
 td {
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   padding: 0.2em;
 }
 
@@ -864,7 +864,7 @@ td {
 .nav a {
   display: block;
   padding: 1em;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #E0E0E0;
 }
 /* line 16, scss/objects/_nav.scss */
 .nav.active {
@@ -894,7 +894,7 @@ td {
 /* line 40, scss/objects/_nav.scss */
 .pagination li {
   float: left;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #E0E0E0;
 }
 /* line 44, scss/objects/_nav.scss */
 .pagination li:last-child {
@@ -921,13 +921,13 @@ td {
 .footer {
   clear: both;
   overflow: hidden;
-  background: #131313;
+  background: #474747;
   color: #fff;
   line-height: 1.2;
 }
 /* line 11, scss/objects/_footer.scss */
 .footer a {
-  color: #f9f9f9;
+  color: #E0E0E0;
 }
 
 /* line 17, scss/objects/_footer.scss */
@@ -936,7 +936,7 @@ td {
 }
 /* line 20, scss/objects/_footer.scss */
 .nav-footer li {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #474747;
 }
 @media all and (min-width: 46.8em) {
   /* line 20, scss/objects/_footer.scss */
@@ -1166,7 +1166,7 @@ td {
 /* line 119, scss/objects/_icons.scss */
 .icon-play-box:before {
   padding: 0.25em;
-  background: #808080;
+  background: #E0E0E0;
   color: #fff;
   margin-left: -1.7rem;
   margin-right: 0.5em;
@@ -1178,7 +1178,7 @@ td {
 /* line 4, scss/objects/_buttons.scss */
 .btn {
   display: inline-block;
-  background: #333;
+  background: #474747;
   color: #fff;
   line-height: 1;
   font-weight: bold;
@@ -1188,13 +1188,13 @@ td {
 }
 /* line 14, scss/objects/_buttons.scss */
 .btn:hover, .btn:focus {
-  background: #808080;
+  background: #E0E0E0;
   color: #fff;
 }
 /* line 19, scss/objects/_buttons.scss */
 .btn.disabled {
-  background: #eee;
-  color: #808080;
+  background: #E0E0E0;
+  color: #E0E0E0;
 }
 
 /* line 25, scss/objects/_buttons.scss */
@@ -1206,7 +1206,7 @@ td {
 .btn-large {
   padding: 0.5em;
   text-transform: uppercase;
-  background: #808080;
+  background: #E0E0E0;
   font-size: 1.4rem;
   font-weight: normal;
 }
@@ -1223,7 +1223,7 @@ td {
   padding: 2em;
   text-align: center;
   font-weight: bold;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 /* Block */
@@ -1390,7 +1390,7 @@ td {
 /* line 31, scss/objects/_lists.scss */
 .headline-list li {
   padding: 0.25em 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #E0E0E0;
 }
 
 /* Post List */
@@ -1434,7 +1434,7 @@ td {
 
 /* line 12, scss/objects/_tooltip.scss */
 .tooltip-link {
-  background: #f9f9f9;
+  background: #E0E0E0;
 }
 
 /* line 16, scss/objects/_tooltip.scss */
@@ -1446,7 +1446,7 @@ td {
   width: 18em;
   padding: 1em;
   background: #fff;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   box-shadow: 0.3em 0.3em 1em 0 rgba(0, 0, 0, 0.2);
 }
 /* line 27, scss/objects/_tooltip.scss */
@@ -1479,14 +1479,14 @@ td {
 
 /* line 5, scss/objects/_accordion.scss */
 .acc-handle {
-  background: #131313;
+  background: #474747;
   color: #fff;
   font-family: "Droid Sans", sans-serif;
   font-weight: bold;
   display: block;
   position: relative;
   padding: 0.5em;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #E0E0E0;
 }
 /* line 15, scss/objects/_accordion.scss */
 .acc-handle:after {
@@ -1496,11 +1496,11 @@ td {
 /* line 20, scss/objects/_accordion.scss */
 .acc-handle:hover {
   color: #fff;
-  background: #333;
+  background: #474747;
 }
 /* line 26, scss/objects/_accordion.scss */
 .acc-handle.active {
-  background: #333;
+  background: #474747;
 }
 /* line 29, scss/objects/_accordion.scss */
 .acc-handle.active:after {
@@ -1520,7 +1520,7 @@ td {
 .tabs li {
   display: table-cell;
   text-align: center;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #E0E0E0;
 }
 /* line 14, scss/objects/_tabs.scss */
 .tabs li:last-child {
@@ -1530,15 +1530,15 @@ td {
 .tabs a {
   display: block;
   padding: 0.5em;
-  background: #808080;
+  background: #E0E0E0;
 }
 /* line 24, scss/objects/_tabs.scss */
 .tabs a:hover, .tabs a:focus {
-  background: #ddd;
+  background: #E0E0E0;
 }
 /* line 28, scss/objects/_tabs.scss */
 .tabs a.active {
-  background: #333;
+  background: #474747;
   color: #fff;
 }
 
@@ -1576,14 +1576,14 @@ td {
 }
 /* line 24, scss/objects/_article.scss */
 .social-share a {
-  background: #333;
+  background: #474747;
   color: #fff;
   display: block;
   padding: 0.5em;
 }
 /* line 30, scss/objects/_article.scss */
 .social-share a:hover {
-  background: #808080;
+  background: #E0E0E0;
 }
 
 /* line 2, scss/objects/_comments.scss */
@@ -1606,7 +1606,7 @@ td {
 /* line 17, scss/objects/_comments.scss */
 .comment-meta img {
   display: block;
-  border: 1px solid #eee;
+  border: 1px solid #E0E0E0;
   margin-bottom: 0.5em;
 }
 
@@ -1628,8 +1628,8 @@ td {
   text-align: center;
   padding: 1em;
   margin-bottom: 0.5em;
-  border: 1px solid #808080;
-  background: #f9f9f9;
+  border: 1px solid #E0E0E0;
+  background: #E0E0E0;
 }
 
 /* line 14, scss/objects/_messaging.scss */
