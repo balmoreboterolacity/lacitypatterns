@@ -6,7 +6,27 @@
 	clear: both;
 	overflow: hidden;
 	max-height: 0;
+
 	
+	.nav-links {
+		margin-left: 1em;
+		li {
+			padding-right:0.5em;
+			padding-top: 0.25em;
+		}
+	}
+	.nav-button {
+		display: block;
+		text-align: center;
+		padding: 0.5em 0;
+		margin: 0.5em;
+		width: 2.7em;
+		height: 2.7em;
+		background: $orange;
+		@include vendor-prefix(border-radius, 8px);
+
+	}
+
 	img {
 		height: 1.6em;
 
@@ -14,15 +34,7 @@
 	}
 
 	a {
-		display: block;
-		text-align: center;
-		padding: 0.5em 0;
-		margin: 0.5em;
-		width: 2.7em;
-		height: 2.7em;
 		border-top: 1px solid $gray-light-2;
-		background: $orange;
-		@include vendor-prefix(border-radius, 8px);
 
 	}
 
