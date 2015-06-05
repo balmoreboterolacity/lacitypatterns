@@ -235,21 +235,77 @@ a:hover, a:focus {
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 /* line 3, scss/base/_headings.scss */
 h1, .alpha {
-  line-height: 1.2;
+  font-size: 2em;
+  line-height: 1.25em;
+}
+@media all and (min-width: 720px) {
+  /* line 3, scss/base/_headings.scss */
+  h1, .alpha {
+    font-size: 2.5em;
+    line-height: 1.125em;
+  }
+}
+@media all and (min-width: 960px) {
+  /* line 3, scss/base/_headings.scss */
+  h1, .alpha {
+    font-size: 3em;
+    line-height: 1.05em;
+  }
 }
 
-/* line 7, scss/base/_headings.scss */
+/* line 15, scss/base/_headings.scss */
 h2, .beta {
-  line-height: 1.2;
+  font-size: 1.625em;
+  line-height: 1.15384615em;
+}
+@media all and (min-width: 720px) {
+  /* line 15, scss/base/_headings.scss */
+  h2, .beta {
+    font-size: 2em;
+    line-height: 1.25em;
+  }
+}
+@media all and (min-width: 960px) {
+  /* line 15, scss/base/_headings.scss */
+  h2, .beta {
+    font-size: 2.25em;
+    line-height: 1.25em;
+  }
 }
 
-/* line 11, scss/base/_headings.scss */
+/* line 27, scss/base/_headings.scss */
 h3, .gamma {
-  line-height: 1.2;
+  font-size: 1.375em;
+  line-height: 1.13636364em;
+}
+@media all and (min-width: 720px) {
+  /* line 27, scss/base/_headings.scss */
+  h3, .gamma {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+}
+@media all and (min-width: 960px) {
+  /* line 27, scss/base/_headings.scss */
+  h3, .gamma {
+    font-size: 1.75em;
+  }
+}
+
+/* line 39, scss/base/_headings.scss */
+h4, .delta {
+  font-size: 1.125em;
+  line-height: 1.111111111em;
+}
+@media all and (min-width: 720px) {
+  /* line 39, scss/base/_headings.scss */
+  h4, .delta {
+    line-height: 1.222222222em;
+  }
 }
 
 /* Subheadings */
-/* line 28, scss/base/_headings.scss */
+/* line 56, scss/base/_headings.scss */
 .subheading {
   font-family: "Droid Sans", sans-serif;
   font-weight: normal;
@@ -258,21 +314,38 @@ h3, .gamma {
 /* Text-Related Elements */
 /* line 2, scss/base/_text.scss */
 p {
+  font-size: 1em;
+  line-height: 1.25em;
   margin-bottom: 1em;
+}
+@media all and (min-width: 720px) {
+  /* line 2, scss/base/_text.scss */
+  p {
+    line-height: 1.375em;
+  }
 }
 
 /* Blockquote */
-/* line 7, scss/base/_text.scss */
+/* line 12, scss/base/_text.scss */
 blockquote {
   font-style: italic;
-  border-left: 1px solid #E0E0E0;
-  color: #E0E0E0;
+  border-left: 1px solid #474747;
+  color: #474747;
   padding-left: 1em;
   margin-bottom: 1em;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+@media all and (min-width: 720px) {
+  /* line 12, scss/base/_text.scss */
+  blockquote {
+    font-size: 1.5em;
+    line-height: 1.45833333em;
+  }
 }
 
 /* Horizontal Rule */
-/* line 16, scss/base/_text.scss */
+/* line 27, scss/base/_text.scss */
 hr {
   border: 0;
   height: 2px;
@@ -280,7 +353,7 @@ hr {
   margin: 2em 0;
 }
 
-/* line 23, scss/base/_text.scss */
+/* line 34, scss/base/_text.scss */
 abbr {
   border-bottom: 1px dotted #E0E0E0;
   cursor: help;
@@ -748,7 +821,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 48em) {
+@media all and (min-width: 720px) {
   /* line 249, scss/objects/_layout.scss */
   .g-max5 > .gi {
     width: 20%;

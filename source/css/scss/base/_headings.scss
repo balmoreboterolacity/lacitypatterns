@@ -1,19 +1,47 @@
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 h1, .alpha   { 
-	line-height: 1.2;
+	font-size: 2em;
+	line-height: 1.25em;
+	@media all and (min-width: $bp-med-2){
+		font-size: 2.5em;
+		line-height: 1.125em;
+	}
+	@media all and (min-width: $bp-large){
+		font-size: 3em;
+		line-height: 1.05em;
+	}
 }
-
 h2, .beta    { 
-	line-height: 1.2;
+	font-size: 1.625em;
+	line-height: 1.15384615em;
+	@media all and (min-width: $bp-med-2){
+		font-size: 2em;
+		line-height: 1.25em;
+	}
+	@media all and (min-width: $bp-large){
+		font-size: 2.25em;
+		line-height: 1.25em;
+	}
 }
-
 h3, .gamma   { 
-	line-height: 1.2;
+	font-size: 1.375em;
+	line-height: 1.13636364em;
+	@media all and (min-width: $bp-med-2){
+		font-size: 1.5em;
+		line-height: 1.25em;
+	}
+	@media all and (min-width: $bp-large){
+		font-size: 1.75em;
+	}
 }
 
 h4, .delta   {
-	
+	font-size: 1.125em;
+	line-height: 1.111111111em;
+	@media all and (min-width: $bp-med-2){
+		line-height: 1.222222222em;
+	}
 }
 
 h5, .epsilon { 
