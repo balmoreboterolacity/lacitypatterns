@@ -165,21 +165,21 @@ header, footer, nav, section, article, hgroup, figure {
 }
 
 /* Display Classes */
-@media all and (max-width: 46.8em) {
+@media all and (max-width: 480px) {
   /* line 65, scss/base/_global-classes.scss */
   .hide-small {
     display: none;
   }
 }
 
-@media all and (min-width: 46.8em) and (max-width: 50em) {
+@media all and (min-width: 480px) and (max-width: 960px) {
   /* line 71, scss/base/_global-classes.scss */
   .hide-med {
     display: none;
   }
 }
 
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 77, scss/base/_global-classes.scss */
   .hide-large {
     display: none;
@@ -526,7 +526,7 @@ td {
     $TEMPLATES
 \*------------------------------------*/
 /* Two Column Layout */
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 20, scss/objects/_layout.scss */
   .l-two-col .l-main {
     float: left;
@@ -534,13 +534,13 @@ td {
     padding-right: 1em;
   }
 }
-@media all and (max-width: 50em) {
+@media all and (max-width: 960px) {
   /* line 28, scss/objects/_layout.scss */
   .l-two-col .l-sidebar {
     clear: both;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 28, scss/objects/_layout.scss */
   .l-two-col .l-sidebar {
     float: left;
@@ -568,7 +568,7 @@ td {
 .gi img {
   display: block;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 53, scss/objects/_layout.scss */
   .gi {
     float: left;
@@ -582,7 +582,7 @@ td {
 }
 
 /* Grid 2up */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 75, scss/objects/_layout.scss */
   .g-2up > .gi {
     float: left;
@@ -606,7 +606,7 @@ td {
 }
 
 /* Grid 3up */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 101, scss/objects/_layout.scss */
   .g-3up > .gi {
     float: left;
@@ -617,7 +617,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 112, scss/objects/_layout.scss */
   .g-3up > .gi {
     width: 33.3333333%;
@@ -633,7 +633,7 @@ td {
 }
 
 /* Grid 4up */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 129, scss/objects/_layout.scss */
   .g-4up > .gi {
     float: left;
@@ -644,7 +644,7 @@ td {
     clear: both;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 140, scss/objects/_layout.scss */
   .g-4up > .gi {
     width: 25%;
@@ -695,7 +695,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 194, scss/objects/_layout.scss */
   .g-max4 > .gi {
     width: 25%;
@@ -734,7 +734,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 235, scss/objects/_layout.scss */
   .g-max5 > .gi {
     width: 25%;
@@ -764,7 +764,7 @@ td {
 }
 
 /* Grid 2/3 */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 264, scss/objects/_layout.scss */
   .gi-2-3 {
     float: left;
@@ -772,7 +772,7 @@ td {
   }
 }
 
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 271, scss/objects/_layout.scss */
   .gi-1-3 {
     float: left;
@@ -807,7 +807,7 @@ td {
   max-width: 8rem;
   margin: 0.4rem;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 8, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
@@ -823,7 +823,7 @@ td {
   line-height: 1;
   border-left: 1px solid #dbdbdb;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 18, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
@@ -842,7 +842,7 @@ td {
   overflow: hidden;
   max-height: 0;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 36, scss/objects/_header.scss */
   .search-form {
     float: right;
@@ -870,7 +870,7 @@ td {
 .nav.active {
   max-height: 40em;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 5, scss/objects/_nav.scss */
   .nav {
     max-height: none;
@@ -938,7 +938,7 @@ td {
 .nav-footer li {
   border-bottom: 1px solid #474747;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 20, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
@@ -951,7 +951,7 @@ td {
   padding: 1em;
 }
 
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 35, scss/objects/_footer.scss */
   .copyright {
     float: right;
@@ -1250,7 +1250,7 @@ td {
 .block-hero .b-thumb img {
   display: block;
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 24, scss/objects/_blocks.scss */
   .block-hero {
     position: relative;
@@ -1453,7 +1453,7 @@ td {
 .tooltip h2 {
   margin-top: 0;
 }
-@media all and (min-width: 24em) {
+@media all and (min-width: 320px) {
   /* line 16, scss/objects/_tooltip.scss */
   .tooltip {
     width: 22em;
