@@ -1,15 +1,26 @@
 /* Text-Related Elements */ 
 p {
-	margin-bottom: $space;
+    font-size: 1em;
+    line-height: 1.25em;
+    @media all and (min-width: $bp-med-2){
+        line-height: 1.375em;
+    }
+    margin-bottom: $space;
 }
 
 /* Blockquote */
 blockquote {
     font-style:italic;
-    border-left: 1px solid $gray;
-    color: $gray;
+    border-left: 1px solid $gray-med;
+    color: $gray-med;
 	padding-left: $pad;
 	margin-bottom: $space;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    @media all and (min-width: $bp-med-2){
+        font-size: 1.5em;
+        line-height: 1.45833333em;
+    }
 }
 
 /* Horizontal Rule */ 
@@ -23,4 +34,5 @@ hr {
 abbr {
     border-bottom: 1px dotted $gray;
     cursor: help;
+    color: $orange;
 }

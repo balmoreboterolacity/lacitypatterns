@@ -165,21 +165,21 @@ header, footer, nav, section, article, hgroup, figure {
 }
 
 /* Display Classes */
-@media all and (max-width: 46.8em) {
+@media all and (max-width: 480px) {
   /* line 65, scss/base/_global-classes.scss */
   .hide-small {
     display: none;
   }
 }
 
-@media all and (min-width: 46.8em) and (max-width: 50em) {
+@media all and (min-width: 480px) and (max-width: 960px) {
   /* line 71, scss/base/_global-classes.scss */
   .hide-med {
     display: none;
   }
 }
 
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 77, scss/base/_global-classes.scss */
   .hide-large {
     display: none;
@@ -188,12 +188,12 @@ header, footer, nav, section, article, hgroup, figure {
 
 /* line 84, scss/base/_global-classes.scss */
 .valid {
-  color: #089e00;
+  color: #92CC4E;
 }
 
 /* line 88, scss/base/_global-classes.scss */
 .error {
-  color: #f00;
+  color: #CC2A14;
 }
 
 /* line 92, scss/base/_global-classes.scss */
@@ -216,40 +216,96 @@ body {
   background: #fff;
   font: 100%/1.5 "Varela", sans-serif;
   -webkit-text-size-adjust: 100%;
-  color: #333;
+  color: #474747;
 }
 
 /* Links */
 /* line 2, scss/base/_links.scss */
 a {
-  color: #333;
+  color: #474747;
   text-decoration: none;
   outline: 0;
 }
 /* line 7, scss/base/_links.scss */
 a:hover, a:focus {
-  color: #808080;
+  color: #E0E0E0;
 }
 
 /* Headings */
 /*Further Reading: http:/csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/ */
 /* line 3, scss/base/_headings.scss */
 h1, .alpha {
-  line-height: 1.2;
+  font-size: 2em;
+  line-height: 1.25em;
+}
+@media all and (min-width: 720px) {
+  /* line 3, scss/base/_headings.scss */
+  h1, .alpha {
+    font-size: 2.5em;
+    line-height: 1.125em;
+  }
+}
+@media all and (min-width: 960px) {
+  /* line 3, scss/base/_headings.scss */
+  h1, .alpha {
+    font-size: 3em;
+    line-height: 1.05em;
+  }
 }
 
-/* line 7, scss/base/_headings.scss */
+/* line 15, scss/base/_headings.scss */
 h2, .beta {
-  line-height: 1.2;
+  font-size: 1.625em;
+  line-height: 1.15384615em;
+}
+@media all and (min-width: 720px) {
+  /* line 15, scss/base/_headings.scss */
+  h2, .beta {
+    font-size: 2em;
+    line-height: 1.25em;
+  }
+}
+@media all and (min-width: 960px) {
+  /* line 15, scss/base/_headings.scss */
+  h2, .beta {
+    font-size: 2.25em;
+    line-height: 1.25em;
+  }
 }
 
-/* line 11, scss/base/_headings.scss */
+/* line 27, scss/base/_headings.scss */
 h3, .gamma {
-  line-height: 1.2;
+  font-size: 1.375em;
+  line-height: 1.13636364em;
+}
+@media all and (min-width: 720px) {
+  /* line 27, scss/base/_headings.scss */
+  h3, .gamma {
+    font-size: 1.5em;
+    line-height: 1.25em;
+  }
+}
+@media all and (min-width: 960px) {
+  /* line 27, scss/base/_headings.scss */
+  h3, .gamma {
+    font-size: 1.75em;
+  }
+}
+
+/* line 39, scss/base/_headings.scss */
+h4, .delta {
+  font-size: 1.125em;
+  line-height: 1.111111111em;
+}
+@media all and (min-width: 720px) {
+  /* line 39, scss/base/_headings.scss */
+  h4, .delta {
+    line-height: 1.222222222em;
+  }
 }
 
 /* Subheadings */
-/* line 28, scss/base/_headings.scss */
+/* line 56, scss/base/_headings.scss */
 .subheading {
   font-family: "Droid Sans", sans-serif;
   font-weight: normal;
@@ -258,32 +314,50 @@ h3, .gamma {
 /* Text-Related Elements */
 /* line 2, scss/base/_text.scss */
 p {
+  font-size: 1em;
+  line-height: 1.25em;
   margin-bottom: 1em;
+}
+@media all and (min-width: 720px) {
+  /* line 2, scss/base/_text.scss */
+  p {
+    line-height: 1.375em;
+  }
 }
 
 /* Blockquote */
-/* line 7, scss/base/_text.scss */
+/* line 12, scss/base/_text.scss */
 blockquote {
   font-style: italic;
-  border-left: 1px solid #808080;
-  color: #808080;
+  border-left: 1px solid #474747;
+  color: #474747;
   padding-left: 1em;
   margin-bottom: 1em;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+@media all and (min-width: 720px) {
+  /* line 12, scss/base/_text.scss */
+  blockquote {
+    font-size: 1.5em;
+    line-height: 1.45833333em;
+  }
 }
 
 /* Horizontal Rule */
-/* line 16, scss/base/_text.scss */
+/* line 27, scss/base/_text.scss */
 hr {
   border: 0;
   height: 2px;
-  background: #eee;
+  background: #E0E0E0;
   margin: 2em 0;
 }
 
-/* line 23, scss/base/_text.scss */
+/* line 34, scss/base/_text.scss */
 abbr {
-  border-bottom: 1px dotted #808080;
+  border-bottom: 1px dotted #E0E0E0;
   cursor: help;
+  color: #CC4E10;
 }
 
 /* line 1, scss/base/_lists.scss */
@@ -350,116 +424,127 @@ form ol, form ul {
 
 /* line 9, scss/base/_forms.scss */
 fieldset {
-  border: 0;
-  padding: 0;
+  border: 1px solid #E0E0E0;
+  padding: 1.5em;
   margin: 0;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 15, scss/base/_forms.scss */
+/* line 16, scss/base/_forms.scss */
 label {
   display: block;
   padding-bottom: 0.5em;
 }
 
-/* line 20, scss/base/_forms.scss */
+/* line 21, scss/base/_forms.scss */
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0 1px 0;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
 }
 
-/* line 26, scss/base/_forms.scss */
+/* line 28, scss/base/_forms.scss */
 input, textarea {
   width: 100%;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   padding: 0.5em 0.65rem;
 }
 
-/* line 32, scss/base/_forms.scss */
+/* line 34, scss/base/_forms.scss */
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
   -webkit-appearance: none;
 }
 
-/* line 36, scss/base/_forms.scss */
+/* line 38, scss/base/_forms.scss */
 button, input[type="submit"] {
   padding: 0.5em;
-  background: #333;
-  border: 1px solid #808080;
+  background: #474747;
+  border: 1px solid #E0E0E0;
   cursor: pointer;
 }
 
-/* line 43, scss/base/_forms.scss */
+/* line 45, scss/base/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   width: auto;
   margin-right: 0.3em;
 }
 
-/* line 49, scss/base/_forms.scss */
+/* line 51, scss/base/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none;
-  border-radius: 0;
 }
 
-/* line 54, scss/base/_forms.scss */
+/* line 55, scss/base/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 60, scss/base/_forms.scss */
+/* line 61, scss/base/_forms.scss */
 .field-container {
   margin-bottom: 1em;
 }
 
-/* line 65, scss/base/_forms.scss */
+/* line 66, scss/base/_forms.scss */
 .inline-form fieldset, .inline-form .inline-container {
   position: relative;
+  border: 0;
+  padding: 0;
 }
-/* line 69, scss/base/_forms.scss */
+/* line 72, scss/base/_forms.scss */
 .inline-form input[type=submit], .inline-form button, .inline-form .btn {
   font-size: 0.875em;
   padding: 0.65rem 1.3rem;
-  background: #333;
+  background: #474747;
   position: absolute;
   top: 0;
   right: 0;
   z-index: 1;
   width: auto;
 }
-/* line 79, scss/base/_forms.scss */
+/* line 81, scss/base/_forms.scss */
 .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
-  background: #808080;
+  background: #E0E0E0;
   color: #fff;
 }
 
 /* Validation */
-/* line 87, scss/base/_forms.scss */
-.has-error {
-  border-color: #f00;
+/* line 89, scss/base/_forms.scss */
+.is-error {
+  border-color: #CC2A14;
 }
 
-/* line 90, scss/base/_forms.scss */
+/* line 92, scss/base/_forms.scss */
 .is-valid {
-  border-color: #089e00;
+  border-color: #92CC4E;
 }
 
 /*------------------------------------*\
     $SPECIFIC FORMS
 \*------------------------------------*/
 /* Search Form */
-/* line 102, scss/base/_forms.scss */
+/* line 104, scss/base/_forms.scss */
 .search-field {
   padding-right: 3em;
 }
 
-/* line 105, scss/base/_forms.scss */
+/* line 107, scss/base/_forms.scss */
 .inline-form .search-submit {
   background: none;
   padding: 0.78em 1em;
   border: 0;
-  border-left: 1px solid #808080;
-  color: #808080;
+  border-left: 1px solid #E0E0E0;
+  color: #E0E0E0;
 }
 
 /*------------------------------------*\
@@ -469,20 +554,20 @@ input[type="search"]::-webkit-search-decoration {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   width: 100%;
 }
 
 /* line 10, scss/base/_tables.scss */
 th {
   text-align: left;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   padding: 0.2em;
 }
 
 /* line 15, scss/base/_tables.scss */
 td {
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   padding: 0.2em;
 }
 
@@ -526,7 +611,7 @@ td {
     $TEMPLATES
 \*------------------------------------*/
 /* Two Column Layout */
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 20, scss/objects/_layout.scss */
   .l-two-col .l-main {
     float: left;
@@ -534,13 +619,13 @@ td {
     padding-right: 1em;
   }
 }
-@media all and (max-width: 50em) {
+@media all and (max-width: 960px) {
   /* line 28, scss/objects/_layout.scss */
   .l-two-col .l-sidebar {
     clear: both;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 28, scss/objects/_layout.scss */
   .l-two-col .l-sidebar {
     float: left;
@@ -568,7 +653,7 @@ td {
 .gi img {
   display: block;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 53, scss/objects/_layout.scss */
   .gi {
     float: left;
@@ -582,7 +667,7 @@ td {
 }
 
 /* Grid 2up */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 75, scss/objects/_layout.scss */
   .g-2up > .gi {
     float: left;
@@ -606,7 +691,7 @@ td {
 }
 
 /* Grid 3up */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 101, scss/objects/_layout.scss */
   .g-3up > .gi {
     float: left;
@@ -617,7 +702,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 112, scss/objects/_layout.scss */
   .g-3up > .gi {
     width: 33.3333333%;
@@ -633,7 +718,7 @@ td {
 }
 
 /* Grid 4up */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 129, scss/objects/_layout.scss */
   .g-4up > .gi {
     float: left;
@@ -644,7 +729,7 @@ td {
     clear: both;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 140, scss/objects/_layout.scss */
   .g-4up > .gi {
     width: 25%;
@@ -695,7 +780,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 194, scss/objects/_layout.scss */
   .g-max4 > .gi {
     width: 25%;
@@ -734,7 +819,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 235, scss/objects/_layout.scss */
   .g-max5 > .gi {
     width: 25%;
@@ -748,7 +833,7 @@ td {
     clear: left;
   }
 }
-@media all and (min-width: 48em) {
+@media all and (min-width: 720px) {
   /* line 249, scss/objects/_layout.scss */
   .g-max5 > .gi {
     width: 20%;
@@ -764,7 +849,7 @@ td {
 }
 
 /* Grid 2/3 */
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 264, scss/objects/_layout.scss */
   .gi-2-3 {
     float: left;
@@ -772,7 +857,7 @@ td {
   }
 }
 
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 271, scss/objects/_layout.scss */
   .gi-1-3 {
     float: left;
@@ -807,7 +892,7 @@ td {
   max-width: 8rem;
   margin: 0.4rem;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 8, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
@@ -823,7 +908,7 @@ td {
   line-height: 1;
   border-left: 1px solid #dbdbdb;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 18, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
@@ -842,7 +927,7 @@ td {
   overflow: hidden;
   max-height: 0;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 36, scss/objects/_header.scss */
   .search-form {
     float: right;
@@ -864,13 +949,13 @@ td {
 .nav a {
   display: block;
   padding: 1em;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #E0E0E0;
 }
 /* line 16, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 5, scss/objects/_nav.scss */
   .nav {
     max-height: none;
@@ -894,7 +979,7 @@ td {
 /* line 40, scss/objects/_nav.scss */
 .pagination li {
   float: left;
-  border-right: 1px solid #eee;
+  border-right: 1px solid #E0E0E0;
 }
 /* line 44, scss/objects/_nav.scss */
 .pagination li:last-child {
@@ -921,13 +1006,13 @@ td {
 .footer {
   clear: both;
   overflow: hidden;
-  background: #131313;
+  background: #474747;
   color: #fff;
   line-height: 1.2;
 }
 /* line 11, scss/objects/_footer.scss */
 .footer a {
-  color: #f9f9f9;
+  color: #E0E0E0;
 }
 
 /* line 17, scss/objects/_footer.scss */
@@ -936,9 +1021,9 @@ td {
 }
 /* line 20, scss/objects/_footer.scss */
 .nav-footer li {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #474747;
 }
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 20, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
@@ -951,7 +1036,7 @@ td {
   padding: 1em;
 }
 
-@media all and (min-width: 46.8em) {
+@media all and (min-width: 480px) {
   /* line 35, scss/objects/_footer.scss */
   .copyright {
     float: right;
@@ -1166,7 +1251,7 @@ td {
 /* line 119, scss/objects/_icons.scss */
 .icon-play-box:before {
   padding: 0.25em;
-  background: #808080;
+  background: #E0E0E0;
   color: #fff;
   margin-left: -1.7rem;
   margin-right: 0.5em;
@@ -1178,40 +1263,45 @@ td {
 /* line 4, scss/objects/_buttons.scss */
 .btn {
   display: inline-block;
-  background: #333;
+  background: #014982;
   color: #fff;
   line-height: 1;
   font-weight: bold;
   padding: 1em;
   border: 0;
   text-align: center;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
 }
-/* line 14, scss/objects/_buttons.scss */
+/* line 15, scss/objects/_buttons.scss */
 .btn:hover, .btn:focus {
-  background: #808080;
+  background: #474747;
   color: #fff;
 }
-/* line 19, scss/objects/_buttons.scss */
+/* line 20, scss/objects/_buttons.scss */
 .btn.disabled {
-  background: #eee;
-  color: #808080;
+  background: #E0E0E0;
+  color: #E0E0E0;
 }
 
-/* line 25, scss/objects/_buttons.scss */
+/* line 26, scss/objects/_buttons.scss */
 .btn-small {
   padding: 0.5em;
 }
 
-/* line 29, scss/objects/_buttons.scss */
+/* line 30, scss/objects/_buttons.scss */
 .btn-large {
   padding: 0.5em;
   text-transform: uppercase;
-  background: #808080;
+  background: #E0E0E0;
   font-size: 1.4rem;
   font-weight: normal;
 }
 
-/* line 38, scss/objects/_buttons.scss */
+/* line 39, scss/objects/_buttons.scss */
 .text-btn {
   font-style: italic;
 }
@@ -1223,7 +1313,7 @@ td {
   padding: 2em;
   text-align: center;
   font-weight: bold;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #E0E0E0;
 }
 
 /* Block */
@@ -1250,7 +1340,7 @@ td {
 .block-hero .b-thumb img {
   display: block;
 }
-@media all and (min-width: 50em) {
+@media all and (min-width: 960px) {
   /* line 24, scss/objects/_blocks.scss */
   .block-hero {
     position: relative;
@@ -1390,7 +1480,7 @@ td {
 /* line 31, scss/objects/_lists.scss */
 .headline-list li {
   padding: 0.25em 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #E0E0E0;
 }
 
 /* Post List */
@@ -1434,7 +1524,7 @@ td {
 
 /* line 12, scss/objects/_tooltip.scss */
 .tooltip-link {
-  background: #f9f9f9;
+  background: #E0E0E0;
 }
 
 /* line 16, scss/objects/_tooltip.scss */
@@ -1446,14 +1536,14 @@ td {
   width: 18em;
   padding: 1em;
   background: #fff;
-  border: 1px solid #808080;
+  border: 1px solid #E0E0E0;
   box-shadow: 0.3em 0.3em 1em 0 rgba(0, 0, 0, 0.2);
 }
 /* line 27, scss/objects/_tooltip.scss */
 .tooltip h2 {
   margin-top: 0;
 }
-@media all and (min-width: 24em) {
+@media all and (min-width: 320px) {
   /* line 16, scss/objects/_tooltip.scss */
   .tooltip {
     width: 22em;
@@ -1479,14 +1569,14 @@ td {
 
 /* line 5, scss/objects/_accordion.scss */
 .acc-handle {
-  background: #131313;
+  background: #474747;
   color: #fff;
   font-family: "Droid Sans", sans-serif;
   font-weight: bold;
   display: block;
   position: relative;
   padding: 0.5em;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #E0E0E0;
 }
 /* line 15, scss/objects/_accordion.scss */
 .acc-handle:after {
@@ -1496,11 +1586,11 @@ td {
 /* line 20, scss/objects/_accordion.scss */
 .acc-handle:hover {
   color: #fff;
-  background: #333;
+  background: #474747;
 }
 /* line 26, scss/objects/_accordion.scss */
 .acc-handle.active {
-  background: #333;
+  background: #474747;
 }
 /* line 29, scss/objects/_accordion.scss */
 .acc-handle.active:after {
@@ -1520,7 +1610,7 @@ td {
 .tabs li {
   display: table-cell;
   text-align: center;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #E0E0E0;
 }
 /* line 14, scss/objects/_tabs.scss */
 .tabs li:last-child {
@@ -1530,15 +1620,15 @@ td {
 .tabs a {
   display: block;
   padding: 0.5em;
-  background: #808080;
+  background: #E0E0E0;
 }
 /* line 24, scss/objects/_tabs.scss */
 .tabs a:hover, .tabs a:focus {
-  background: #ddd;
+  background: #E0E0E0;
 }
 /* line 28, scss/objects/_tabs.scss */
 .tabs a.active {
-  background: #333;
+  background: #474747;
   color: #fff;
 }
 
@@ -1576,14 +1666,14 @@ td {
 }
 /* line 24, scss/objects/_article.scss */
 .social-share a {
-  background: #333;
+  background: #474747;
   color: #fff;
   display: block;
   padding: 0.5em;
 }
 /* line 30, scss/objects/_article.scss */
 .social-share a:hover {
-  background: #808080;
+  background: #E0E0E0;
 }
 
 /* line 2, scss/objects/_comments.scss */
@@ -1606,7 +1696,7 @@ td {
 /* line 17, scss/objects/_comments.scss */
 .comment-meta img {
   display: block;
-  border: 1px solid #eee;
+  border: 1px solid #E0E0E0;
   margin-bottom: 0.5em;
 }
 
@@ -1628,13 +1718,13 @@ td {
   text-align: center;
   padding: 1em;
   margin-bottom: 0.5em;
-  border: 1px solid #808080;
-  background: #f9f9f9;
+  border: 1px solid #E0E0E0;
+  background: #E0E0E0;
 }
 
 /* line 14, scss/objects/_messaging.scss */
 .alert-error {
-  color: #f00;
-  border-color: #f00;
+  color: #CC2A14;
+  border-color: #CC2A14;
   background: #ffbebe;
 }
