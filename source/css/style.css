@@ -328,10 +328,10 @@ p {
 /* Blockquote */
 /* line 12, scss/base/_text.scss */
 blockquote {
-  font-style: italic;
-  border-left: 1px solid #474747;
+  font-weight: 700;
+  background-color: #92CC4E;
   color: #474747;
-  padding-left: 1em;
+  padding: 1em 2em;
   margin-bottom: 1em;
   font-size: 1.25em;
   line-height: 1.25em;

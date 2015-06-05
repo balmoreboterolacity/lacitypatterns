@@ -10,10 +10,10 @@ p {
 
 /* Blockquote */
 blockquote {
-    font-style:italic;
-    border-left: 1px solid $gray-med;
+    font-weight: 700;
+    background-color: $lightgreen;
     color: $gray-med;
-	padding-left: $pad;
+	padding: $pad $pad-double;
 	margin-bottom: $space;
     font-size: 1.25em;
     line-height: 1.25em;
