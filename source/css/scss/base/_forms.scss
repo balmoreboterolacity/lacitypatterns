@@ -7,9 +7,10 @@ form ol, form ul {
 }
 
 fieldset {
-	border: 0;
-	padding: 0;
+	border: 1px solid $gray;
+	padding: 1.5em;
 	margin: 0;
+	@include vendor-prefix(border-radius, 5px);
 }
 
 label {
@@ -21,6 +22,7 @@ button, input, select, textarea {
     font-family: inherit;
     font-size: 100%;
     margin: 0 1px 0;
+    @include vendor-prefix(border-radius, 5px);
 }
 
 input, textarea {
@@ -48,7 +50,6 @@ input[type="radio"] {
 
 input[type="search"] {
     -webkit-appearance: none;
-    border-radius: 0;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -64,6 +65,8 @@ input[type="search"]::-webkit-search-decoration {
 .inline-form {
 	fieldset, .inline-container {
 		position: relative;
+		border: 0;
+		padding: 0;
 	}
 	
 	input[type=submit], button, .btn {
@@ -75,7 +78,6 @@ input[type="search"]::-webkit-search-decoration {
 		right: 0;
 		z-index: 1;
 		width: auto;
-
 		&:hover, &:focus {
 			background: $gray;
 			color: $white;
@@ -84,7 +86,7 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* Validation */
-.has-error {
+.is-error {
 	border-color: $error;
 }
 .is-valid {

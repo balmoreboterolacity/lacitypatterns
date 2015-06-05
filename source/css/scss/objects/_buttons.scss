@@ -3,16 +3,17 @@
 \*------------------------------------*/
 .btn {
 	display: inline-block;
-	background: $gray-dark;
+	background: $classicblue;
 	color: $white;
 	line-height: 1;
 	font-weight: bold;
 	padding: $pad;
 	border: 0;
 	text-align: center;
+	@include vendor-prefix(border-radius, 5px);
 	
 	&:hover, &:focus {
-		background: $gray;
+		background: $gray-med;
 		color: $white;
 	}
 
