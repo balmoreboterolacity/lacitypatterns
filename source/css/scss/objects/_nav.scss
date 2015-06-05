@@ -7,10 +7,23 @@
 	overflow: hidden;
 	max-height: 0;
 	
+	img {
+		height: 1.6em;
+
+
+	}
+
 	a {
 		display: block;
-		padding: $pad;
+		text-align: center;
+		padding: 0.5em 0;
+		margin: 0.5em;
+		width: 2.7em;
+		height: 2.7em;
 		border-top: 1px solid $gray-light-2;
+		background: $orange;
+		@include vendor-prefix(border-radius, 8px);
+
 	}
 
 	&.active {
