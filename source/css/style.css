@@ -881,25 +881,29 @@ td {
 \*------------------------------------*/
 /* line 1, scss/objects/_header.scss */
 .header {
-  background: #fff;
   padding: 0;
-  border-bottom: 1px solid #dbdbdb;
+  position: absolute;
+  left: 3.15em;
+  top: 5em;
+  display: block;
+  width: 1280px;
+  z-index: 1;
 }
 
-/* line 8, scss/objects/_header.scss */
+/* line 13, scss/objects/_header.scss */
 .logo {
   float: left;
   max-width: 8rem;
   margin: 0.4rem;
 }
 @media all and (min-width: 480px) {
-  /* line 8, scss/objects/_header.scss */
+  /* line 13, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
   }
 }
 
-/* line 18, scss/objects/_header.scss */
+/* line 23, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -909,26 +913,26 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 480px) {
-  /* line 18, scss/objects/_header.scss */
+  /* line 23, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 18, scss/objects/_header.scss */
+  /* line 23, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 36, scss/objects/_header.scss */
+/* line 41, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 480px) {
-  /* line 36, scss/objects/_header.scss */
+  /* line 41, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;
@@ -944,17 +948,18 @@ td {
   clear: both;
   overflow: hidden;
   max-height: 0;
+  margin-top: 1em;
 }
-/* line 11, scss/objects/_nav.scss */
+/* line 12, scss/objects/_nav.scss */
 .nav .nav-links {
   margin-left: 1em;
 }
-/* line 13, scss/objects/_nav.scss */
+/* line 14, scss/objects/_nav.scss */
 .nav .nav-links li {
   padding-right: 0.5em;
   padding-top: 0.25em;
 }
-/* line 18, scss/objects/_nav.scss */
+/* line 19, scss/objects/_nav.scss */
 .nav .nav-button {
   display: block;
   text-align: center;
@@ -969,15 +974,15 @@ td {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 30, scss/objects/_nav.scss */
+/* line 31, scss/objects/_nav.scss */
 .nav img {
   height: 1.6em;
 }
-/* line 36, scss/objects/_nav.scss */
+/* line 37, scss/objects/_nav.scss */
 .nav a {
   border-top: 1px solid #E0E0E0;
 }
-/* line 41, scss/objects/_nav.scss */
+/* line 42, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
@@ -988,30 +993,30 @@ td {
     float: right;
     clear: none;
   }
-  /* line 50, scss/objects/_nav.scss */
+  /* line 51, scss/objects/_nav.scss */
   .nav li {
     float: left;
   }
-  /* line 54, scss/objects/_nav.scss */
+  /* line 55, scss/objects/_nav.scss */
   .nav a {
     border: 0;
   }
 }
 
-/* line 62, scss/objects/_nav.scss */
+/* line 63, scss/objects/_nav.scss */
 .pagination {
   overflow: hidden;
 }
-/* line 65, scss/objects/_nav.scss */
+/* line 66, scss/objects/_nav.scss */
 .pagination li {
   float: left;
   border-right: 1px solid #E0E0E0;
 }
-/* line 69, scss/objects/_nav.scss */
+/* line 70, scss/objects/_nav.scss */
 .pagination li:last-child {
   border: 0;
 }
-/* line 74, scss/objects/_nav.scss */
+/* line 75, scss/objects/_nav.scss */
 .pagination a {
   padding: 1em;
 }

@@ -1,8 +1,13 @@
 .header {
-	background: $white;
 	padding: 0;
-	border-bottom: 1px solid #dbdbdb;
 	@extend .lc;
+	position: absolute;
+	left: 3.15em;
+	top: 5em;
+	display: block;
+	width: 1280px;
+	z-index: 1;
+
 }
 
 .logo {
