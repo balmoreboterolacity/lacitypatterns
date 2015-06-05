@@ -945,13 +945,39 @@ td {
   overflow: hidden;
   max-height: 0;
 }
-/* line 10, scss/objects/_nav.scss */
-.nav a {
+/* line 11, scss/objects/_nav.scss */
+.nav .nav-links {
+  margin-left: 1em;
+}
+/* line 13, scss/objects/_nav.scss */
+.nav .nav-links li {
+  padding-right: 0.5em;
+  padding-top: 0.25em;
+}
+/* line 18, scss/objects/_nav.scss */
+.nav .nav-button {
   display: block;
-  padding: 1em;
+  text-align: center;
+  padding: 0.5em 0;
+  margin: 0.5em;
+  width: 2.7em;
+  height: 2.7em;
+  background: #CC4E10;
+  -webkit-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+/* line 30, scss/objects/_nav.scss */
+.nav img {
+  height: 1.6em;
+}
+/* line 36, scss/objects/_nav.scss */
+.nav a {
   border-top: 1px solid #E0E0E0;
 }
-/* line 16, scss/objects/_nav.scss */
+/* line 41, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
@@ -962,30 +988,30 @@ td {
     float: right;
     clear: none;
   }
-  /* line 25, scss/objects/_nav.scss */
+  /* line 50, scss/objects/_nav.scss */
   .nav li {
     float: left;
   }
-  /* line 29, scss/objects/_nav.scss */
+  /* line 54, scss/objects/_nav.scss */
   .nav a {
     border: 0;
   }
 }
 
-/* line 37, scss/objects/_nav.scss */
+/* line 62, scss/objects/_nav.scss */
 .pagination {
   overflow: hidden;
 }
-/* line 40, scss/objects/_nav.scss */
+/* line 65, scss/objects/_nav.scss */
 .pagination li {
   float: left;
   border-right: 1px solid #E0E0E0;
 }
-/* line 44, scss/objects/_nav.scss */
+/* line 69, scss/objects/_nav.scss */
 .pagination li:last-child {
   border: 0;
 }
-/* line 49, scss/objects/_nav.scss */
+/* line 74, scss/objects/_nav.scss */
 .pagination a {
   padding: 1em;
 }
