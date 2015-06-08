@@ -10,12 +10,16 @@
 
 	
 	.nav-links {
-		margin-left: 1em;
-		li {
-			padding-right:0.5em;
-			padding-top: 0.25em;
-			a {
-				color: $white;
+		display: none;
+		@media all and (min-width: $bp-med-2) {
+			display: inherit;
+			margin-left: 1em;
+			li {
+				padding-right:0.5em;
+				padding-top: 0.25em;
+				a {
+					color: $white;
+				}
 			}
 		}
 	}

@@ -26,13 +26,13 @@
 
 .title {
 	color: $white;
-	font-size: 1.625em;
-	line-height: 1.15384615em;
+	font-size: 1em;
+	line-height: 1.25em;
 	@media all and (min-width: $bp-med-2){
-		font-size: 2em;
+		font-size: 1.75em;
 		line-height: 1.25em;
 		width: 45%;
-		margin: 1.125% 0 1.125% 1.5%;
+		margin: 2.75% 0 0 1.5%;
 		float: left;
 	}
 	@media all and (min-width: $bp-large){
