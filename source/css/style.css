@@ -983,7 +983,11 @@ td {
   padding-right: 0.5em;
   padding-top: 0.25em;
 }
-/* line 19, scss/objects/_nav.scss */
+/* line 17, scss/objects/_nav.scss */
+.nav .nav-links li a {
+  color: #fff;
+}
+/* line 22, scss/objects/_nav.scss */
 .nav .nav-button {
   display: block;
   text-align: center;
@@ -998,15 +1002,15 @@ td {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 31, scss/objects/_nav.scss */
+/* line 34, scss/objects/_nav.scss */
 .nav img {
   height: 1.6em;
 }
-/* line 37, scss/objects/_nav.scss */
+/* line 40, scss/objects/_nav.scss */
 .nav a {
   border-top: 1px solid #E0E0E0;
 }
-/* line 42, scss/objects/_nav.scss */
+/* line 45, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
@@ -1017,30 +1021,30 @@ td {
     float: right;
     clear: none;
   }
-  /* line 51, scss/objects/_nav.scss */
+  /* line 54, scss/objects/_nav.scss */
   .nav li {
     float: left;
   }
-  /* line 55, scss/objects/_nav.scss */
+  /* line 58, scss/objects/_nav.scss */
   .nav a {
     border: 0;
   }
 }
 
-/* line 63, scss/objects/_nav.scss */
+/* line 66, scss/objects/_nav.scss */
 .pagination {
   overflow: hidden;
 }
-/* line 66, scss/objects/_nav.scss */
+/* line 69, scss/objects/_nav.scss */
 .pagination li {
   float: left;
   border-right: 1px solid #E0E0E0;
 }
-/* line 70, scss/objects/_nav.scss */
+/* line 73, scss/objects/_nav.scss */
 .pagination li:last-child {
   border: 0;
 }
-/* line 75, scss/objects/_nav.scss */
+/* line 78, scss/objects/_nav.scss */
 .pagination a {
   padding: 1em;
 }
