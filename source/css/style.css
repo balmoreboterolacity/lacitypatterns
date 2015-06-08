@@ -893,7 +893,7 @@ td {
   /* line 1, scss/objects/_header.scss */
   .header-wrap {
     position: absolute;
-    top: 5em;
+    top: 2.5em;
     width: 100%;
   }
 }
