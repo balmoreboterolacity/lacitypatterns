@@ -3,10 +3,14 @@
 \*------------------------------------*/
 
 .nav {
-	clear: both;
+	clear: none;
 	overflow: hidden;
-	max-height: 0;
-	margin-top: 1em;
+	max-height: none;
+	float: left;
+	margin-top: 0;
+	@media all and (min-width: $bp-med-2){
+		margin: 0.5em 0 0 1%;
+	}
 
 	
 	.nav-links {
@@ -32,6 +36,12 @@
 		height: 2.7em;
 		background: $orange;
 		@include vendor-prefix(border-radius, 8px);
+		&.hide {
+			display: none;
+			@media all and (min-width: $bp-med-2) {
+				display: inherit;
+			}
+		}
 
 	}
 
@@ -42,27 +52,20 @@
 	}
 
 	a {
-		border-top: 1px solid $gray-light-2;
+		border:none;
 
+	}
+
+	li {
+		float: left;
 	}
 
 	&.active {
 		max-height: 40em;
 	}
 
-	@media all and (min-width: $bp-med) {
-		max-height: none;
-		float: right;
-		clear: none;
-
-		li {
-			float: left;
-		}
-
-		a {
-			border: 0;
-		}
-		
+	@media all and (min-width: $bp-med-2) {
+		float: right;		
 	}
 }
 
