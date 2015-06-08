@@ -20,6 +20,23 @@
 	}
 }
 
+.title {
+	font-size: 1.625em;
+	line-height: 1.15384615em;
+	@media all and (min-width: $bp-med-2){
+		font-size: 2em;
+		line-height: 1.25em;
+	}
+	@media all and (min-width: $bp-large){
+		font-size: 2.25em;
+		line-height: 1.25em;
+	}
+	width: 60%;
+	margin: 1.125% 0 1.125% 1.5%;
+	float: left;
+	color: $white;
+}
+
 .nav-toggle {
 	float: right;
 	display: block;
