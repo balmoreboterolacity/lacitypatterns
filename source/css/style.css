@@ -602,7 +602,7 @@ td {
 /* Layout Container */
 /* line 6, scss/objects/_layout.scss */
 .lc, .header, [role=main] {
-  max-width: 100%;
+  max-width: 71em;
   margin: 0 auto;
 }
 
@@ -1089,6 +1089,7 @@ td {
 \*------------------------------------*/
 /* line 4, scss/objects/_main.scss */
 [role=main] {
+  padding: 1em;
   overflow: hidden;
 }
 

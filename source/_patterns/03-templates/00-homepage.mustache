@@ -1,13 +1,13 @@
 <div class="page" id="page">
 	{{> organisms-header }}
+	{{# hero }}
+		{{> molecules-block-hero }}
+	{{/ hero}}
 	<div role="main">
 		{{# emergency }}
 			{{> molecules-alert:error }}
 		{{/ emergency }}
-		{{# hero }}
-			{{> molecules-block-hero }}
-		{{/ hero}}
-
+	
 		<div class="g g-3up">
 			{{# touts}}
 				<div class="gi">
