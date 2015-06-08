@@ -36,12 +36,22 @@
 
 		.b-text {
 			position: absolute;
-			bottom: 0;
+			bottom: 11em;
+			margin-left: auto;
+			margin-right: auto;
 			left: 0;
-			width: 100%;
-			background: $dim;
+			right: 0;
+			width: 36%;
+			border: 2px solid $white;
+			padding: 1em;
+			@include vendor-prefix(border-radius, 10px);
+			
+		}
+
+		.b-title {
+			text-transform: uppercase;
 			color: $white;
-			padding: $pad-and-half;
+			font-size: 2.5em;
 		}
 	}
 }

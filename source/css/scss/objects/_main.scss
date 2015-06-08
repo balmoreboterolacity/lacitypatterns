@@ -2,6 +2,7 @@
     $MAIN CONTENT AREA
 \*------------------------------------*/
 [role=main] {
+	padding: 1em;
 	overflow: hidden;
 	@extend .lc;
 	@extend .cf;

@@ -1,19 +1,24 @@
-.header {
-	padding: 0;
-	@extend .lc;
+.header-wrap{
 	display: block;
+	background: $dim;
 	width: 320px;
 	z-index: 1;
 	margin-left: auto;
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	background: rgba(33,33,33,0.5);
 	@media all and (min-width: $bp-med-2) {
 		position: absolute;
 		top: 5em;
 		width: 100%;
 	}
+}
+
+.header {
+	padding: 0;
+	@extend .lc;
+	display: block;
+	max-width: 1020px;
 }
 
 .logo {
