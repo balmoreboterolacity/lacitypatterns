@@ -882,52 +882,63 @@ td {
 /* line 1, scss/objects/_header.scss */
 .header {
   padding: 0;
-  position: absolute;
-  left: 3.15em;
-  top: 5em;
   display: block;
-  width: 1280px;
+  width: 100%;
   z-index: 1;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+@media all and (min-width: 720px) {
+  /* line 1, scss/objects/_header.scss */
+  .header {
+    top: 5em;
+  }
 }
 
-/* line 13, scss/objects/_header.scss */
+/* line 17, scss/objects/_header.scss */
 .logo {
   float: left;
   max-width: 8rem;
   margin: 0.4rem;
 }
-@media all and (min-width: 480px) {
-  /* line 13, scss/objects/_header.scss */
+@media all and (min-width: 720px) {
+  /* line 17, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
   }
 }
 
-/* line 23, scss/objects/_header.scss */
+/* line 27, scss/objects/_header.scss */
 .title {
+  color: #fff;
   font-size: 1.625em;
   line-height: 1.15384615em;
-  width: 60%;
-  margin: 1.125% 0 1.125% 1.5%;
-  float: left;
-  color: #fff;
 }
 @media all and (min-width: 720px) {
-  /* line 23, scss/objects/_header.scss */
+  /* line 27, scss/objects/_header.scss */
   .title {
     font-size: 2em;
     line-height: 1.25em;
+    width: 45%;
+    margin: 1.125% 0 1.125% 1.5%;
+    float: left;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 23, scss/objects/_header.scss */
+  /* line 27, scss/objects/_header.scss */
   .title {
     font-size: 2.25em;
     line-height: 1.25em;
+    width: 60%;
+    margin: 1.125% 0 1.125% 1.5%;
+    float: left;
   }
 }
 
-/* line 40, scss/objects/_header.scss */
+/* line 47, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -937,26 +948,26 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 480px) {
-  /* line 40, scss/objects/_header.scss */
+  /* line 47, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 40, scss/objects/_header.scss */
+  /* line 47, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 58, scss/objects/_header.scss */
+/* line 65, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 480px) {
-  /* line 58, scss/objects/_header.scss */
+  /* line 65, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;

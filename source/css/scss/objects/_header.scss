@@ -1,13 +1,17 @@
 .header {
 	padding: 0;
 	@extend .lc;
-	position: absolute;
-	left: 3.15em;
-	top: 5em;
 	display: block;
-	width: 1280px;
+	width: 100%;
 	z-index: 1;
-
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	@media all and (min-width: $bp-med-2) {
+		top: 5em;
+	}
 }
 
 .logo {
@@ -15,26 +19,29 @@
 	max-width: 8rem;
 	margin: 0.4rem;
 
-	@media all and (min-width: $bp-med) {
+	@media all and (min-width: $bp-med-2) {
 		max-width: 9rem;
 	}
 }
 
 .title {
+	color: $white;
 	font-size: 1.625em;
 	line-height: 1.15384615em;
 	@media all and (min-width: $bp-med-2){
 		font-size: 2em;
 		line-height: 1.25em;
+		width: 45%;
+		margin: 1.125% 0 1.125% 1.5%;
+		float: left;
 	}
 	@media all and (min-width: $bp-large){
 		font-size: 2.25em;
 		line-height: 1.25em;
+		width: 60%;
+		margin: 1.125% 0 1.125% 1.5%;
+		float: left;
 	}
-	width: 60%;
-	margin: 1.125% 0 1.125% 1.5%;
-	float: left;
-	color: $white;
 }
 
 .nav-toggle {
