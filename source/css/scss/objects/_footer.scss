@@ -9,7 +9,7 @@
 	line-height: 1.2;
 
 	a {
-		color: $gray-light;
+		color: $white;
 	}
 }
 
@@ -20,20 +20,19 @@
 	li {
 		border-bottom: 1px solid $gray-dark;
 
+
 		@media all and (min-width: $bp-med) {
 			border: 0;
-			float: left;
 		}
 	}
 
 	a {
 		display: block;
-		padding: $pad;
+		padding: 0;
 	}
 }
 
 .copyright {
 	@media all and (min-width: $bp-med) {
-		float: right;
 	}
 }
