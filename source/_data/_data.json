@@ -11,6 +11,10 @@
 			"src": "../../images/hero.jpg",
 			"alt": "16x9 Image"
 		},
+		"thumbnail-16x9": {
+			"src": "../../images/thumbnail-16x9.jpg",
+			"alt": "16x9 Thumbnail"
+		},
 		"landscape-8x3": {
 			"src": "../../images/hero_2nd.jpg",
 			"alt": "8x3 Image"
