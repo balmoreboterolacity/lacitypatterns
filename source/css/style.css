@@ -1156,6 +1156,227 @@ td {
   }
 }
 
+/* line 41, scss/objects/_footer.scss */
+.wrapper {
+  width: 100%;
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0 4%;
+  margin: 4% 0 0;
+}
+
+/* line 50, scss/objects/_footer.scss */
+body .wrapper:first-child {
+  margin: 0;
+}
+
+/* line 53, scss/objects/_footer.scss */
+.row {
+  clear: both;
+  max-width: 92%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* line 59, scss/objects/_footer.scss */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 64, scss/objects/_footer.scss */
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+  font-size: 14px;
+  float: left;
+  width: 100%;
+  border-collapse: collapse;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  word-break: break-word;
+  margin: 4% 0 0;
+}
+
+/* line 75, scss/objects/_footer.scss */
+.wrapper .row .col_1,
+.wrapper .row .col_2,
+.wrapper .row .col_3,
+.wrapper .row .col_4,
+.wrapper .row .col_5,
+.wrapper .row .col_6,
+.wrapper .row .col_7,
+.wrapper .row .col_8,
+.wrapper .row .col_9,
+.wrapper .row .col_10,
+.wrapper .row .col_11,
+.wrapper .row .col_12 {
+  padding: 20px;
+}
+
+/* line 89, scss/objects/_footer.scss */
+.no_padding,
+.row.no_padding .col_1,
+.row.no_padding .col_2,
+.row.no_padding .col_3,
+.row.no_padding .col_4,
+.row.no_padding .col_5,
+.row.no_padding .col_6,
+.row.no_padding .col_7,
+.row.no_padding .col_8,
+.row.no_padding .col_9,
+.row.no_padding .col_10,
+.row.no_padding .col_11,
+.row.no_padding .col_12 {
+  padding: 0 !important;
+}
+
+@media all and (min-width: 768px) {
+  /* line 106, scss/objects/_footer.scss */
+  .wrapper {
+    width: 100%;
+    padding: 1% 0;
+    margin: 2% 0 0;
+  }
+
+  /* line 111, scss/objects/_footer.scss */
+  .row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    clear: both;
+    margin: 0 auto;
+    max-width: 90%;
+    height: 100%;
+    padding: 2% 0 0;
+  }
+
+  /* line 123, scss/objects/_footer.scss */
+  .wrapper .row {
+    padding: 1% 0;
+  }
+
+  /* line 126, scss/objects/_footer.scss */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* line 131, scss/objects/_footer.scss */
+  .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+    margin: 0 2% 0 0;
+    float: left;
+    word-break: break-word;
+    position: relative;
+  }
+
+  /* line 138, scss/objects/_footer.scss */
+  .col_1 {
+    width: 6.5%;
+  }
+
+  /* line 139, scss/objects/_footer.scss */
+  .col_2 {
+    width: 15%;
+  }
+
+  /* line 140, scss/objects/_footer.scss */
+  .col_3 {
+    width: 23.5%;
+  }
+
+  /* line 141, scss/objects/_footer.scss */
+  .col_4 {
+    width: 32%;
+  }
+
+  /* line 142, scss/objects/_footer.scss */
+  .col_5 {
+    width: 40.5%;
+  }
+
+  /* line 143, scss/objects/_footer.scss */
+  .col_6 {
+    width: 49%;
+  }
+
+  /* line 144, scss/objects/_footer.scss */
+  .col_7 {
+    width: 57.5%;
+  }
+
+  /* line 145, scss/objects/_footer.scss */
+  .col_8 {
+    width: 66%;
+  }
+
+  /* line 146, scss/objects/_footer.scss */
+  .col_9 {
+    width: 74.5%;
+  }
+
+  /* line 147, scss/objects/_footer.scss */
+  .col_10 {
+    width: 83%;
+  }
+
+  /* line 148, scss/objects/_footer.scss */
+  .col_11 {
+    width: 91.5%;
+  }
+
+  /* line 149, scss/objects/_footer.scss */
+  .col_12 {
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 151, scss/objects/_footer.scss */
+  .last {
+    margin: 0;
+  }
+}
+/* line 159, scss/objects/_footer.scss */
+.flexGRID {
+  background: #212121;
+}
+
+/* line 162, scss/objects/_footer.scss */
+.flexGRID .row .col_1,
+.flexGRID .row .col_2,
+.flexGRID .row .col_3,
+.flexGRID .row .col_4,
+.flexGRID .row .col_5,
+.flexGRID .row .col_6,
+.flexGRID .row .col_7,
+.flexGRID .row .col_8,
+.flexGRID .row .col_9,
+.flexGRID .row .col_10,
+.flexGRID .row .col_11,
+.flexGRID .row .col_12 {
+  background: #212121;
+  border-radius: 5px;
+}
+
+/* line 177, scss/objects/_footer.scss */
+.flexGRID .row:first-child .col_12 {
+  color: #FFF;
+  background: none;
+  padding: 0;
+}
+
+/* line 182, scss/objects/_footer.scss */
+.flexGRID .row:first-child .col_12 h1 {
+  font-size: 32px;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
 /*------------------------------------*\
     $TEXT Styles
 \*------------------------------------*/
