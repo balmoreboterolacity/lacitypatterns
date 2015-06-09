@@ -4,7 +4,7 @@
 	"bodyClass": "body",
 	"img": {
 		"landscape-4x3": {
-			"src": "../../images/fpo_4x3.png",
+			"src": "../../images/image-4x3.jpg",
 			"alt": "4x3 Image"
 		},
 		"landscape-16x9": {
