@@ -31,28 +31,27 @@
 		}
 	}
 
-	@media all and (min-width: $bp-large) {
-		position: relative;
+	position: relative;
 
-		.b-text {
-			position: absolute;
-			bottom: 11em;
-			margin-left: auto;
-			margin-right: auto;
-			left: 0;
-			right: 0;
-			width: 36%;
-			border: 2px solid $white;
-			padding: 1em;
-			@include vendor-prefix(border-radius, 10px);
-			
-		}
+	.b-text {
+		position: absolute;
+		bottom: 40%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 50%;
+		border: 2px solid $white;
+		padding: 1em;
+		text-align: center;
+		@include vendor-prefix(border-radius, 10px);
+		
+	}
 
-		.b-title {
-			text-transform: uppercase;
-			color: $white;
-			font-size: 2.5em;
-		}
+	.b-title {
+		text-transform: uppercase;
+		color: $white;
+		font-size: 2.5em;
 	}
 }
 
