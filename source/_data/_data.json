@@ -8,12 +8,16 @@
 			"alt": "4x3 Image"
 		},
 		"landscape-16x9": {
-			"src": "../../images/fpo_16x9.png",
+			"src": "../../images/hero.jpg",
 			"alt": "16x9 Image"
 		},
-		"square": {
-			"src": "../../images/fpo_square.png",
-			"alt": "Square Thumbnail"
+		"landscape-8x3": {
+			"src": "../../images/hero_2nd.jpg",
+			"alt": "8x3 Image"
+		},
+		"ad": {
+			"src": "../../images/ad.jpg",
+			"alt": "Advertisment"
 		},
 		"avatar" : {
 			"src" : "../../images/fpo_avatar.png",
