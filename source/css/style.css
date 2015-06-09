@@ -1519,7 +1519,7 @@ td {
   .block-thumb .b-thumb {
     display: table-cell;
     vertical-align: top;
-    width: 30%;
+    width: 20%;
     max-width: 10em;
   }
   /* line 86, scss/objects/_blocks.scss */
