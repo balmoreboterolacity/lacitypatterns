@@ -1125,7 +1125,7 @@ td {
 }
 /* line 11, scss/objects/_footer.scss */
 .footer a {
-  color: #E0E0E0;
+  color: #fff;
 }
 
 /* line 17, scss/objects/_footer.scss */
@@ -1140,20 +1140,12 @@ td {
   /* line 20, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
-    float: left;
   }
 }
 /* line 29, scss/objects/_footer.scss */
 .nav-footer a {
   display: block;
-  padding: 1em;
-}
-
-@media all and (min-width: 480px) {
-  /* line 35, scss/objects/_footer.scss */
-  .copyright {
-    float: right;
-  }
+  padding: 0;
 }
 
 /* line 41, scss/objects/_footer.scss */
@@ -1740,7 +1732,7 @@ body .wrapper:first-child {
   .block-thumb .b-thumb {
     display: table-cell;
     vertical-align: top;
-    width: 30%;
+    width: 20%;
     max-width: 10em;
   }
   /* line 86, scss/objects/_blocks.scss */
