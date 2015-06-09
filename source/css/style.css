@@ -237,6 +237,7 @@ a:hover, a:focus {
 h1, .alpha {
   font-size: 2em;
   line-height: 1.25em;
+  color: #CC4E10;
 }
 @media all and (min-width: 720px) {
   /* line 3, scss/base/_headings.scss */
@@ -253,59 +254,59 @@ h1, .alpha {
   }
 }
 
-/* line 15, scss/base/_headings.scss */
+/* line 16, scss/base/_headings.scss */
 h2, .beta {
   font-size: 1.625em;
   line-height: 1.15384615em;
 }
 @media all and (min-width: 720px) {
-  /* line 15, scss/base/_headings.scss */
+  /* line 16, scss/base/_headings.scss */
   h2, .beta {
     font-size: 2em;
     line-height: 1.25em;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 15, scss/base/_headings.scss */
+  /* line 16, scss/base/_headings.scss */
   h2, .beta {
     font-size: 2.25em;
     line-height: 1.25em;
   }
 }
 
-/* line 27, scss/base/_headings.scss */
+/* line 28, scss/base/_headings.scss */
 h3, .gamma {
   font-size: 1.375em;
   line-height: 1.13636364em;
 }
 @media all and (min-width: 720px) {
-  /* line 27, scss/base/_headings.scss */
+  /* line 28, scss/base/_headings.scss */
   h3, .gamma {
     font-size: 1.5em;
     line-height: 1.25em;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 27, scss/base/_headings.scss */
+  /* line 28, scss/base/_headings.scss */
   h3, .gamma {
     font-size: 1.75em;
   }
 }
 
-/* line 39, scss/base/_headings.scss */
+/* line 40, scss/base/_headings.scss */
 h4, .delta {
   font-size: 1.125em;
   line-height: 1.111111111em;
 }
 @media all and (min-width: 720px) {
-  /* line 39, scss/base/_headings.scss */
+  /* line 40, scss/base/_headings.scss */
   h4, .delta {
     line-height: 1.222222222em;
   }
 }
 
 /* Subheadings */
-/* line 56, scss/base/_headings.scss */
+/* line 57, scss/base/_headings.scss */
 .subheading {
   font-family: "Droid Sans", sans-serif;
   font-weight: normal;
