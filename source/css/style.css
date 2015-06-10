@@ -610,12 +610,12 @@ td {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 1, scss/base/_color.scss */
+/* line 14, scss/base/_color.scss */
 .color-test {
   display: none;
 }
 @media all and (min-width: 30em) {
-  /* line 1, scss/base/_color.scss */
+  /* line 14, scss/base/_color.scss */
   .color-test {
     display: inherit;
     position: relative;
@@ -623,15 +623,15 @@ td {
     left: 0.5em;
     height: 0;
   }
-  /* line 9, scss/base/_color.scss */
+  /* line 22, scss/base/_color.scss */
   .color-test .result span {
     padding-right: 0.7em;
   }
-  /* line 11, scss/base/_color.scss */
+  /* line 24, scss/base/_color.scss */
   .color-test .result span.pass {
     color: lightgreen;
   }
-  /* line 14, scss/base/_color.scss */
+  /* line 27, scss/base/_color.scss */
   .color-test .result span.fail {
     color: red;
   }

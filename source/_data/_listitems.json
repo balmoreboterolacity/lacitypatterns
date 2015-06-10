@@ -87,7 +87,7 @@
 				"src": "http://placeimg.com/400/300/people",
 				"alt": "Rectangle"
 			},
-			"landscape-4x3": {
+			"thumbnail-3x4": {
 				"src": "http://placeimg.com/400/300/people",
 				"alt": "4x3 Image"
 			},
