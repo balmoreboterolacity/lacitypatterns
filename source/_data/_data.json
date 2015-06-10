@@ -3,9 +3,9 @@
 	"htmlClass": "pl",
 	"bodyClass": "body",
 	"img": {
-		"landscape-4x3": {
-			"src": "../../images/image-4x3.jpg",
-			"alt": "4x3 Image"
+		"thumbnail-3x4": {
+			"src": "../../images/thumbnail-3x4.jpg",
+			"alt": "3x4 Thumbnail"
 		},
 		"landscape-16x9": {
 			"src": "../../images/hero.jpg",
