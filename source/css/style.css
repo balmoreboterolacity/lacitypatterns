@@ -1171,10 +1171,6 @@ td {
   color: #fff;
 }
 
-/* line 17, scss/objects/_footer.scss */
-.nav-footer {
-  margin: -1em -1em 1em;
-}
 /* line 20, scss/objects/_footer.scss */
 .nav-footer li {
   border-bottom: 1px solid #474747;
