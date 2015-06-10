@@ -111,3 +111,19 @@ input[type="search"]::-webkit-search-decoration {
 	border-left: 1px solid $gray;
 	color: $gray;
 }
+
+/* Newsletter Form */
+.newsletter-form{
+	div.inline-container{
+		width: 100%;
+	  	padding: 0 8.5em 0 0;
+	}
+	button.newsletter-submit{
+		background: $classicblue;
+		padding: 0.75rem 1.3rem;
+		&:hover{
+			background: $gray-med;
+		}
+
+	}
+}
