@@ -548,6 +548,22 @@ input[type="search"]::-webkit-search-decoration {
   color: #E0E0E0;
 }
 
+/* Newsletter Form */
+/* line 117, scss/base/_forms.scss */
+.newsletter-form div.inline-container {
+  width: 100%;
+  padding: 0 8.5em 0 0;
+}
+/* line 121, scss/base/_forms.scss */
+.newsletter-form button.newsletter-submit {
+  background: #014982;
+  padding: 0.75rem 1.3rem;
+}
+/* line 124, scss/base/_forms.scss */
+.newsletter-form button.newsletter-submit:hover {
+  background: #474747;
+}
+
 /*------------------------------------*\
     $Table
 \*------------------------------------*/
