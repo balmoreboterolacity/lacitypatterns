@@ -1,0 +1,19 @@
+.color-test{
+	display: none;
+	@media all and (min-width: 30em) {
+		display: inherit;
+		position: relative;
+		bottom: 3.5em;
+		left: 0.5em;
+		height: 0;
+		.result span{
+			padding-right: 0.7em;
+			&.pass{
+				color: lightgreen;
+			}
+			&.fail{
+				color: red;
+			}
+		}
+	}
+}

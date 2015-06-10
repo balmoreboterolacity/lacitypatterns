@@ -594,6 +594,33 @@ td {
   transition: all 0.8s ease-in-out;
 }
 
+/* line 1, scss/base/_color.scss */
+.color-test {
+  display: none;
+}
+@media all and (min-width: 30em) {
+  /* line 1, scss/base/_color.scss */
+  .color-test {
+    display: inherit;
+    position: relative;
+    bottom: 3.5em;
+    left: 0.5em;
+    height: 0;
+  }
+  /* line 9, scss/base/_color.scss */
+  .color-test .result span {
+    padding-right: 0.7em;
+  }
+  /* line 11, scss/base/_color.scss */
+  .color-test .result span.pass {
+    color: lightgreen;
+  }
+  /* line 14, scss/base/_color.scss */
+  .color-test .result span.fail {
+    color: red;
+  }
+}
+
 /*------------------------------------*\
     $LAYOUT
 \*------------------------------------*/
@@ -1610,7 +1637,7 @@ body .wrapper:first-child {
 /* line 20, scss/objects/_buttons.scss */
 .btn.disabled {
   background: #E0E0E0;
-  color: #474747;
+  color: #E0E0E0;
 }
 
 /* line 26, scss/objects/_buttons.scss */
