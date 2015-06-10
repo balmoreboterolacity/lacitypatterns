@@ -1119,7 +1119,7 @@ td {
 .footer {
   clear: both;
   overflow: hidden;
-  background: #474747;
+  background: #212121;
   color: #fff;
   line-height: 1.2;
 }
@@ -1351,7 +1351,7 @@ body .wrapper:first-child {
 .flexGRID .row .col_10,
 .flexGRID .row .col_11,
 .flexGRID .row .col_12 {
-  background: #212121;
+  background: #474747;
   border-radius: 5px;
 }
 

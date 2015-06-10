@@ -4,7 +4,7 @@
 .footer {
 	clear: both;
 	overflow: hidden;
-	background: $gray-dark-2;
+	background: $black;
 	color: $white;
 	line-height: 1.2;
 
@@ -156,7 +156,7 @@ body .wrapper:first-child {
 // Your styles go here.
 
 .flexGRID {
-	background: #212121;
+	background: $black;
 }
 .flexGRID .row .col_1,
 .flexGRID .row .col_2,
@@ -170,7 +170,7 @@ body .wrapper:first-child {
 .flexGRID .row .col_10,
 .flexGRID .row .col_11,
 .flexGRID .row .col_12 {
-	background: #212121;
+	background: $gray-med;
 	border-radius: 5px;
 }
 .flexGRID .row:first-child .col_12 {
