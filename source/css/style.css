@@ -610,12 +610,12 @@ td {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 1, scss/base/_color.scss */
+/* line 14, scss/base/_color.scss */
 .color-test {
   display: none;
 }
 @media all and (min-width: 30em) {
-  /* line 1, scss/base/_color.scss */
+  /* line 14, scss/base/_color.scss */
   .color-test {
     display: inherit;
     position: relative;
@@ -623,15 +623,15 @@ td {
     left: 0.5em;
     height: 0;
   }
-  /* line 9, scss/base/_color.scss */
+  /* line 22, scss/base/_color.scss */
   .color-test .result span {
     padding-right: 0.7em;
   }
-  /* line 11, scss/base/_color.scss */
+  /* line 24, scss/base/_color.scss */
   .color-test .result span.pass {
     color: lightgreen;
   }
-  /* line 14, scss/base/_color.scss */
+  /* line 27, scss/base/_color.scss */
   .color-test .result span.fail {
     color: red;
   }
@@ -1649,7 +1649,7 @@ body .wrapper:first-child {
 /* line 20, scss/objects/_buttons.scss */
 .btn.disabled {
   background: #E0E0E0;
-  color: #E0E0E0;
+  color: #474747;
 }
 
 /* line 26, scss/objects/_buttons.scss */
@@ -1795,29 +1795,29 @@ body .wrapper:first-child {
 /* line 113, scss/objects/_blocks.scss */
 .block-inset {
   position: relative;
-  width: 266px;
+  width: 100%;
 }
-/* line 116, scss/objects/_blocks.scss */
+/* line 117, scss/objects/_blocks.scss */
 .block-inset .b-thumb {
   position: relative;
   z-index: 0;
 }
-/* line 120, scss/objects/_blocks.scss */
+/* line 121, scss/objects/_blocks.scss */
 .block-inset .b-thumb img {
   display: block;
 }
 
 /* Hero Block */
-/* line 127, scss/objects/_blocks.scss */
+/* line 128, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 131, scss/objects/_blocks.scss */
+/* line 132, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 135, scss/objects/_blocks.scss */
+/* line 136, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -1829,12 +1829,12 @@ body .wrapper:first-child {
 }
 
 /* Block Thumb with Summary */
-/* line 148, scss/objects/_blocks.scss */
+/* line 149, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 153, scss/objects/_blocks.scss */
+/* line 154, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;

@@ -18,7 +18,7 @@
 	"touts" : [
 		{
 			"img": {
-				"landscape-4x3": {
+				"thumbnail-16x9": {
 					"src": "../../images/sample/tout-4x3-climber.jpg",
 					"alt": "Climber"	
 				}
@@ -29,7 +29,7 @@
 		},
 		{
 			"img": {
-				"landscape-4x3": {
+				"thumbnail-16x9": {
 					"src": "../../images/sample/tout-4x3-stream.jpg",
 					"alt": "Stream hiking"	
 				}
@@ -40,7 +40,7 @@
 		},
 		{
 			"img": {
-				"landscape-4x3": {
+				"thumbnail-16x9": {
 					"src": "../../images/sample/tout-4x3-climbers.jpg",
 					"alt": "Explore hiking trails"	
 				}
