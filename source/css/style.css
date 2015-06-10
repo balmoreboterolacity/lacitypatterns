@@ -228,7 +228,7 @@ a {
 }
 /* line 7, scss/base/_links.scss */
 a:hover, a:focus {
-  color: #E0E0E0;
+  color: #474747;
 }
 
 /* Headings */
@@ -1171,10 +1171,6 @@ td {
   color: #fff;
 }
 
-/* line 17, scss/objects/_footer.scss */
-.nav-footer {
-  margin: -1em -1em 1em;
-}
 /* line 20, scss/objects/_footer.scss */
 .nav-footer li {
   border-bottom: 1px solid #474747;
@@ -1799,6 +1795,7 @@ body .wrapper:first-child {
 /* line 113, scss/objects/_blocks.scss */
 .block-inset {
   position: relative;
+  width: 266px;
 }
 /* line 116, scss/objects/_blocks.scss */
 .block-inset .b-thumb {
