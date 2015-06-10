@@ -1795,6 +1795,7 @@ body .wrapper:first-child {
 /* line 113, scss/objects/_blocks.scss */
 .block-inset {
   position: relative;
+  width: 266px;
 }
 /* line 116, scss/objects/_blocks.scss */
 .block-inset .b-thumb {
