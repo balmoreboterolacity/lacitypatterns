@@ -1583,12 +1583,6 @@ body .wrapper:first-child {
   margin-right: 0.5em;
 }
 
-/* line 127, scss/objects/_icons.scss */
-.icons img {
-  height: 1.5em;
-  margin: 0.2em;
-}
-
 /*------------------------------------*\
     $BUTTONS
 \*------------------------------------*/
