@@ -1119,7 +1119,7 @@ td {
 .footer {
   clear: both;
   overflow: hidden;
-  background: #474747;
+  background: #212121;
   color: #fff;
   line-height: 1.2;
 }
@@ -1610,7 +1610,7 @@ body .wrapper:first-child {
 /* line 20, scss/objects/_buttons.scss */
 .btn.disabled {
   background: #E0E0E0;
-  color: #E0E0E0;
+  color: #474747;
 }
 
 /* line 26, scss/objects/_buttons.scss */
