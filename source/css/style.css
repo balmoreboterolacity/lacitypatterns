@@ -2057,7 +2057,7 @@ body .wrapper:first-child {
   width: 100%;
   height: 3.5em;
   z-index: 1;
-  background: #212121;
+  background: #5EA9DD;
   text-align: center;
 }
 /* line 31, scss/objects/_article.scss */
@@ -2107,10 +2107,6 @@ body .wrapper:first-child {
 /* line 67, scss/objects/_article.scss */
 .social-share a.rss {
   background: #FF9900;
-}
-/* line 72, scss/objects/_article.scss */
-.social-share a:hover {
-  background: #E0E0E0;
 }
 /* line 76, scss/objects/_article.scss */
 .social-share a .img-wrap {

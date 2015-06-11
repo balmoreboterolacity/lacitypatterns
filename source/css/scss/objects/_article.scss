@@ -23,7 +23,7 @@
 	width: 100%;
 	height: 3.5em;
 	z-index: 1;
-	background: $black;
+	background: #5EA9DD;
 	text-align: center;
 
 
@@ -69,9 +69,9 @@
 		} 
 
 
-		&:hover {
-			background: $gray;
-		}
+		// &:hover {
+		// 	background: $gray;
+		// }
 
 		.img-wrap {
 			width: 2.5em;
