@@ -6,6 +6,61 @@ var comments = {
 		"comment": "Colors"
 	},
 	{
+		"el": "#atoms-fonts",
+		"title" : "Fonts",
+		"comment": "Fonts"
+	},
+	{
+		"el": "#atoms-animations",
+		"title" : "Animations",
+		"comment": "Animations"
+	},
+	{
+		"el": "#atoms-visibility",
+		"title" : "Vsibility",
+		"comment": "Visibility"
+	},
+	{
+		"el": "#atoms-headings",
+		"title" : "Headings",
+		"comment": "Headings"
+	},
+	{
+		"el": "#atoms-paragraph",
+		"title" : "Paragraph",
+		"comment": "Paragraph"
+	},
+	{
+		"el": "#atoms-blockquote",
+		"title" : "Blockquote",
+		"comment": "Blockquote"
+	},
+	{
+		"el": "#atoms-inline-elements",
+		"title" : "Inline Elements",
+		"comment": "Inline Elements"
+	},
+	{
+		"el": "#atoms-time",
+		"title" : "Time",
+		"comment": "Time"
+	},
+	{
+		"el": "#atoms-preformatted-text",
+		"title" : "Preformatted Text",
+		"comment": "Preformatted Text"
+	},
+	{
+		"el": "#atoms-hr",
+		"title" : "HR",
+		"comment": "HR"
+	},
+
+
+
+
+
+	{
 		"el": "header[role=banner]",
 		"title" : "Masthead",
 		"comment": "The main header of the site doesn't take up too much screen real estate in order to keep the focus on the core content. It's using a linear CSS gradient instead of a background image to give greater design flexibility and reduce HTTP requests."
