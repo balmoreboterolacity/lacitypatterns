@@ -646,7 +646,7 @@ td {
 /* Layout Container */
 /* line 6, scss/objects/_layout.scss */
 .lc, .header, [role=main] {
-  max-width: 71em;
+  max-width: 64em;
   margin: 0 auto;
 }
 
