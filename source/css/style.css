@@ -2045,26 +2045,91 @@ body .wrapper:first-child {
   margin-bottom: 0.5em;
 }
 
-/* line 15, scss/objects/_article.scss */
-.social-share {
-  overflow: hidden;
-  margin-bottom: 1em;
+/* line 16, scss/objects/_article.scss */
+.page .social-share {
+  position: fixed;
+  bottom: 0;
 }
-/* line 19, scss/objects/_article.scss */
+
+/* line 22, scss/objects/_article.scss */
+.social-share {
+  width: 100%;
+  height: 3.5em;
+  z-index: 1;
+  background: #212121;
+  text-align: center;
+}
+/* line 31, scss/objects/_article.scss */
+.social-share ul {
+  display: inline-block;
+}
+/* line 35, scss/objects/_article.scss */
 .social-share li {
   float: left;
-  margin-right: 0.5em;
 }
-/* line 24, scss/objects/_article.scss */
+/* line 39, scss/objects/_article.scss */
 .social-share a {
   background: #474747;
   color: #fff;
   display: block;
-  padding: 0.5em;
+  padding: 0.75em;
 }
-/* line 30, scss/objects/_article.scss */
+/* line 45, scss/objects/_article.scss */
+.social-share a.twitter {
+  background: #5EA9DD;
+  width: 35em;
+}
+/* line 49, scss/objects/_article.scss */
+.social-share a.facebook {
+  background: #3B5998;
+}
+/* line 52, scss/objects/_article.scss */
+.social-share a.instagram {
+  background: gray;
+}
+/* line 55, scss/objects/_article.scss */
+.social-share a.linkedin {
+  background: #0077B5;
+}
+/* line 58, scss/objects/_article.scss */
+.social-share a.youtube {
+  background: #CC181E;
+}
+/* line 61, scss/objects/_article.scss */
+.social-share a.sharethis {
+  background: #00BF00;
+}
+/* line 64, scss/objects/_article.scss */
+.social-share a.feedback {
+  background: #CC4E10;
+}
+/* line 67, scss/objects/_article.scss */
+.social-share a.rss {
+  background: #FF9900;
+}
+/* line 72, scss/objects/_article.scss */
 .social-share a:hover {
   background: #E0E0E0;
+}
+/* line 76, scss/objects/_article.scss */
+.social-share a .img-wrap {
+  width: 2.5em;
+  height: 2em;
+}
+/* line 79, scss/objects/_article.scss */
+.social-share a .img-wrap.float {
+  float: left;
+}
+/* line 84, scss/objects/_article.scss */
+.social-share a img {
+  height: 2em;
+}
+/* line 89, scss/objects/_article.scss */
+.social-share a .text-wrap {
+  text-align: left;
+  margin-left: 4em;
+  height: 2.7em;
+  font-size: 0.75em;
 }
 
 /* line 2, scss/objects/_comments.scss */

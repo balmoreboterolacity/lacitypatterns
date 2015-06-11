@@ -12,23 +12,89 @@
 }
 
 //Social Share
+.page{
+	.social-share {
+		position: fixed;
+		bottom: 0;
+	}
+}
+
 .social-share {
-	overflow: hidden;
-	margin-bottom: $space;
+	width: 100%;
+	height: 3.5em;
+	z-index: 1;
+	background: $black;
+	text-align: center;
+
+
+
+	ul {
+		display: inline-block;
+	}
 
 	li {
 		float: left;
-		margin-right: $space-half;
 	}
 
 	a {
 		background: $gray-dark;
 		color: $white;
 		display: block;
-		padding: $pad-half;
+		padding: 0.75em ;
+
+		&.twitter {
+			background: #5EA9DD;
+			width: 35em;
+		} 
+		&.facebook {
+			background: #3B5998;
+		} 
+		&.instagram {
+			background: gray;
+		} 
+		&.linkedin {
+			background: #0077B5;
+		}
+		&.youtube {
+			background: #CC181E;
+		} 
+		&.sharethis {
+			background: #00BF00;
+		} 
+		&.feedback {
+			background: $orange;
+		} 
+		&.rss {
+			background: #FF9900;
+		} 
+
 
 		&:hover {
 			background: $gray;
 		}
+
+		.img-wrap {
+			width: 2.5em;
+			height: 2em;
+			&.float{
+				float:left;
+			}
+		}
+
+		img { 
+			height: 2em;
+
+		}
+
+		.text-wrap {
+		  text-align: left;
+		  margin-left: 4em;
+		  height: 2.7em;
+		  font-size: 0.75em;
+		}
+
+		p {
+		}
 	}
 }
+
