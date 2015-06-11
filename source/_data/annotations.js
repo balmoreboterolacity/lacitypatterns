@@ -55,11 +55,6 @@ var comments = {
 		"title" : "HR",
 		"comment": "HR"
 	},
-
-
-
-
-
 	{
 		"el": "header[role=banner]",
 		"title" : "Masthead",
