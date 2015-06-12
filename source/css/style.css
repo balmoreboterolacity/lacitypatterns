@@ -1701,6 +1701,7 @@ body .wrapper:first-child {
 /* line 24, scss/objects/_blocks.scss */
 .block-hero {
   margin-bottom: 0.5em;
+  max-height: 724px;
   position: relative;
 }
 /* line 28, scss/objects/_blocks.scss */
