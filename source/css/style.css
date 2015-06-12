@@ -2178,13 +2178,14 @@ body .wrapper:first-child {
 /* line 6, scss/objects/_messaging.scss */
 .alert {
   text-align: center;
-  padding: 1em;
-  margin-bottom: 0.5em;
-  border: 1px solid #E0E0E0;
+  padding: 0.5em;
+  margin-bottom: 0;
+  border: 0px solid #E0E0E0;
+  height: 40px;
   background: #E0E0E0;
 }
 
-/* line 14, scss/objects/_messaging.scss */
+/* line 15, scss/objects/_messaging.scss */
 .alert-error {
   color: #CC2A14;
   border-color: #CC2A14;
