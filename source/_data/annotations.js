@@ -55,20 +55,75 @@ var comments = {
 		"title" : "HR",
 		"comment": "HR"
 	},
-
-
-
-
-
 	{
-		"el": "header[role=banner]",
-		"title" : "Masthead",
-		"comment": "The main header of the site doesn't take up too much screen real estate in order to keep the focus on the core content. It's using a linear CSS gradient instead of a background image to give greater design flexibility and reduce HTTP requests."
+		"el": "#atoms-unordered",
+		"title" : "Unordered",
+		"comment": "Unordered"
+	},
+	{
+		"el": "#atoms-ordered",
+		"title" : "Ordered",
+		"comment": "Ordered"
+	},
+	{
+		"el": "#atoms-definition",
+		"title" : "Definition",
+		"comment": "Definition"
 	},
 	{
 		"el": ".logo",
 		"title" : "Logo",
 		"comment": "First Test The logo image is an SVG file, which ensures that the logo displays crisply even on high resolution displays. A PNG fallback is provided for browsers that don't support SVG images.</p><p>Further reading: <a href=\"http://bradfrostweb.com/blog/mobile/hi-res-optimization/\">Optimizing Web Experiences for High Resolution Screens</a></p>"
+	},
+	{
+		"el": "#atoms-thumbnail-3x4",
+		"title" : "Thumbnail 3:4",
+		"comment": "Thumbnail 3:4"
+	},
+	{
+		"el": "#atoms-landscape-16x9",
+		"title" : "Landscape 16:9",
+		"comment": "Landscape 16:9"
+	},
+	{
+		"el": "#atoms-thumbnail-16x9",
+		"title" : "Thumbnail 16:9",
+		"comment": "Thumbnail 16:9"
+	},
+	{
+		"el": "#atoms-landscape-8x3",
+		"title" : "Landscape 8:3",
+		"comment": "Landscape 8:3"
+	},
+	{
+		"el": "#atoms-ad",
+		"title" : "Ad 300x250",
+		"comment": "Ad 300x250"
+	},
+	{
+	"el": "#atoms-avatar",
+		"title" : "Avatar",
+		"comment": "Avatar"
+	},
+	{
+		"el": "#atoms-icons",
+		"title" : "Icons",
+		"comment": "Icons"
+	},
+	{
+		"el": "#atoms-loading-icon",
+		"title" : "Loading Icon",
+		"comment": "Loading Icon"
+	},
+	{
+		"el": "#atoms-favicon",
+		"title" : "Favicon",
+		"comment": "Favicon"
+	},
+	{
+		"el": "header[role=banner]",
+		"title" : "Masthead",
+		"comment": "The main header of the site doesn't take up too much screen real estate in order to keep the focus on the core content. It's using a linear CSS gradient instead of a background image to give greater design flexibility and reduce HTTP requests."
 	},
 	{
 		"el": "#nav",
