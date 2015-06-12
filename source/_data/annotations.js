@@ -176,6 +176,41 @@ var comments = {
 		"comment": "Blockquote with Citation"
 	},
 	{
+		"el": "#molecules-intro-text",
+		"title" : "Intro Text",
+		"comment": "Intro Text"
+	},
+	{
+		"el": "#molecules-one-up",
+		"title" : "One Up",
+		"comment": "One Up"
+	},
+	{
+		"el": "#molecules-two-up",
+		"title" : "Two Up",
+		"comment": "Two Up"
+	},
+	{
+		"el": "#molecules-three-up",
+		"title" : "Three Up",
+		"comment": "Three Up"
+	},
+	{
+		"el": "#molecules-four-up",
+		"title" : "Four Up",
+		"comment": "Four Up"
+	},
+	{
+		"el": "#molecules-media-block",
+		"title" : "Media Block",
+		"comment": "Media Block"
+	},
+	{
+		"el": "#molecules-block-headline-byline",
+		"title" : "Block Headline Byline",
+		"comment": "Block Headline Byline"
+	},
+	{
 		"el": "header[role=banner]",
 		"title" : "Masthead",
 		"comment": "The main header of the site doesn't take up too much screen real estate in order to keep the focus on the core content. It's using a linear CSS gradient instead of a background image to give greater design flexibility and reduce HTTP requests."
@@ -196,6 +231,13 @@ var comments = {
 		"comment": "<p>The article header should be no more than 140 characters. </p>"
 	},
 	{
+		"el": ".block-hero",
+		"title" : "Hero",
+		"comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
+	}
+
+
+{
 		"el": ".block-hero",
 		"title" : "Hero",
 		"comment": "<p>The hero area highlights one major story using a large image and a captivating headline.</p>"
