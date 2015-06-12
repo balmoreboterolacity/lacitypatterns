@@ -5,9 +5,10 @@
 // Alerts
 .alert {
 	text-align: center;
-	padding: $pad;
-	margin-bottom: $space-half;
-	border: 1px solid $gray;
+	padding: $pad-half;
+	margin-bottom: $space-none;
+	border: 0px solid $gray;
+	height: 40px;
 	background: $gray-light;
 }
 
