@@ -121,6 +121,61 @@ var comments = {
 		"comment": "Favicon"
 	},
 	{
+		"el": "#atoms-text-fields",
+		"title" : "Text Fields",
+		"comment": "Text Fields"
+	},
+	{
+		"el": "#atoms-select-menu",
+		"title" : "Select Menu",
+		"comment": "Select Menu"
+	},
+	{
+		"el": "#atoms-checkbox",
+		"title" : "Checkbox",
+		"comment": "Checkbox"
+	},
+	{
+		"el": "#atoms-radio-buttons",
+		"title" : "Radio Buttons",
+		"comment": "Radio Buttons"
+	},
+	{
+		"el": "#atoms-html5-inputs",
+		"title" : "HTML5 Inputs",
+		"comment": "HTML5 Inputs"
+	},
+	{
+		"el": "#atoms-buttons",
+		"title" : "Buttons",
+		"comment": "Buttons"
+	},
+	{
+		"el": "#atoms-table",
+		"title" : "Table",
+		"comment": "Table"
+	},
+	{
+		"el": "#molecules-byline",
+		"title" : "Byline",
+		"comment": "Byline"
+	},
+	{
+		"el": "#molecules-address",
+		"title" : "Address",
+		"comment": "Address"
+	},
+	{
+		"el": "#molecules-heading-group",
+		"title" : "Heading Group",
+		"comment": "Heading Group"
+	},
+	{
+		"el": "#molecules-blockquote-with-citation",
+		"title" : "Blockquote with Citation",
+		"comment": "Blockquote with Citation"
+	},
+	{
 		"el": "header[role=banner]",
 		"title" : "Masthead",
 		"comment": "The main header of the site doesn't take up too much screen real estate in order to keep the focus on the core content. It's using a linear CSS gradient instead of a background image to give greater design flexibility and reduce HTTP requests."
