@@ -2057,7 +2057,7 @@ body .wrapper:first-child {
   width: 100%;
   height: 3.5em;
   z-index: 1;
-  background: #5EA9DD;
+  background: #227fa6;
   text-align: center;
 }
 /* line 31, scss/objects/_article.scss */
@@ -2077,7 +2077,7 @@ body .wrapper:first-child {
 }
 /* line 45, scss/objects/_article.scss */
 .social-share a.twitter {
-  background: #5EA9DD;
+  background: #227fa6;
   width: 35em;
 }
 /* line 49, scss/objects/_article.scss */
