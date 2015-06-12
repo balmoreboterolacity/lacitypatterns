@@ -57,18 +57,18 @@ var comments = {
 	},
 	{
 		"el": "#atoms-unordered",
-		"title" : "Unordered",
-		"comment": "Unordered"
+		"title" : "Unordered List",
+		"comment": "Unordere List"
 	},
 	{
 		"el": "#atoms-ordered",
-		"title" : "Ordered",
-		"comment": "Ordered"
+		"title" : "Ordered List",
+		"comment": "Ordered List"
 	},
 	{
 		"el": "#atoms-definition",
-		"title" : "Definition",
-		"comment": "Definition"
+		"title" : "Definition List",
+		"comment": "Definition List"
 	},
 	{
 		"el": "#atoms-logo",
@@ -319,6 +319,21 @@ var comments = {
 		"el": "#organisms-comment-thread",
 		"title" : "Comment Thread",
 		"comment": "Comment Thread"
+	},
+	{
+		"el": "#organisms-latest-posts",
+		"title" : "Latest Posts",
+		"comment": "Latest Posts"
+	},
+	{
+		"el": "#organisms-recent-tweets",
+		"title" : "Recent Tweets",
+		"comment": "Recent Tweets"
+	},
+	{
+		"el": "#organisms-related-posts",
+		"title" : "Related Posts",
+		"comment": "Related Posts"
 	},
 	{
 		"el": "header[role=banner]",
