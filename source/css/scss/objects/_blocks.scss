@@ -25,6 +25,11 @@
 	margin-bottom: $space-half;
 	max-height: 700px;
 	.b-thumb {
+		background: #ffdb4c;
+		height: 700px;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
 		img {
 			display: block;
 			width: 100%;
