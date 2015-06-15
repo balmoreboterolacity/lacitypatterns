@@ -21,10 +21,14 @@
 
 .social-share {
 	width: 100%;
-	height: 3.5em;
+	height: 2em;
 	z-index: 1;
 	background: #227fa6;
 	text-align: center;
+	@media all and (min-width: $bp-med-2) {
+		height: 3.5em;
+	}
+
 
 
 
@@ -40,11 +44,17 @@
 		background: $gray-dark;
 		color: $white;
 		display: block;
-		padding: 0.75em ;
+		padding: 0.4em 0.25em;
+		@media all and (min-width: $bp-med-2) {
+			padding: 0.75em ;
+		}
 
 		&.twitter {
-			background: #227fa6;
-			width: 35em;
+			background: #5EA9DD;
+			@media all and (min-width: $bp-large){
+				background: #227fa6;
+				width: 30.9em;
+			}
 		} 
 		&.facebook {
 			background: #3B5998;
@@ -74,26 +84,38 @@
 		// }
 
 		.img-wrap {
-			width: 2.5em;
-			height: 2em;
+			width: 1.86em;
+			height: 1.3em;
+			@media all and (min-width: $bp-med-2) {
+				width: 2.5em;
+				height: 2em;
+			}
 			&.float{
 				float:left;
 			}
 		}
 
 		img { 
-			height: 2em;
-
+			height: 1.3em;
+			@media all and (min-width: $bp-med-2) {
+				height: 2em;
+			}
 		}
 
 		.text-wrap {
 		  text-align: left;
-		  margin-left: 4em;
 		  height: 2.7em;
 		  font-size: 0.75em;
+		  @media all and (min-width:$bp-large){
+		  	margin-left: 4em;
+		  }
 		}
 
 		p {
+			display: none;
+			@media all and (min-width: $bp-large){
+				display: inherit;
+			}
 		}
 	}
 }
