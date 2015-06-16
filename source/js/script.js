@@ -1,7 +1,5 @@
 $(document).ready(function(){
 
-
-	
 	// Drop-down menu 
 
 	$(".menu").click (function(){
@@ -30,7 +28,5 @@ $(document).ready(function(){
 			$(".drop-down").css({"width": width + 17, "height": height, "overflow": "hidden"});
 		};
 	})
-
-
 
 });
