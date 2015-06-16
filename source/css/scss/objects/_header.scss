@@ -68,7 +68,6 @@
 	margin-right: auto;
 	left: 0;
 	right: 0;
-	background-image: url('../images/hero.jpg');
 	background-repeat: no-repeat;
     background-size: 100%;
   	background-position: 0px -2.5em;
@@ -93,6 +92,15 @@
 		width: 100%;
 		display: none;
 	}
+}
+.home .header-wrap-background-blur{
+	background-image: url('../images/hero.jpg');
+}
+.blog .header-wrap-background-blur{
+	background-image: url('../images/hero_2nd.jpg');
+}
+.article .header-wrap-background-blur{
+	background-image: url('../images/hero_2nd.jpg');
 }
 .header {
 	@extend .lc;

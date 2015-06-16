@@ -1013,7 +1013,6 @@ td {
   margin-right: auto;
   left: 0;
   right: 0;
-  background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0px -2.5em;
@@ -1045,33 +1044,48 @@ td {
   }
 }
 
-/* line 97, scss/objects/_header.scss */
+/* line 96, scss/objects/_header.scss */
+.home .header-wrap-background-blur {
+  background-image: url("../images/hero.jpg");
+}
+
+/* line 99, scss/objects/_header.scss */
+.blog .header-wrap-background-blur {
+  background-image: url("../images/hero_2nd.jpg");
+}
+
+/* line 102, scss/objects/_header.scss */
+.article .header-wrap-background-blur {
+  background-image: url("../images/hero_2nd.jpg");
+}
+
+/* line 105, scss/objects/_header.scss */
 .header {
   display: block;
   max-width: 310px;
 }
 @media all and (min-width: 720px) {
-  /* line 97, scss/objects/_header.scss */
+  /* line 105, scss/objects/_header.scss */
   .header {
     max-width: 1020px;
   }
 }
 
-/* line 106, scss/objects/_header.scss */
+/* line 114, scss/objects/_header.scss */
 .logo {
   float: left;
   max-width: 5.5em;
   margin: 0.8em 0 0.8em 1.4em;
 }
 @media all and (min-width: 720px) {
-  /* line 106, scss/objects/_header.scss */
+  /* line 114, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
     margin: 0;
   }
 }
 
-/* line 117, scss/objects/_header.scss */
+/* line 125, scss/objects/_header.scss */
 .title {
   float: left;
   margin: 1.2em 0 0 1em;
@@ -1082,7 +1096,7 @@ td {
   margin-bottom: 0;
 }
 @media all and (min-width: 720px) {
-  /* line 117, scss/objects/_header.scss */
+  /* line 125, scss/objects/_header.scss */
   .title {
     font-size: 1.55em;
     line-height: 1.25em;
@@ -1092,7 +1106,7 @@ td {
   }
 }
 @media all and (min-width: 960px) {
-  /* line 117, scss/objects/_header.scss */
+  /* line 125, scss/objects/_header.scss */
   .title {
     font-size: 2em;
     line-height: 1.25em;
@@ -1102,7 +1116,7 @@ td {
   }
 }
 
-/* line 141, scss/objects/_header.scss */
+/* line 149, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -1112,26 +1126,26 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 480px) {
-  /* line 141, scss/objects/_header.scss */
+  /* line 149, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 141, scss/objects/_header.scss */
+  /* line 149, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 159, scss/objects/_header.scss */
+/* line 167, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 480px) {
-  /* line 159, scss/objects/_header.scss */
+  /* line 167, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;
