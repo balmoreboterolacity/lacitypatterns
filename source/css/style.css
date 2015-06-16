@@ -697,7 +697,7 @@ td {
 /* Grid Item */
 /* line 52, scss/objects/_layout.scss */
 .gi {
-  padding: 0.5em;
+  padding: 0;
 }
 /* line 55, scss/objects/_layout.scss */
 .gi img {
