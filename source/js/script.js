@@ -30,7 +30,11 @@ $(document).ready(function(){
 			$(".drop-down").css({"width": width + 17, "height": height, "overflow": "hidden"});
 		};
 	})
-
+	
+	//Search Expand
+	$('.nav-button.search').click (function() {
+		$('.search-form').css('display', 'none').toggleClass("is-vishidden").slideDown('slow');
+	})
 
 
 });
