@@ -23,9 +23,16 @@
 	left: 0;
 	right: 0;
 	@media all and (min-width: $bp-med-2) {
+		display: block;
 		position: absolute;
 		// top: 2.5em;
 		width: 100%;
+	}
+	@media all and (max-width: $bp-med-2) {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		background: $classicblue;
 	}
 }
 .header-wrap-background{
@@ -40,13 +47,19 @@
 	opacity: .5;
   	filter: alpha(opacity=50); /* For IE8 and earlier */
 	@media all and (min-width: $bp-med-2) {
+		display: block;
 		position: absolute;
 		// top: 2.5em;
 		width: 100%;
 	}
+	@media all and (max-width: $bp-med-2) {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		display: none;
+	}
 }
 .header-wrap-background-blur{
-	display: block;
 	width: 100%;
 	z-index: 100;
 	margin-left: auto;
@@ -65,9 +78,16 @@
   	margin:-2px;
   	padding:0px;
 	@media all and (min-width: $bp-med-2) {
+		display: block;
 		position: absolute;
 		// top: 2.5em;
 		width: 100%;
+	}
+	@media all and (max-width: $bp-med-2) {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		display: none;
 	}
 }
 .header {
