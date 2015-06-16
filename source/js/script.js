@@ -22,4 +22,15 @@ $(document).ready(function(){
 
 	})
 
+	$(window).resize (function(){
+		if ($(".drop-down").is(":visible")) {
+			var width = $(window).width();
+			var height = $(window).height();
+			$("body").css({"width": width, "height": height, "overflow": "hidden"});
+			$(".drop-down").css({"width": width + 17, "height": height, "overflow": "hidden"});
+		};
+	})
+
+
+
 });

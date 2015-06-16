@@ -1257,8 +1257,8 @@ td {
 }
 /* line 104, scss/objects/_nav.scss */
 .drop-down ul {
-  margin-top: 17%;
-  margin-left: 10%;
+  margin-top: 12em;
+  margin-left: 9.9%;
 }
 /* line 109, scss/objects/_nav.scss */
 .drop-down li {
