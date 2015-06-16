@@ -24,16 +24,21 @@
 .block-hero {
 	margin-bottom: $space-half;
 	max-height: 700px;
+	overflow: hidden;
 	.b-thumb {
 		img {
+			max-width: 1920px;
 			display: block;
 			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 
 	position: relative;
 
 	.b-text {
+		max-width: 1024px;
 		position: absolute;
 		bottom: 30%;
 		margin-left: auto;

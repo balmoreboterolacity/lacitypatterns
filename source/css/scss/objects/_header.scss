@@ -38,6 +38,7 @@
 .header-wrap-background{
 	display: block;
 	background: $black;
+	max-width: 1920px;
 	width: 100%;
 	z-index: 100;
 	margin-left: auto;
@@ -60,6 +61,7 @@
 	}
 }
 .header-wrap-background-blur{
+	max-width: 1910px;
 	width: 100%;
 	z-index: 100;
 	margin-left: auto;
@@ -82,6 +84,8 @@
 		position: absolute;
 		// top: 2.5em;
 		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	@media all and (max-width: $bp-med-2) {
 		position: absolute;
