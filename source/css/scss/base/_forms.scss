@@ -73,7 +73,7 @@ input[type="search"]::-webkit-search-decoration {
 		font-size: $font-size-small-2;
 		padding: 0.65rem 1.3rem;
 		background: $gray-dark;
-		position: absolute;
+		position: relative;
 		top: 0;
 		right: 0;
 		z-index: 1;
@@ -102,14 +102,18 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Search Form */
 .search-field {
-	padding-right: 3em;
+	margin: 0 10px;
+	max-width: 78%;
+		@media all and (max-width: $bp-med-2){
+			max-width: 188px;
+		}
 }
 .inline-form .search-submit {
-	background: none;
-	padding: 0.78em 1em;
+	background: $orange;
 	border: 0;
-	border-left: 1px solid $gray;
-	color: $gray;
+	color: $white;
+	font-weight: bold;
+	padding: 0.78em 1em;
 }
 
 /* Newsletter Form */
