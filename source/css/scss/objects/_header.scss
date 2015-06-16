@@ -1,6 +1,5 @@
 .header-wrap{
 	display: block;
-	background: $classicblue;
 	width: 100%;
 	z-index: 200;
 	margin-left: auto;
@@ -13,7 +12,46 @@
 		width: 100%;
 	}
 }
-
+.header-wrap-background{
+	display: block;
+	background: $black;
+	width: 100%;
+	z-index: 100;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	opacity: .5;
+  	filter: alpha(opacity=50); /* For IE8 and earlier */
+	@media all and (min-width: $bp-med-2) {
+		position: absolute;
+		top: 2.5em;
+		width: 100%;
+	}
+}
+// .header-wrap-background-blur{
+// 	display: block;
+// 	width: 100%;
+// 	z-index: 100;
+// 	margin-left: auto;
+// 	margin-right: auto;
+// 	left: 0;
+// 	right: 0;
+// 	background-image: url('../images/hero.jpg');
+//   	background-position: 0px -2.5em;
+//   	-webkit-filter: blur(0px);
+//   	-moz-filter: blur(0px);
+//   	-o-filter: blur(0px);
+//   	-ms-filter: blur(0px);
+//   	filter: blur(0px);
+//   	margin:-2px;
+//   	padding:0px;
+// 	@media all and (min-width: $bp-med-2) {
+// 		position: absolute;
+// 		top: 2.5em;
+// 		width: 100%;
+// 	}
+// }
 .header {
 	@extend .lc;
 	display: block;
