@@ -1,6 +1,4 @@
 $(document).ready(function(){
-
-
 	
 	// Drop-down menu 
 
@@ -32,9 +30,10 @@ $(document).ready(function(){
 	})
 	
 	//Search Expand
-	$('.nav-button.search').click (function() {
-		$('.search-form').css('display', 'none').toggleClass("is-vishidden").slideDown('slow');
+	$('.nav-button.search').click (function() {		
+		$('.search-form').removeClass("is-vishidden").toggle( 'slow' );
 	})
+
 
 
 });
