@@ -1,27 +1,15 @@
 .header-container{
-	display: block;
 	width: 100%;
 	height: 105px;
 	z-index: 200;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	overflow: hidden;
 	@media all and (min-width: $bp-med-2) {
 		position: absolute;
-		top: 2.5em;
 		width: 100%;
 	}
 }
 .header-wrap{
-	display: block;
 	width: 100%;
 	z-index: 200;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
 	@media all and (min-width: $bp-med-2) {
 		display: block;
 		position: absolute;
@@ -36,15 +24,8 @@
 	}
 }
 .header-wrap-background{
-	display: block;
 	background: $black;
-	max-width: 1920px;
-	width: 100%;
 	z-index: 100;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
 	opacity: .5;
   	filter: alpha(opacity=50); /* For IE8 and earlier */
 	@media all and (min-width: $bp-med-2) {
