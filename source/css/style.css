@@ -1290,84 +1290,6 @@ td {
   }
 }
 
-/* line 126, scss/objects/_nav.scss */
-.calnav {
-  display: block;
-  background-color: #E0E0E0;
-  padding: 4px 2px 4px 4px;
-  text-align: center;
-  margin: 2px;
-  height: auto;
-  width: auto;
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-}
-/* line 136, scss/objects/_nav.scss */
-.calnav .calDay {
-  display: block;
-  width: 35em;
-  margin: 0 auto;
-}
-/* line 141, scss/objects/_nav.scss */
-.calnav .calDay .calElement {
-  display: block;
-  margin: 1px;
-  overflow: hidden;
-  float: left;
-  background-color: #474747;
-  color: #fff;
-  height: 48px;
-  -webkit-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-}
-/* line 150, scss/objects/_nav.scss */
-.calnav .calDay .calElement:hover {
-  background-color: #212121;
-  color: #fff;
-}
-/* line 156, scss/objects/_nav.scss */
-.calnav .calDay .today {
-  background-color: #fff;
-  border-radius: 3px;
-  color: #212121;
-}
-/* line 162, scss/objects/_nav.scss */
-.calnav .calDay .prev, .calnav .calDay .next {
-  width: 18px;
-  background-color: #E0E0E0;
-  color: #212121;
-  -webkit-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
-  border-radius: 4px;
-}
-/* line 167, scss/objects/_nav.scss */
-.calnav .calDay .prev:hover, .calnav .calDay .next:hover {
-  background-color: #fff;
-  color: #212121;
-}
-/* line 172, scss/objects/_nav.scss */
-.calnav .calDay .prev .arrow, .calnav .calDay .next .arrow {
-  margin-top: 0.65em;
-  font-weight: bold;
-}
-
-/* line 180, scss/objects/_nav.scss */
-.clearfix:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
 /*------------------------------------*\
     $MAIN CONTENT AREA
 \*------------------------------------*/
@@ -1892,6 +1814,152 @@ body .wrapper:first-child {
 /* line 39, scss/objects/_buttons.scss */
 .text-btn {
   font-style: italic;
+}
+
+/* line 1, scss/objects/_calendar.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* line 11, scss/objects/_calendar.scss */
+.calnav {
+  display: block;
+  background-color: #E0E0E0;
+  padding: 4px 2px 4px 4px;
+  text-align: center;
+  margin: 2px;
+  height: auto;
+  width: auto;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 21, scss/objects/_calendar.scss */
+.calnav .calDay {
+  display: block;
+  width: 37em;
+  margin: 0 auto;
+}
+@media all and (max-width: 720px) {
+  /* line 21, scss/objects/_calendar.scss */
+  .calnav .calDay {
+    width: 100vw;
+  }
+}
+/* line 29, scss/objects/_calendar.scss */
+.calnav .calDay .calElement {
+  display: block;
+  margin: 3px;
+  overflow: hidden;
+  float: left;
+  background-color: #474747;
+  color: #fff;
+  height: 48px;
+  width: 7.5vw;
+  font-size: 1em;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+@media all and (min-width: 720px) {
+  /* line 29, scss/objects/_calendar.scss */
+  .calnav .calDay .calElement {
+    width: 71px;
+  }
+}
+/* line 46, scss/objects/_calendar.scss */
+.calnav .calDay .calElement:hover {
+  background-color: #212121;
+  color: #fff;
+}
+/* line 52, scss/objects/_calendar.scss */
+.calnav .calDay .today {
+  background-color: #fff;
+  border-radius: 3px;
+  color: #212121;
+}
+/* line 58, scss/objects/_calendar.scss */
+.calnav .calDay .prev, .calnav .calDay .next {
+  width: 18px;
+  background-color: #E0E0E0;
+  color: #212121;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 63, scss/objects/_calendar.scss */
+.calnav .calDay .prev:hover, .calnav .calDay .next:hover {
+  background-color: #fff;
+  color: #212121;
+}
+/* line 68, scss/objects/_calendar.scss */
+.calnav .calDay .prev .arrow, .calnav .calDay .next .arrow {
+  margin-top: 0.65em;
+  font-weight: bold;
+}
+
+/* line 78, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens {
+  padding-bottom: 2em;
+}
+/* line 81, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens .date-heading {
+  width: 100%;
+  text-align: center;
+  margin-top: 2em;
+}
+/* line 87, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens .view-content {
+  margin-top: 2em;
+}
+/* line 89, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens .view-content ul {
+  margin: 1em 0 1em 2em;
+  padding: 0;
+  list-style: initial;
+}
+/* line 95, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens .pager {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2em;
+}
+/* line 101, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens .pager li {
+  width: 100%;
+  background-color: #E0E0E0;
+  padding: 0.5em;
+  float: left;
+}
+/* line 107, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens .pager li.date-prev {
+  -webkit-border-radius: 5px 0 0 5px;
+  -ms-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  -o-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+  width: 40%;
+  margin-right: 20%;
+}
+/* line 113, scss/objects/_calendar.scss */
+.view-events-calendar-with-ens .pager li.date-next {
+  -webkit-border-radius: 0 5px 5px 0;
+  -ms-border-radius: 0 5px 5px 0;
+  -moz-border-radius: 0 5px 5px 0;
+  -o-border-radius: 0 5px 5px 0;
+  border-radius: 0 5px 5px 0;
+  width: 40%;
 }
 
 /* Generic Placeholder Brick: REMOVE FOR PRODUCTION */

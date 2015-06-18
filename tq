@@ -1,0 +1,1434 @@
+[33mcommit 2709d60f3ca3d891e0ac0a906bd37b301b890c6d[m
+Merge: d645485 764e764
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 18 11:17:08 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit d645485b696205f320040d4e7dfd0c868aba25a0[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 18 11:16:59 2015 -0700
+
+    LC-834 generates day calendar elements
+
+[33mcommit 56719c4a5c1b42f063b4d99e513d926e6e426a65[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 18 11:02:57 2015 -0700
+
+    LC-834 styles calendar nav
+
+[33mcommit 764e7642679e99b44804a049994ad9d5c00b2ee9[m
+Merge: e04c983 1fa0615
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 18 09:26:01 2015 -0700
+
+    Merge pull request #44 from dustinrhodes/LC-833
+    
+    LC-834 calendar elements and drop-down menu fix
+
+[33mcommit 1fa0615fbdc56186854faee82c92571a9e9bca36[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 18 09:22:52 2015 -0700
+
+    LC-834 fixes missing drop-down menu
+
+[33mcommit 0f282c4a4ca33920e3cf76bd894670f035db1226[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 18 09:05:05 2015 -0700
+
+    LC-834 creates calendar nav molocule
+
+[33mcommit af4256117af7a403184b2dffbdccda7602883f6a[m
+Merge: 77e5988 e04c983
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 18 08:11:34 2015 -0700
+
+    LC-833 clear merge conflict
+
+[33mcommit e04c98349eef2795c4787a5525f8689a68117180[m
+Merge: ec660e8 8ecce0f
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 17 16:41:25 2015 -0700
+
+    Merge pull request #43 from fmla/master
+    
+    header / search updates
+
+[33mcommit 8ecce0f87ccb7a1458f27e72e9f70aa743f961a8[m
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 16:39:32 2015 -0700
+
+    header / search updates
+
+[33mcommit ec660e8c086865355f9db6de34ecc2d0bf85a578[m
+Merge: 3c009da 4a75753
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 17 15:03:37 2015 -0700
+
+    Merge pull request #42 from fmla/master
+    
+    Updates to header
+
+[33mcommit 4a7575336b36b8509f4dadbdf7d52a0b3b82eaca[m
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 15:00:11 2015 -0700
+
+    header css updates
+
+[33mcommit 614dcbf8db20bac67ad428ffd90e13619d5be549[m
+Merge: cd942f8 3c009da
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 13:12:10 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 3c009dac66f29eb67bec3cb5bc5846dff50f27a7[m
+Merge: eb84e78 a0696c7
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 17 12:29:14 2015 -0700
+
+    Merge pull request #41 from CalvinLee4818/master
+    
+    Updated Thumnail Images
+
+[33mcommit a0696c75795d9795d77b32000e658b83e1b79711[m
+Merge: 40b5b11 eb84e78
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 12:15:15 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 40b5b112950c5a7c64b4b935caf758e47bcdd262[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 12:14:47 2015 -0700
+
+    Updated Thumnail Images
+
+[33mcommit eb84e78137090045b24002b5f377b0e9d8d00e86[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 17 12:13:34 2015 -0700
+
+    Adjusted Social Media Bar Position
+
+[33mcommit f167048c50d165200607e452b1da5cbae0b62b4b[m
+Merge: 4eb5c54 e74ed38
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 17 11:36:55 2015 -0700
+
+    Merge pull request #40 from fmla/master
+    
+    slider
+
+[33mcommit cd942f8c5dbdde6bf0e9223c6ee6782e713aa245[m
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 11:29:19 2015 -0700
+
+    more slider
+
+[33mcommit e74ed38d41874aa021ad61dea807fc560aad7500[m
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 11:29:19 2015 -0700
+
+    more slider
+
+[33mcommit 2744a300caa181c34504393019f7227f665b71e2[m
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Wed Jun 17 11:25:29 2015 -0700
+
+    Insert slider, adjust search expand
+
+[33mcommit 4eb5c5490802052171c65b4b6d9a05dffcf63b30[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 16:33:52 2015 -0700
+
+    header effects applied
+
+[33mcommit 8a74d21c9df84c9443f0b8a4f9366ceed2693375[m
+Merge: 46c3325 a2d8482
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 16 16:18:41 2015 -0700
+
+    Merge pull request #39 from fmla/master
+    
+    home inline search expand/hide on menu icon click
+
+[33mcommit a2d8482e1dfe1ad58e787fe17659f862c19042f9[m
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Tue Jun 16 16:15:10 2015 -0700
+
+    home inline search expand/hide on menu icon click
+
+[33mcommit 46c3325420d1605caede20d15facfc10736b728a[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 16:05:52 2015 -0700
+
+    3up image style update
+
+[33mcommit 77e59886131db78b61953312e8be09d8f8d70389[m
+Merge: e874fdd aa3b780
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 16:02:55 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit e874fdd96297a4c71f2a127941839dbfa746e369[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 16:02:39 2015 -0700
+
+    LC-833 generates calendar template and page
+
+[33mcommit e394878f24714821b8cc6d408854117882eed37b[m
+Merge: 7390b58 aa3b780
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 15:05:43 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit aa3b780423c0877abc2ffcb698fa0de91700a2f0[m
+Merge: d5da566 65ce43b
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 16 15:05:30 2015 -0700
+
+    Merge pull request #38 from dustinrhodes/LC-833
+    
+    LC-833 set hero image max width and menu bg color
+
+[33mcommit 7390b5898c0dbdf2178cd7731a2c6cb02f6a7a3f[m
+Merge: 0000062 d5da566
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 14:45:33 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 0000062c146f8aaf41cf5d6a60032e088d64caed[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 14:45:26 2015 -0700
+
+    3 Up image banner update to full width
+
+[33mcommit d5da566250ca859e6e2f65510128be0659003d27[m
+Merge: 4bf2d97 da87ffe
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 16 14:44:34 2015 -0700
+
+    Merge pull request #37 from fmla/master
+    
+    basic styling home inline search
+
+[33mcommit 65ce43b289586c0eed7fb2f275c6a29deb27350e[m
+Merge: d0987b1 4bf2d97
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 14:43:59 2015 -0700
+
+    LC-833 clear merge conflict
+
+[33mcommit d0987b14058443104064e3c57e3072f88191e072[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 14:40:57 2015 -0700
+
+    LC-833 sets style for hero max width 1920px
+
+[33mcommit da87ffe0d64d19b95bae2f3eb978dbf24c1b2285[m
+Author: unknown <ITAcid393@ITA-BBP3JQ1.cds.ci.la.ca.us>
+Date:   Tue Jun 16 14:29:25 2015 -0700
+
+    basic styling home inline search
+
+[33mcommit 4bf2d9771bd7a996377180e2cd71c894d3271dc1[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 14:20:54 2015 -0700
+
+    Updated secondary page header effects
+
+[33mcommit e3f0edd4927da2f610fa108483805e220d220b6a[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 13:58:25 2015 -0700
+
+    LC-833 changes background style for drop-down menu to dark gray
+
+[33mcommit 7527d082980a63f5e6e92013c466b0fa4b5a23d2[m
+Merge: 3dbe362 8cacffa
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 16 12:50:50 2015 -0700
+
+    Merge pull request #36 from dustinrhodes/LC-833
+    
+    LC-833 drop-down menu css and js updates
+
+[33mcommit 8cacffaf09d1029299fc9fddfd33381a7dacecc7[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 12:44:46 2015 -0700
+
+    LC-833 sets style and js for drop down menu on mobile devices
+
+[33mcommit b01ced6fca920cb721f5161f3fb6d936fe717dff[m
+Merge: 3a68513 3dbe362
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 12:33:00 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit 3dbe3628b46ab1ff0518ddc8089e334a8051413e[m
+Merge: ef371f3 b3c4bc7
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 16 11:37:01 2015 -0700
+
+    Merge pull request #35 from CalvinLee4818/master
+    
+    New Home Hero Photo
+
+[33mcommit b3c4bc758bf595c40ab22e1befff84728436fd9f[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Tue Jun 16 11:07:32 2015 -0700
+
+    New Home Hero Photo
+
+[33mcommit ef371f37a3dd972966c5b7578fb7f3d710b962d3[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 10:52:55 2015 -0700
+
+    update header background effects
+
+[33mcommit 4afbcb7fd1b19cdb8ba8e1e4e435545ffcdfde54[m
+Merge: 1e4c4d0 4c62512
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 10:31:53 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 4c625123679c362c3a5565d33633556724ab2a2a[m
+Merge: 5279279 b10b945
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 16 10:31:45 2015 -0700
+
+    Merge pull request #34 from CalvinLee4818/master
+    
+    Updated Home Hero Image
+
+[33mcommit 1e4c4d035e006e59d09216a51d2b370aef70b887[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 16 10:31:21 2015 -0700
+
+    Header background effect applied
+
+[33mcommit b10b9459277f4efe120e3752f2ebcfbf31da04e1[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Tue Jun 16 10:17:35 2015 -0700
+
+    Updated home hero photo
+
+[33mcommit c5457cd47915d444f96d8435c4849b4e12371a18[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Tue Jun 16 10:02:06 2015 -0700
+
+    Updated Home Hero Photo
+
+[33mcommit e3604b37bd658c17990c98294010714af536ccb6[m
+Merge: 5ee12a3 5279279
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Tue Jun 16 09:57:32 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 3a6851318bc0e2c248071c4e4545f409434cb47d[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 16 09:04:40 2015 -0700
+
+    LC-833 updates js for drop-down menu to hide scroll bars
+
+[33mcommit 5279279f32184586c031d63da120de6a79e650dd[m
+Merge: c7f7684 b2164fe
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Mon Jun 15 17:12:28 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit c7f7684e0a0e01e2ad6fbab3674904e111a247eb[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Mon Jun 15 17:12:16 2015 -0700
+
+    Adjust header background image
+
+[33mcommit 5ee12a308855662b4aa5d64f124a059f3b3892da[m
+Merge: b9c6cae b2164fe
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Mon Jun 15 16:27:53 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit b9c6cae578a5a231edc0bcc4f4b04a46f7c67de2[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Mon Jun 15 16:27:20 2015 -0700
+
+    Updated Home Hero Image
+
+[33mcommit b2164fec60d7ee2e2c2452b5526d2ad8c023c9fa[m
+Merge: e1ff174 27153ea
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 15 16:26:39 2015 -0700
+
+    Merge pull request #33 from dustinrhodes/LC-833
+    
+    LC-833 hides extra height when drop-down menu visible
+
+[33mcommit 27153ea5f9e44d8804c4bb7f415bc604397d022e[m
+Merge: b926e19 e1ff174
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 15 16:21:23 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit b926e19a697039633ea8efb7ea5f13dcaba48029[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 15 16:18:15 2015 -0700
+
+    LC-833 hides extra height when drop-down menu visible
+
+[33mcommit e1ff17499fec3d5d0aa03d4a01d06572b2fd5678[m
+Merge: 9bc733d 8765c39
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 15 15:07:28 2015 -0700
+
+    Merge pull request #32 from dustinrhodes/LC-833
+    
+    LC-833 updates hero and secondary hero images
+
+[33mcommit 8765c3994417098aa4baf452947327dd076ba190[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 15 14:57:28 2015 -0700
+
+    LC-833 updates hero and secondary hero images
+
+[33mcommit 9bc733dc595b0c2086d80cdbbb7152a89e08dc81[m
+Merge: 05f8d02 d81cc4e
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 15 14:53:59 2015 -0700
+
+    Merge pull request #31 from dustinrhodes/LC-833
+    
+    LC-833 sets up drop-down nav menu with jquery slidetoggle
+
+[33mcommit d81cc4ef03d9835c7bd5885527f1aadabe0863cb[m
+Merge: 2de5a7c 05f8d02
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 15 14:51:56 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit 2de5a7c97c9927691b84b64e1b4bd344d6fced51[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 15 14:49:53 2015 -0700
+
+    LC-833 sets up drop-down nav menu with jquery slidetoggle
+
+[33mcommit 05f8d0215668d7b4e5024e4c9a9445506eb5f3c5[m
+Merge: 1538d0f f52b9ff
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 15 11:27:39 2015 -0700
+
+    Merge pull request #30 from dustinrhodes/LC-833
+    
+    LC-833 sets social share mobile styles
+
+[33mcommit f52b9ffd704b69c1fa75ce1442133a3a6d271631[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 15 11:12:46 2015 -0700
+
+    LC-833 sets social share mobile styles
+
+[33mcommit 1538d0f1377995da411ee7aeb8f93d6e7b51b4d2[m
+Merge: 51c67da ba253bd
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 12 16:59:41 2015 -0700
+
+    Merge pull request #29 from CalvinLee4818/master
+    
+    related posts annotations
+
+[33mcommit ba253bd161821eaa76ffe9c1a382f0e089d03adf[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 16:54:55 2015 -0700
+
+    related posts annotations
+
+[33mcommit 51c67dad36d8e29ac635214a8b90d4da84b52aba[m
+Merge: 32168f9 96272c2
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 12 16:15:55 2015 -0700
+
+    Merge pull request #28 from CalvinLee4818/master
+    
+    comment thread annotations
+
+[33mcommit 96272c282c18a43669c0017c09278a451149f803[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 16:13:54 2015 -0700
+
+    comment thread annotations
+
+[33mcommit 32168f9958200e5098564b17002bcb477715a149[m
+Merge: 21c5698 3461220
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 12 15:11:43 2015 -0700
+
+    Merge pull request #27 from CalvinLee4818/master
+    
+    Primary Navigation Annotations
+
+[33mcommit 346122098e7b645757f79d0d55a535385291695b[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 15:06:46 2015 -0700
+
+    Primary Navigation Annotations
+
+[33mcommit 21c5698f870b5673cf86bc6dce3a9d4e85ac85b4[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Fri Jun 12 14:21:03 2015 -0700
+
+    corrected hero image css
+
+[33mcommit 18bba0af78be5a188bb5dab3fec1aa8dbf19ff1a[m
+Merge: 753091a 7f9f49c
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Fri Jun 12 14:18:33 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 753091a1c8491bdbc0bd35251f6031bdff910c3f[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Fri Jun 12 14:18:25 2015 -0700
+
+    Update hero image palcement
+
+[33mcommit 7f9f49c1b758d225ea108eda635b34824b4f8e1f[m
+Merge: d50a24c 7f6240e
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 12 14:16:36 2015 -0700
+
+    Merge pull request #26 from CalvinLee4818/master
+    
+    updated alerts
+
+[33mcommit 7f6240e9f3dd25456c6090784e799df1f6841a57[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 13:46:35 2015 -0700
+
+    updated alerts
+
+[33mcommit d50a24c6f304f4028e856d6515deee286764301e[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Fri Jun 12 12:54:13 2015 -0700
+
+    Annotations correction
+
+[33mcommit e5dc18cb0c15edc5052703fa3364005b135fc5c8[m
+Merge: ec1b8c3 a1ad473
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Fri Jun 12 12:49:53 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit ec1b8c339f31aa6809aac2be8cdd34f8a179d2b8[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Fri Jun 12 12:49:47 2015 -0700
+
+    Hero Image position
+
+[33mcommit a1ad47385eed52b5e6849eef1b3f0bbf89323d9d[m
+Merge: a5722b6 d6c367a
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 12 12:48:28 2015 -0700
+
+    Merge pull request #25 from CalvinLee4818/master
+    
+    block headline byline annotation
+
+[33mcommit d6c367aeab9c9125b6b5709b88e471e26a7df2e2[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 12:25:40 2015 -0700
+
+    block headline byline anotation
+
+[33mcommit a5722b655c61f4144add593d12206474416d6a6f[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Fri Jun 12 11:54:41 2015 -0700
+
+    Updated Mas height of Hero and added a spacing variable
+
+[33mcommit 99a647aaf58cdb143143f54db8cbe1bc118881fc[m
+Merge: 4a431fc ff9533e
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 12 11:02:26 2015 -0700
+
+    Merge pull request #24 from CalvinLee4818/master
+    
+    Quote Annotation
+
+[33mcommit ff9533ee1048bb7486607662feb77bdf9ea3d7e2[m
+Merge: bda9588 4a431fc
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 10:54:04 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit bda9588b385895a1415a0aa54a5a22bcd5544f49[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 10:53:33 2015 -0700
+
+    blockquote annotation
+
+[33mcommit 4a431fc72d27cb23091cb8f7f7a029c2f77ef82a[m
+Merge: f209652 c22f1d1
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 12 09:57:56 2015 -0700
+
+    Merge pull request #23 from CalvinLee4818/master
+    
+    Favicon Annotation
+
+[33mcommit c22f1d1f871692956c39bfb330b9317659d99312[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 09:48:54 2015 -0700
+
+    favicon annotation
+
+[33mcommit a47fcefcf6e09a158bc044fd366ee745ed79f0bc[m
+Merge: 034d73e f209652
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 09:34:15 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 034d73ed22ca9afafdb670c97f14415311913d73[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 09:33:17 2015 -0700
+
+    new annotations
+
+[33mcommit 510bd7ad25fce0e96841d41c04755bc5d9acd91e[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Fri Jun 12 09:21:28 2015 -0700
+
+    new updated annotations
+
+[33mcommit f2096522205021f65f69a5dc9a74b160489807d5[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 11 17:26:00 2015 -0700
+
+    Update Social Share colors
+
+[33mcommit 09f3eff8e1d32777ab62f17aac16f856a97e085a[m
+Merge: 5a02383 1df35ca
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Thu Jun 11 17:02:23 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 5a023833bc7621cc084865c940f582df3ef80ddf[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Thu Jun 11 17:01:33 2015 -0700
+
+    updated annotations
+
+[33mcommit 1df35caed05b734a3d25c7886256e9a3e13f6451[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 11 16:42:13 2015 -0700
+
+    Update styles to Social Share
+
+[33mcommit 7e9060ecd0cc10e2137c6afaca57cae0f04305fa[m
+Merge: d4340d8 88633be
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 11 16:25:49 2015 -0700
+
+    Merge pull request #22 from dustinrhodes/LC-833
+    
+    LC-834 generates social share menu for desktop
+
+[33mcommit 88633bec7284607dc3cbe62f5cc4d602e673d8e6[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 11 16:24:10 2015 -0700
+
+    LC-833 creates margin-bottom on footer for social share bar
+
+[33mcommit bbbf8dccbc4439213b4d93797d7978bfd2486890[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 11 16:19:37 2015 -0700
+
+    LC-834 generates social share menu for desktop
+
+[33mcommit d4340d865ed8d69b163fa86838d2142261d5e6a9[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 11 16:09:50 2015 -0700
+
+    Fixed Annotations spacing
+
+[33mcommit 090c6183b7735378f74a59a01dc56e1714fc51c2[m
+Merge: 6a997a0 35ceca2
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 11 16:02:54 2015 -0700
+
+    Merge pull request #21 from CalvinLee4818/master
+    
+    added new annotations
+
+[33mcommit 35ceca2dc836d07e7980a5b4dae226531fb5b40f[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Thu Jun 11 15:43:44 2015 -0700
+
+    added new annotations
+
+[33mcommit 6a997a02a626a2b8502160cecbde227d63ccfef1[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 11 15:37:12 2015 -0700
+
+    Set Max Layout width
+
+[33mcommit 5b63e302a0ce26916f6700662f87ed69b7cb107c[m
+Merge: b9452a1 ae9ab5d
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 11 14:31:06 2015 -0700
+
+    Merge pull request #20 from CalvinLee4818/master
+    
+    add annotation for colors
+
+[33mcommit ae9ab5ddbe9f21381af788326d9cd18c5a013a24[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Thu Jun 11 14:15:34 2015 -0700
+
+    add annotation for colors
+
+[33mcommit b9452a10ee40242165bc342a6139be8bfc4c9c01[m
+Merge: 2536d81 036b262
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 11 13:50:38 2015 -0700
+
+    Merge pull request #19 from CalvinLee4818/master
+    
+    annotation test
+
+[33mcommit 036b2620b9cc2bc75dc33c7b2de26ad34ffe9e81[m
+Author: unknown <40276@ITA-8PQP6Y1.cds.ci.la.ca.us>
+Date:   Thu Jun 11 13:38:42 2015 -0700
+
+    annotation test
+
+[33mcommit 2536d81af13045794f6243328072f915fd6cacf9[m
+Merge: d37ef3a 6b9f1bc
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 11 12:46:29 2015 -0700
+
+    Merge pull request #18 from dustinrhodes/LC-833
+    
+    LC-833 adds Disallow: / line to robots.txt
+
+[33mcommit 6b9f1bc1234c5bfb63a61c4dd055b40b1a6dcb2f[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 11 12:19:36 2015 -0700
+
+    LC-833 adds Disallow: / line to robots.txt
+
+[33mcommit d37ef3a298df99d869668653c56018576489fa75[m
+Merge: 9b98bee 50ac945
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 11 11:13:46 2015 -0700
+
+    Merge pull request #17 from dustinrhodes/LC-833
+    
+    LC-833 search engine ignore features
+
+[33mcommit 50ac945e2aaebf64dfa819a3a421a35d8dab599e[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 11 11:06:56 2015 -0700
+
+    LC-833 adds head tags for search engine ignore features
+
+[33mcommit 58a06ee60c6679f0ce532ca94ed69e6402e3e9d9[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 11 11:01:20 2015 -0700
+
+    LC-833 adds robot.txt to root dir
+
+[33mcommit 9b98bee05ea5d04fe5390a4f1a53b28426161a77[m
+Merge: 476af03 2e9940f
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 10 12:26:11 2015 -0700
+
+    Merge pull request #16 from dustinrhodes/LC-833
+    
+    LC-833 home flex elements fix
+
+[33mcommit 2e9940fcf61bab8005349d3765b645b1ed6c5bb2[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 12:24:10 2015 -0700
+
+    LC-833 sets homepage flex elements to 100% width
+
+[33mcommit e592ea419b3cdc1f7527743729abd4856fb6b05a[m
+Merge: 0b6b0b6 476af03
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 12:08:53 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit 0b6b0b6e00ca949b173bb5f4385ccf92c88fbefe[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 12:08:43 2015 -0700
+
+    LC-833 resets home page slab
+
+[33mcommit 476af038a5e5995cad106ca594bd4e16e16609f2[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 12:06:46 2015 -0700
+
+    Updates Block Inset overlay width
+
+[33mcommit c034ff2103b048bd7e50a9ed0a76dc275f66ad0b[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 12:01:59 2015 -0700
+
+    Updated link hover color
+
+[33mcommit 313208378da91e6df03d2eff5a7868bc63481ec2[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 11:55:11 2015 -0700
+
+    Adjusted color swatch height and reset footer spacing
+
+[33mcommit 9c39df31d957b3c319dca7dc17dd21bda91821ba[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 11:36:56 2015 -0700
+
+    Adjusted footer link spacing and link hover color
+
+[33mcommit e7eb80ea8167e3732790d2f445de1384298e541f[m
+Merge: 074e590 be94aba
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 11:21:22 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 074e590421ead12697dbb0976e9774ddca311c28[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 11:21:11 2015 -0700
+
+    Appied style for footer icons
+
+[33mcommit be94aba9f3434755497e3e75ea89317d14d2be85[m
+Merge: 244d5a1 006f542
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 10 11:20:40 2015 -0700
+
+    Merge pull request #15 from dustinrhodes/LC-833
+    
+    LC-833 updates for images, icons, newsletter and color
+
+[33mcommit 006f542f618dda8a34d8085855415977184e2958[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 11:16:18 2015 -0700
+
+    LC-833 updates example images atoms
+
+[33mcommit cf01abfa8ce8cb92316a8f56e107019e78e28988[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 11:07:22 2015 -0700
+
+    LC-834 sets style for newsletter signup form
+
+[33mcommit 701e37b7ca93adfbc53ecb532dfba04185abe500[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 10:37:24 2015 -0700
+
+    LC-833 updates email, phone and locations icons
+
+[33mcommit 23299804a8ce6caabb47c696d8ea4bce14f4b863[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 10:30:08 2015 -0700
+
+    LC-833 adds ada compliance color test results to color atom
+
+[33mcommit 244d5a11f308ba086956fb948d1c4768ca9d22d2[m
+Merge: a546d69 0d7a1ac
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 10 10:08:35 2015 -0700
+
+    Merge pull request #14 from dustinrhodes/LC-833
+    
+    LC-834 update images on block inster and figure with caption
+
+[33mcommit 0d7a1acba3d1b876c88f78ad053ac9411b65f3bf[m
+Merge: 5c1e2e2 a546d69
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 09:51:02 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit 5c1e2e2b459a20c0f2154b81e20598c7ba72ed27[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 09:26:16 2015 -0700
+
+    LC-834 updates block insert and figure with caption molocules with 16x9 image
+
+[33mcommit a546d69dcd9383ab9450312162b501d48941d3a3[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 09:01:13 2015 -0700
+
+    Updated Text color for Disabled Button
+
+[33mcommit 3d033dec45c255e40cc778520ea14b666fb192fb[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 08:48:05 2015 -0700
+
+    Revert Footer Colors
+
+[33mcommit 7ac1f315034a89a5fed84c1816d5629195dd8632[m
+Merge: 355dbee 0a2c459
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 08:42:21 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 355dbee320490e31c790c5f5b6b38e9c0f4c84b0[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 10 08:41:42 2015 -0700
+
+    Center Footer
+
+[33mcommit 0a2c459507cea3012109ca4380211044022def03[m
+Merge: d8123b0 9d8d29d
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 10 08:40:30 2015 -0700
+
+    Merge pull request #13 from dustinrhodes/LC-833
+    
+    LC-833 icon updates
+
+[33mcommit 9d8d29dfee6a9e07c7c692ed31041c4b17da1594[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 08:38:56 2015 -0700
+
+    LC-833 updates icons atom with new icons
+
+[33mcommit adb916516d33e0f1468971ef6405b3609676b045[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Wed Jun 10 08:17:34 2015 -0700
+
+    LC-833 set menu icon to hamburger
+
+[33mcommit d8123b0cf54c82671608bcc00ccad05e8400e536[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 9 17:12:18 2015 -0700
+
+    Add Auto Margin to center Footer
+
+[33mcommit 0e5cc6a6795687db71d6687f0b322e00812cd86e[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 9 15:23:50 2015 -0700
+
+    Merged Content and Structure for Footer
+
+[33mcommit db538439589922275e0c2c9b72da793af16b6d18[m
+Merge: 362b4e3 404ac47
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 9 15:17:35 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns
+
+[33mcommit 362b4e31214752f138bbc0bb724796b7632a2996[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Tue Jun 9 15:17:14 2015 -0700
+
+    Add FlexGRID to footer
+
+[33mcommit 404ac472b55e9f5e406935d50b52e202060dd7c6[m
+Merge: d6d8e13 3a5bc41
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 9 15:15:42 2015 -0700
+
+    Merge pull request #12 from dustinrhodes/LC-833
+    
+    LC-833 styles for images and footer
+
+[33mcommit 3a5bc4188b40ba34b5e39a18d40fd61dd15dc6e2[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 15:11:33 2015 -0700
+
+    LC-833 begins formatting the footer elements
+
+[33mcommit 8967910560702ac968d927920dbfcb63a8555f3c[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 14:54:21 2015 -0700
+
+    LC-833 sets avatar atom to default image
+
+[33mcommit 435386f9eda9b4b7a98d85a310f54bf97812f8e6[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 14:44:38 2015 -0700
+
+    LC-833 applies image updates to thumb headline block
+
+[33mcommit ef09a8333be26143ed829538143749bc17e22595[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 14:16:00 2015 -0700
+
+    LC-833 fixes images on pages
+
+[33mcommit 06448a3e28fc6edd4e4840be52772866782a576a[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 13:57:36 2015 -0700
+
+    LC-833 updates 4x3 atom
+
+[33mcommit 652d1ca42871d71ef0b2202730b005c1585af03e[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 13:48:33 2015 -0700
+
+    LC-833 sets thumbnail 16x9 atom
+
+[33mcommit accdd29d363dc321c2d8ab33ddc79250a9d07d81[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 13:39:25 2015 -0700
+
+    LC-833 creates atom for ad images
+
+[33mcommit d6d8e1340afe29de75baa2ca6a8650811f23f00a[m
+Merge: 8eab3c0 96f32f4
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Tue Jun 9 11:29:01 2015 -0700
+
+    Merge pull request #11 from dustinrhodes/LC-833
+    
+    LC-833 misc. header and image updates
+
+[33mcommit 96f32f45a9e623cefae90ed7f4fc47a0d5fb26eb[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 11:26:57 2015 -0700
+
+    LC-833 sets secondart hero for articles and blog templates
+
+[33mcommit b20066e139505a5b11b6d0329814d074f5def66d[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 11:15:53 2015 -0700
+
+    LC-864 adds secondary hero image molocule
+
+[33mcommit cabe2fc7eb53ded1201a4355f0023767b0fc5da8[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 11:10:22 2015 -0700
+
+    LC-833 generates landscape8x3 atom
+
+[33mcommit 4eb339e01c72513a3d519d6b002b60d34e1ef53d[m
+Merge: db50981 8eab3c0
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 10:43:49 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit db50981107d91b9aa615ebb35aee3484341950f2[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 10:43:41 2015 -0700
+
+    LC-833 applies styles for hero call to action link
+
+[33mcommit a29dfeda3d5e9358de8ae76babbcc5f8d3401e94[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Tue Jun 9 10:29:44 2015 -0700
+
+    LC-833 applies mobile styles for header organism
+
+[33mcommit 8eab3c05ae386e1a99a91721cdce7d2bd4e479a3[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Mon Jun 8 17:31:04 2015 -0700
+
+    Adjusted the position of Alert to above the Hero
+
+[33mcommit 23f5c656b8cfeb971f6ce54ce5ee0b2210788918[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Mon Jun 8 17:22:47 2015 -0700
+
+    Applied the Hero header to Article and Blog templates
+
+[33mcommit 6c27c2f02d2d593999d3f3c1582383ac9e639766[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Mon Jun 8 17:04:32 2015 -0700
+
+    Update H1 Color to #CC4E10
+
+[33mcommit 46f7aa3311fe77d706c806b32c276a8a1dfa6d62[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 15:24:55 2015 -0700
+
+    LC-833 reduces space between header and top of site
+
+[33mcommit c4c52db1a8049adeed391f355c066a55203abfc2[m
+Merge: de17f92 928dee8
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 8 15:09:18 2015 -0700
+
+    Merge pull request #10 from dustinrhodes/LC-833
+    
+    LC-833 applies hero styles
+
+[33mcommit 928dee87745ec21d62e9da26f59977aec840cd6c[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 15:06:21 2015 -0700
+
+    LC-833 applies styles for hero text
+
+[33mcommit 5eac77e0d410cdbc37891869a72dd55323b1f390[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 14:49:35 2015 -0700
+
+    LC-833 applies wrap to header creating 100%width appearance, sets actual width mac 1020px
+
+[33mcommit 94d4c711f68417da247baf3bc40d21cf365a8945[m
+Merge: ff8bd1d de17f92
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 14:40:39 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit ff8bd1dac0a97ccff13ef9f6605b2b8a31ae872a[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 14:40:23 2015 -0700
+
+    LC-833 reverts previous commit, set 100width for only header and hero iamge
+
+[33mcommit de17f92c6a92e453e04b259742eba178daf9107b[m
+Merge: 6790d64 7117054
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 8 14:23:46 2015 -0700
+
+    Merge pull request #9 from dustinrhodes/LC-833
+    
+    LC-833 more header changes
+
+[33mcommit 7117054670e7451744c83e3dde9e40e93849f3d5[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 14:22:34 2015 -0700
+
+    LC-833 modified landscape 16x9 image to set lightbulb hero image
+
+[33mcommit e47b83102422738dc4cb9566225a3427d2d6d504[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 14:15:20 2015 -0700
+
+    LC-833 sets hero image as full width top
+
+[33mcommit 6e3d95b86e012ee4b824ded986f88189e5ad6e00[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 14:06:15 2015 -0700
+
+    LC-833 aplies styles for header/mobile
+
+[33mcommit 6790d649c3fa1fe29cd86a5ce0fbe871ae373a6b[m
+Merge: 1947ea1 ca3c188
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 8 11:31:38 2015 -0700
+
+    Merge pull request #8 from dustinrhodes/LC-833
+    
+    LC-833 header refinements for mobile widths
+
+[33mcommit ca3c1882d79cde2413a2a048429f660749da7c5e[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 11:29:51 2015 -0700
+
+    LC-833 push for meeting and review
+
+[33mcommit 1947ea1083a415972e49d7c2e75dc2191f8539e2[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Mon Jun 8 11:08:53 2015 -0700
+
+    Update Style Guide Colors LI width
+
+[33mcommit 7fc663474d3983dfe4a62625e29917721e90f3b5[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 10:55:53 2015 -0700
+
+    LC-833 sets header width dynamic 100% and adjust position of elements for width
+
+[33mcommit 38d3d3827e051ed994017bc4895142bca900801f[m
+Merge: 915c7ae bc60547
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Mon Jun 8 10:29:39 2015 -0700
+
+    Merge pull request #7 from dustinrhodes/LC-833
+    
+    LC-833 adds title markup and style for header
+
+[33mcommit bc605476de78bb350147351f536486f11fa60b9c[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 10:29:00 2015 -0700
+
+    LC-833 change nav links color to white
+
+[33mcommit fb11d0a078e64c278390ed35db28153851aebbaa[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Mon Jun 8 10:25:31 2015 -0700
+
+    LC-833 adds title markup and style for header
+
+[33mcommit 915c7ae864b7fd19393324c921ac11e4e43497c8[m
+Merge: cb8e983 7cd1fa7
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 5 16:37:33 2015 -0700
+
+    Merge pull request #6 from dustinrhodes/LC-833
+    
+    LC-833 applies styles to bring header in front of hero image
+
+[33mcommit 7cd1fa736f1af3b86e97b2c153fa0c25fed51fea[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 16:25:38 2015 -0700
+
+    LC-833 applies styles to bring header in front of hero image
+
+[33mcommit cb8e983ff02be0d1043386492880a6da978050cd[m
+Merge: fc7ca7a 3a030f0
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 5 15:46:30 2015 -0700
+
+    Merge pull request #5 from dustinrhodes/LC-833
+    
+    LC-833 applies nav styles
+
+[33mcommit 3a030f06a28b114b535128ea9d8d1e5b632b2d3f[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 15:41:37 2015 -0700
+
+    LC-833 applies style for above button nav
+
+[33mcommit 565a3b448dc46ccf46e1e63b45d4882e3bbc5c7d[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 15:08:27 2015 -0700
+
+    LC-833 applies markup and style for nav menu
+
+[33mcommit fc7ca7ad6c2e56a6210fc7b7884b02f89c47aeab[m
+Merge: e903436 fc44ef9
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 5 14:12:37 2015 -0700
+
+    Merge pull request #4 from dustinrhodes/LC-833
+    
+    LC-833 installs images and sets logo atom
+
+[33mcommit fc44ef90f3a74d43129b848ddc44d1d1ed37c327[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 14:09:49 2015 -0700
+
+    LC-833 applies block quote styles
+
+[33mcommit c7052b2597f9e124b3c8dd5f7e2dcf85c43e624a[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 14:02:53 2015 -0700
+
+    LC-833 changes icon bg color to show the icons better
+
+[33mcommit c41ad2f09b1c39a319e4cbd55a4028eedbe5daaa[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 13:58:57 2015 -0700
+
+    LC-833 sets up icon atom
+
+[33mcommit e903436eb161c5191226a3235733f40a9c6b7967[m
+Merge: a40af66 09fd1bf
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Fri Jun 5 13:33:56 2015 -0700
+
+    Merge pull request #3 from dustinrhodes/LC-833
+    
+    LC-833 transfering atom styles
+
+[33mcommit 4f7cd6f6b987d34bc7c2995b0b0f80055fd78428[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 13:33:39 2015 -0700
+
+    LC-833 installs images and sets logo atom
+
+[33mcommit 09fd1bf68c2efb576b27b9805731c657590b0803[m
+Merge: 3f9cc60 a40af66
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 13:19:14 2015 -0700
+
+    Merge branch 'master' of https://github.com/balmoreboterolacity/lacitypatterns into LC-833
+
+[33mcommit 3f9cc6051adecb7dcfe0b4729a06ba993d9cf1d1[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 13:18:37 2015 -0700
+
+    LC-833 removes border from search bar
+
+[33mcommit 27befb273e4c55d170d16b7ab0c0c76b5bbe2144[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 09:53:22 2015 -0700
+
+    LC-833 applies paragraph, headings and blockquote style from modern type article
+
+[33mcommit 9af26cb50f74c26ccdf78b4720495209a9c1c5bd[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 08:52:32 2015 -0700
+
+    LC-788 applies small med large breakpoints
+
+[33mcommit 5d1cf8859cf99ef11b7350c7156f6b5365416a4e[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 08:24:11 2015 -0700
+
+    LC-833 adds code for global nav to head meta atom
+
+[33mcommit 2c5d4959138746352be7bbe78d9619c3c17e88eb[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Fri Jun 5 08:09:46 2015 -0700
+
+    git ignore fix
+
+[33mcommit a40af66e03e03df9c6d34fb625d760486c0ca568[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 16:27:40 2015 -0700
+
+    fixed untracked files
+
+[33mcommit 71fd194287dfa6557b26b3e374fc2d04bd183d9b[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 4 15:46:34 2015 -0700
+
+    LC-833 generates color variables for sass
+
+[33mcommit 1e789cdb61c49e32f17707b2df15497e2498329d[m
+Merge: e0d2dfb fec8ac2
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 4 14:59:38 2015 -0700
+
+    Merge pull request #2 from dustinrhodes/LC-833
+    
+    LC- 833 applies google webfonts to primary and secondary font styles
+
+[33mcommit fec8ac22a38227098a477a2c63b2b26df95fae76[m
+Merge: 95901ab e0d2dfb
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 4 14:50:57 2015 -0700
+
+    LC-833 clear merge conflicts in public
+
+[33mcommit 95901ab03c9eb872383369e33eacfcb91f20ce31[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 4 14:42:43 2015 -0700
+
+    LC-833 applies google webfonts to primary and secondary font styles
+
+[33mcommit e0d2dfbf06e43ea4b2f0d3aee072027c67772e35[m
+Merge: 8f02d98 131a4ab
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 14:30:00 2015 -0700
+
+    Git Ignore Test
+
+[33mcommit 8f02d9840e44d153749dc17aca620f2d1e766d0e[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 14:26:03 2015 -0700
+
+    Pull Merge Test
+
+[33mcommit 131a4abc88cab22b25e54e107b871708a0f2a029[m
+Merge: 7a09ed7 a40e29b
+Author: balmoreboterolacity <balmore.botero@lacity.org>
+Date:   Thu Jun 4 14:24:32 2015 -0700
+
+    Merge pull request #1 from dustinrhodes/LC-833
+    
+    LC-833 initializes patternlab and applies color changes
+
+[33mcommit a40e29b2e0e0d7528ae4a4cb582def13bbe82b7b[m
+Author: Dustin Rhodes <dustin.rhodes@lacity.org>
+Date:   Thu Jun 4 14:11:45 2015 -0700
+
+    LC-833 initializes patternlab and applies color changes
+
+[33mcommit 7a09ed72931107a9fd963db9542b6cad7ad59f4a[m
+Merge: 14ffd33 99603c2
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 12:33:16 2015 -0700
+
+    Pattern update test
+
+[33mcommit 14ffd334a8697d131c9b7538d83c5439bebcaa86[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 12:30:02 2015 -0700
+
+    Pattern Update Test
+
+[33mcommit 99603c25f4d97482876d9a90b2a5fb439775a8a7[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 11:32:37 2015 -0700
+
+    Remote Drive test
+
+[33mcommit 8eb69390abc19bc2697d6727deeb9010ba16bd33[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 11:13:45 2015 -0700
+
+    First Compass Commit
+
+[33mcommit d8d87119ee66dfe39f09f523eedd878dfb7f12a2[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 10:03:10 2015 -0700
+
+    Readme Update
+
+[33mcommit db772dc7eba55f65b5d2be597e18478dd93f0c56[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 08:43:20 2015 -0700
+
+    Add public and source files
+
+[33mcommit 09a8037009bf85c8256c563bd47e1b2ad1205155[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Thu Jun 4 08:41:39 2015 -0700
+
+    Add public and source files
+
+[33mcommit a3a974a5b0ffa312408b04d1f18c462b6492e2ef[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 3 15:15:25 2015 -0700
+
+    Add documentation files
+
+[33mcommit 0d28465819f5c0d7255e32ee4f24617981a05cf9[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 3 15:13:34 2015 -0700
+
+    Add source file
+
+[33mcommit a52f6bd74c66a38241969bc25dbd07e0b36a442d[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 3 15:11:53 2015 -0700
+
+    Add public file
+
+[33mcommit 5d709cb94942225b1132f3274fcb105244d32444[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 3 15:10:18 2015 -0700
+
+    Add extras file
+
+[33mcommit 5e96b1436bd7aeadf856bd2be1565047273fb73a[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 3 15:08:03 2015 -0700
+
+    Add core files
+
+[33mcommit 95c69340975b5e8455c6ed9eb743a19cad8ca03b[m
+Author: Balmore Botero <balmore.botero@lacity.org>
+Date:   Wed Jun 3 14:52:28 2015 -0700
+
+    Add config files
+
+[33mcommit a8aabc7ec97daf3a9f9fb02d448b1b7f4d3ea5f9[m
+Author: BalmoreBoterolacity <balmore.botero@lacity.org>
+Date:   Wed Jun 3 14:38:33 2015 -0700
+
+    :boom::camel: Added .gitattributes

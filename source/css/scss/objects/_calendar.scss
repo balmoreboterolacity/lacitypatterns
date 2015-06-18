@@ -1,0 +1,122 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+// Calendar Nav
+
+.calnav {
+	display: block;
+	background-color: $gray;
+	padding: 4px 2px 4px 4px;
+	text-align: center;
+	margin: 2px;
+	height: auto;
+	width: auto;
+	@include vendor-prefix(border-radius,4px){};
+
+	.calDay {
+		display: block;
+		width: 37em;
+		margin: 0 auto;	
+		@media all and (max-width: $bp-med-2) {
+				width: 100vw;
+			}
+
+		.calElement {
+			display: block;
+			margin: 3px;
+			overflow: hidden;
+			float: left;
+			background-color: $gray-med;
+			color: $white;
+			height: 48px;
+			width: 7.5vw;
+			font-size: 1em;
+			// line-height: 4vw;
+			@include vendor-prefix(border-radius,3px){};
+			@media all and (min-width: $bp-med-2) {
+				width: 71px;
+				// font-size: initial;
+				// line-height: initial;
+			}
+			&:hover {
+				background-color: $black;
+				color: $white;
+			}
+		}
+
+		.today {
+			background-color: $white;
+			border-radius: 3px;
+			color: $black;
+		}
+		
+		.prev, .next {
+			width: 18px;
+			background-color: $gray;
+			color: $black;
+			@include vendor-prefix(border-radius,4px){};
+			&:hover {
+				background-color: $white;
+				color: $black;
+			}
+
+			.arrow {
+				margin-top: 0.65em;
+				font-weight: bold;
+			}
+		}
+	}
+} 
+
+// Day Calendar
+
+.view-events-calendar-with-ens {
+	padding-bottom: 2em;
+	
+	.date-heading {
+		width: 100%;
+		text-align: center;
+		margin-top: 2em;
+	}
+
+	.view-content {
+		margin-top: 2em;
+		ul {
+			margin: 1em 0 1em 2em;
+			padding: 0;
+			list-style: initial;
+		}
+	}
+	.pager {
+		list-style: none;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 2em;
+
+		li { 
+			width: 100%;
+			background-color: $gray;
+			padding: 0.5em;
+			float: left;
+
+			&.date-prev {
+				@include vendor-prefix(border-radius,5px 0 0 5px){}
+				width: 40%;
+				margin-right: 20%;
+			}
+
+			&.date-next {
+				@include vendor-prefix(border-radius,0 5px 5px 0){}
+				width: 40%;
+			}
+
+		}
+
+	}
+
+}
