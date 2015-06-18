@@ -1290,6 +1290,84 @@ td {
   }
 }
 
+/* line 126, scss/objects/_nav.scss */
+.calnav {
+  display: block;
+  background-color: #E0E0E0;
+  padding: 4px 2px 4px 4px;
+  text-align: center;
+  margin: 2px;
+  height: auto;
+  width: auto;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 136, scss/objects/_nav.scss */
+.calnav .calDay {
+  display: block;
+  width: 35em;
+  margin: 0 auto;
+}
+/* line 141, scss/objects/_nav.scss */
+.calnav .calDay .calElement {
+  display: block;
+  margin: 1px;
+  overflow: hidden;
+  float: left;
+  background-color: #474747;
+  color: #fff;
+  height: 48px;
+  -webkit-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 150, scss/objects/_nav.scss */
+.calnav .calDay .calElement:hover {
+  background-color: #212121;
+  color: #fff;
+}
+/* line 156, scss/objects/_nav.scss */
+.calnav .calDay .today {
+  background-color: #fff;
+  border-radius: 3px;
+  color: #212121;
+}
+/* line 162, scss/objects/_nav.scss */
+.calnav .calDay .prev, .calnav .calDay .next {
+  width: 18px;
+  background-color: #E0E0E0;
+  color: #212121;
+  -webkit-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 167, scss/objects/_nav.scss */
+.calnav .calDay .prev:hover, .calnav .calDay .next:hover {
+  background-color: #fff;
+  color: #212121;
+}
+/* line 172, scss/objects/_nav.scss */
+.calnav .calDay .prev .arrow, .calnav .calDay .next .arrow {
+  margin-top: 0.65em;
+  font-weight: bold;
+}
+
+/* line 180, scss/objects/_nav.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
 /*------------------------------------*\
     $MAIN CONTENT AREA
 \*------------------------------------*/
