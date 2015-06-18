@@ -2330,6 +2330,12 @@ body .wrapper:first-child {
   margin-bottom: 0.5em;
 }
 
+/* line 8, scss/objects/_sections.scss */
+.slab-posts {
+  background-color: #00ff00;
+  margin: 30px;
+}
+
 /* line 3, scss/objects/_article.scss */
 .article-header h1 {
   font-size: 2.5em;
