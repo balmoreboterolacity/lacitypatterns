@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	// Drop-down menu 
 
 	$(".menu").click (function(){
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
 		};
 
-	})
+	});
 
 	$(window).resize (function(){
 		if ($(".drop-down").is(":visible")) {
@@ -27,13 +27,12 @@ $(document).ready(function(){
 			$("body").css({"width": width, "height": height, "overflow": "hidden"});
 			$(".drop-down").css({"width": width + 17, "height": height, "overflow": "hidden"});
 		};
-	})
+	});
 	
 	//Search Expand
+
 	$('.nav-button.search').click (function() {		
-		$('.search-form').removeClass("is-vishidden").toggle( 'slow' );
-	})
-
-
+		$('.search-form').removeClass("is-vishidden").toggle("slow");
+	});
 
 });

@@ -1,0 +1,20 @@
+<div class="page" id="page">
+	{{> organisms-header }}
+	{{# hero}}
+		{{> molecules-block-hero-secondary }}
+	{{/ hero}}
+	<div role="main">
+		<div class="l-two-col">
+			<div class="l-main">
+				{{> molecules-calendar-nav }}
+			</div><!--end l-main-->
+
+			<div class="l-sidebar">
+				{{> organisms-related-posts }}
+				{{> organisms-recent-tweets }}
+			</div><!--end l-sidebar-->
+		</div><!--end l-two-col-->	
+	</div><!--End role=main-->
+	{{> organisms-footer }}
+	{{> molecules-social-share }}
+</div>
