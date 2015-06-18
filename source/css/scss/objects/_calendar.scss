@@ -8,8 +8,52 @@
 
 // Calendar Nav
 
-.calnav {
+// Display Changes
+.cal-pager {
 	display: block;
+}
+.calnav{
+	display: none;
+}
+@media all and (min-width: $bp-med-2) {
+		.cal-pager {
+			display: none;
+	}
+		.calnav{
+			display: block;
+	}
+}
+
+.cal-pager {
+	.pager {
+		list-style: none;
+		text-align: center;
+		font-weight: bold;
+
+		li { 
+			width: 100%;
+			background-color: $gray;
+			padding: 0.5em;
+			float: left;
+
+			&.date-prev {
+				@include vendor-prefix(border-radius,5px 0 0 5px){}
+				width: 40%;
+				margin-right: 20%;
+			}
+
+			&.date-next {
+				@include vendor-prefix(border-radius,0 5px 5px 0){}
+				width: 40%;
+			}
+
+		}
+
+	}
+	
+}
+
+.calnav {
 	background-color: $gray;
 	padding: 4px 2px 4px 4px;
 	text-align: center;
@@ -19,7 +63,6 @@
 	@include vendor-prefix(border-radius,4px){};
 
 	.calDay {
-		display: block;
 		width: 37em;
 		margin: 0 auto;	
 		@media all and (max-width: $bp-med-2) {
@@ -27,7 +70,6 @@
 			}
 
 		.calElement {
-			display: block;
 			margin: 3px;
 			overflow: hidden;
 			float: left;
@@ -73,6 +115,8 @@
 	}
 } 
 
+
+
 // Day Calendar
 
 .view-events-calendar-with-ens {
@@ -92,31 +136,5 @@
 			list-style: initial;
 		}
 	}
-	.pager {
-		list-style: none;
-		text-align: center;
-		font-weight: bold;
-		margin-top: 2em;
-
-		li { 
-			width: 100%;
-			background-color: $gray;
-			padding: 0.5em;
-			float: left;
-
-			&.date-prev {
-				@include vendor-prefix(border-radius,5px 0 0 5px){}
-				width: 40%;
-				margin-right: 20%;
-			}
-
-			&.date-next {
-				@include vendor-prefix(border-radius,0 5px 5px 0){}
-				width: 40%;
-			}
-
-		}
-
-	}
-
 }
+
