@@ -30,9 +30,8 @@ $(document).ready(function(){
 	});
 	
 	//Search Expand
-
-	$('.nav-button.search').click (function() {		
-		$('.search-form').removeClass("is-vishidden").toggle("slow");
+	$('.nav-button.search').click (function() {
+		$('.search-form').slideToggle("slow");
 	});
 
 });
