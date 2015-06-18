@@ -103,9 +103,9 @@ input[type="search"]::-webkit-search-decoration {
 /* Search Form */
 .search-field {
 	margin: 0 10px;
-	max-width: 78%;
+	max-width: 878px;
 		@media all and (max-width: $bp-med-2){
-			max-width: 188px;
+			max-width: 580px;
 		}
 }
 .inline-form .search-submit {
