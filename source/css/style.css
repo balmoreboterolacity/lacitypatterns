@@ -2542,3 +2542,8 @@ body .wrapper:first-child {
   border-color: #CC2A14;
   background: #ffbebe;
 }
+
+/* line 1, scss/objects/_slab.scss */
+.slab {
+  width: 100%;
+}
