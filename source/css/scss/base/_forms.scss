@@ -26,6 +26,7 @@ button, input, select, textarea {
 }
 
 input, textarea {
+	width: 100%;
 	border: 1px solid $gray;
 	padding: $pad-half 0.65rem;
 }
