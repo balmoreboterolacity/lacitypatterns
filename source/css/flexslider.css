@@ -14,8 +14,8 @@
  * ====================================================================================================================*/
 @font-face {
   font-family: 'flexslider-icon';
-  src: url('fonts/flexslider-icon.eot');
-  src: url('fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('fonts/flexslider-icon.woff') format('woff'), url('fonts/flexslider-icon.ttf') format('truetype'), url('fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  src: url('../fonts/flexslider-icon.eot');
+  src: url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'), url('../fonts/flexslider-icon.woff') format('woff'), url('../fonts/flexslider-icon.ttf') format('truetype'), url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -115,7 +115,7 @@ html[xmlns] .flexslider .slides {
   text-decoration: none;
   display: block;
   width: 40px;
-  height: 40px;
+  height: 48px;
   margin: -20px 0 0;
   position: absolute;
   top: 50%;
@@ -258,6 +258,17 @@ html[xmlns] .flexslider .slides {
 .flex-control-thumbs .flex-active {
   opacity: 1;
   cursor: default;
+}
+.flex-caption {
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 14px;
+  line-height: 18px;
 }
 /* ====================================================================================================================
  * RESPONSIVE
