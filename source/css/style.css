@@ -2655,13 +2655,14 @@ body .wrapper:first-child {
 /* line 59, scss/objects/_tweets.scss */
 .pager {
   text-align: center;
+  margin-bottom: 2em;
 }
-/* line 61, scss/objects/_tweets.scss */
+/* line 62, scss/objects/_tweets.scss */
 .pager .pager-current, .pager .pager-item, .pager .pager-ellipsis, .pager .pager-next, .pager .pager-last {
   display: inline;
   padding: 0 0.5em;
 }
-/* line 65, scss/objects/_tweets.scss */
+/* line 66, scss/objects/_tweets.scss */
 .pager .pager-current {
   font-weight: bold;
 }
