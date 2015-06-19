@@ -17,6 +17,7 @@
 		width: 100%;
 	}
 	@media all and (max-width: $bp-med-2) {
+		position: absolute;
 		top: 0;
 		width: 100%;
 		background: $classicblue;
