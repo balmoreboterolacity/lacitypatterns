@@ -959,14 +959,13 @@ td {
 @media all and (max-width: 720px) {
   /* line 10, scss/objects/_header.scss */
   .header-wrap {
-    position: absolute;
     top: 0;
     width: 100%;
     background: #014982;
   }
 }
 
-/* line 26, scss/objects/_header.scss */
+/* line 25, scss/objects/_header.scss */
 .header-wrap-background {
   background: #212121;
   height: 105px;
@@ -976,7 +975,7 @@ td {
   /* For IE8 and earlier */
 }
 @media all and (min-width: 720px) {
-  /* line 26, scss/objects/_header.scss */
+  /* line 25, scss/objects/_header.scss */
   .header-wrap-background {
     display: block;
     position: absolute;
@@ -984,7 +983,7 @@ td {
   }
 }
 @media all and (max-width: 720px) {
-  /* line 26, scss/objects/_header.scss */
+  /* line 25, scss/objects/_header.scss */
   .header-wrap-background {
     position: absolute;
     top: 0;
@@ -993,7 +992,7 @@ td {
   }
 }
 
-/* line 45, scss/objects/_header.scss */
+/* line 44, scss/objects/_header.scss */
 .header-wrap-background-blur {
   max-width: 1910px;
   width: 100%;
@@ -1014,7 +1013,7 @@ td {
   padding: 0px;
 }
 @media all and (min-width: 720px) {
-  /* line 45, scss/objects/_header.scss */
+  /* line 44, scss/objects/_header.scss */
   .header-wrap-background-blur {
     display: block;
     position: absolute;
@@ -1024,7 +1023,7 @@ td {
   }
 }
 @media all and (max-width: 720px) {
-  /* line 45, scss/objects/_header.scss */
+  /* line 44, scss/objects/_header.scss */
   .header-wrap-background-blur {
     position: absolute;
     top: 0;
@@ -1033,49 +1032,49 @@ td {
   }
 }
 
-/* line 78, scss/objects/_header.scss */
+/* line 77, scss/objects/_header.scss */
 .home .header-wrap-background-blur {
   background-image: url("../images/hero.jpg");
 }
 
-/* line 81, scss/objects/_header.scss */
+/* line 80, scss/objects/_header.scss */
 .blog .header-wrap-background-blur {
   background-image: url("../images/hero_2nd.jpg");
 }
 
-/* line 84, scss/objects/_header.scss */
+/* line 83, scss/objects/_header.scss */
 .article .header-wrap-background-blur {
   background-image: url("../images/hero_2nd.jpg");
 }
 
-/* line 87, scss/objects/_header.scss */
+/* line 86, scss/objects/_header.scss */
 .header {
   display: block;
   max-width: 310px;
 }
 @media all and (min-width: 720px) {
-  /* line 87, scss/objects/_header.scss */
+  /* line 86, scss/objects/_header.scss */
   .header {
     padding: 0 10px;
     max-width: 1020px;
   }
 }
 
-/* line 97, scss/objects/_header.scss */
+/* line 96, scss/objects/_header.scss */
 .logo {
   float: left;
   max-width: 5.5em;
   margin: 0.8em 0 0.8em 1.4em;
 }
 @media all and (min-width: 720px) {
-  /* line 97, scss/objects/_header.scss */
+  /* line 96, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
     margin: 0;
   }
 }
 
-/* line 108, scss/objects/_header.scss */
+/* line 107, scss/objects/_header.scss */
 .title {
   float: left;
   margin: 1.2em 0 0 1em;
@@ -1086,7 +1085,7 @@ td {
   margin-bottom: 0;
 }
 @media all and (min-width: 720px) {
-  /* line 108, scss/objects/_header.scss */
+  /* line 107, scss/objects/_header.scss */
   .title {
     font-size: 1.55em;
     line-height: 1.25em;
@@ -1096,7 +1095,7 @@ td {
   }
 }
 @media all and (min-width: 960px) {
-  /* line 108, scss/objects/_header.scss */
+  /* line 107, scss/objects/_header.scss */
   .title {
     font-size: 2em;
     line-height: 1.25em;
@@ -1106,7 +1105,7 @@ td {
   }
 }
 
-/* line 132, scss/objects/_header.scss */
+/* line 131, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -1116,26 +1115,26 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 480px) {
-  /* line 132, scss/objects/_header.scss */
+  /* line 131, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 132, scss/objects/_header.scss */
+  /* line 131, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 150, scss/objects/_header.scss */
+/* line 149, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 480px) {
-  /* line 150, scss/objects/_header.scss */
+  /* line 149, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;
