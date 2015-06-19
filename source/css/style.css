@@ -455,54 +455,52 @@ button, input, select, textarea {
 
 /* line 28, scss/base/_forms.scss */
 input, textarea {
-  width: 100%;
   border: 1px solid #E0E0E0;
   padding: 0.5em 0.65rem;
 }
 
-/* line 34, scss/base/_forms.scss */
+/* line 33, scss/base/_forms.scss */
 input[type=text], input[type=search], input[type=url], input[type=number], textarea {
   -webkit-appearance: none;
 }
 
-/* line 38, scss/base/_forms.scss */
+/* line 37, scss/base/_forms.scss */
 button, input[type="submit"] {
-  padding: 0.5em;
-  background: #474747;
-  border: 1px solid #E0E0E0;
+  padding: 1em;
+  background: #014982;
   cursor: pointer;
 }
 
-/* line 45, scss/base/_forms.scss */
+/* line 43, scss/base/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   width: auto;
   margin-right: 0.3em;
 }
 
-/* line 51, scss/base/_forms.scss */
+/* line 49, scss/base/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none;
 }
 
-/* line 55, scss/base/_forms.scss */
+/* line 53, scss/base/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 61, scss/base/_forms.scss */
+/* line 59, scss/base/_forms.scss */
 .field-container {
   margin-bottom: 1em;
 }
 
-/* line 66, scss/base/_forms.scss */
+/* line 64, scss/base/_forms.scss */
 .inline-form fieldset, .inline-form .inline-container {
   position: relative;
   border: 0;
   padding: 0;
 }
-/* line 72, scss/base/_forms.scss */
+/* line 70, scss/base/_forms.scss */
 .inline-form input[type=submit], .inline-form button, .inline-form .btn {
   font-size: 0.875em;
   padding: 0.65rem 1.3rem;
@@ -513,19 +511,19 @@ input[type="search"]::-webkit-search-decoration {
   z-index: 1;
   width: auto;
 }
-/* line 81, scss/base/_forms.scss */
+/* line 79, scss/base/_forms.scss */
 .inline-form input[type=submit]:hover, .inline-form input[type=submit]:focus, .inline-form button:hover, .inline-form button:focus, .inline-form .btn:hover, .inline-form .btn:focus {
   background: #E0E0E0;
   color: #fff;
 }
 
 /* Validation */
-/* line 89, scss/base/_forms.scss */
+/* line 87, scss/base/_forms.scss */
 .is-error {
   border-color: #CC2A14;
 }
 
-/* line 92, scss/base/_forms.scss */
+/* line 90, scss/base/_forms.scss */
 .is-valid {
   border-color: #92CC4E;
 }
@@ -534,19 +532,19 @@ input[type="search"]::-webkit-search-decoration {
     $SPECIFIC FORMS
 \*------------------------------------*/
 /* Search Form */
-/* line 104, scss/base/_forms.scss */
+/* line 102, scss/base/_forms.scss */
 .search-field {
   margin: 0 10px;
   max-width: 878px;
 }
 @media all and (max-width: 720px) {
-  /* line 104, scss/base/_forms.scss */
+  /* line 102, scss/base/_forms.scss */
   .search-field {
     max-width: 580px;
   }
 }
 
-/* line 111, scss/base/_forms.scss */
+/* line 109, scss/base/_forms.scss */
 .inline-form .search-submit {
   background: #CC4E10;
   border: 0;
@@ -556,17 +554,17 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 /* Newsletter Form */
-/* line 121, scss/base/_forms.scss */
+/* line 119, scss/base/_forms.scss */
 .newsletter-form div.inline-container {
   width: 100%;
   padding: 0 8.5em 0 0;
 }
-/* line 125, scss/base/_forms.scss */
+/* line 123, scss/base/_forms.scss */
 .newsletter-form button.newsletter-submit {
   background: #014982;
   padding: 0.75rem 1.3rem;
 }
-/* line 128, scss/base/_forms.scss */
+/* line 126, scss/base/_forms.scss */
 .newsletter-form button.newsletter-submit:hover {
   background: #474747;
 }
@@ -2676,4 +2674,45 @@ ul.comment-list {
 /* line 66, scss/objects/_tweets.scss */
 .pager .pager-current {
   font-weight: bold;
+}
+
+/* line 4, scss/objects/_poll.scss */
+.poll {
+  margin: 1em 0;
+}
+/* line 6, scss/objects/_poll.scss */
+.poll .percent {
+  float: right;
+}
+/* line 9, scss/objects/_poll.scss */
+.poll .bar {
+  height: 3em;
+  margin: 0.5em 0;
+  border: 1px solid #014982;
+  -webkit-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 14, scss/objects/_poll.scss */
+.poll .bar .foreground {
+  float: left;
+  height: 2.9em;
+  background-color: #014982;
+  -webkit-border-radius: 4px 0 0 4px;
+  -ms-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  -o-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+/* line 26, scss/objects/_poll.scss */
+.vote-form div.choices {
+  margin-bottom: 0.5em;
+}
+/* line 29, scss/objects/_poll.scss */
+.vote-form input.form-radio {
+  float: left;
+  margin-top: 5px;
 }

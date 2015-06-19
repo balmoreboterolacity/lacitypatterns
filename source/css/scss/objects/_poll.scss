@@ -1,0 +1,33 @@
+
+// Poll Results
+
+.poll {
+	margin: 1em 0;
+	.percent {
+		float: right;
+	}
+	.bar {
+		height: 3em;
+		margin: 0.5em 0;
+		border: 1px solid $classicblue;
+		@include vendor-prefix(border-radius, 6px){}
+		.foreground {
+			float: left;
+			height: 2.9em;
+			background-color: $classicblue;
+			@include vendor-prefix(border-radius, 4px 0 0 4px){}	
+		}
+	}
+}
+
+// Poll Form
+
+.vote-form {
+	div.choices{
+		margin-bottom: 0.5em;
+	}
+	input.form-radio {
+		float: left;
+		margin-top: 5px;
+	}
+}
