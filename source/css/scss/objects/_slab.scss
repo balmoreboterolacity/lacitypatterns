@@ -1,5 +1,5 @@
 .slab{
-	font color: 
+	color: #014982;
 	text-align: center;
 	width: 100%;
  	background-color: #ffffff;
@@ -8,6 +8,6 @@
  		width: 25%;
  	}
  	li:nth-child(1)::before {
- 		background-image: url(/images/OpenData_icon.png);
+ 		background-image: url(../images/OpenData_icon.png);
  	}
 }

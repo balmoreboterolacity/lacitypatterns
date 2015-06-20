@@ -10,6 +10,7 @@
 	padding: $pad;
 	border: 0;
 	text-align: center;
+	width: initial;
 	@include vendor-prefix(border-radius, 5px);
 	
 	&:hover, &:focus {
