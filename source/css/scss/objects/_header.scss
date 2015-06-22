@@ -17,7 +17,7 @@
 		width: 100%;
 	}
 	@media all and (max-width: $bp-med-2) {
-		position: absolute;
+		position: relative;
 		top: 0;
 		width: 100%;
 		background: $classicblue;
@@ -149,12 +149,15 @@
 }
 
 .search-form {
-	overflow: hidden;
-	max-height: 0;
+		float: right;
+		
+
+	@media all and (max-width: $bp-med) {
+		margin: 1em 0.5em;
+		width: 100%;
+	}
 
 	@media all and (min-width: $bp-med) {
-		float: right;
-		max-height: none;
 		margin: 1em 0.5em;
 		width: 100%;
 	}
