@@ -12,7 +12,7 @@
 }
 
 //Social Share
-.page{
+.page {
 	.social-share {
 		position: fixed;
 		bottom: 0;
@@ -25,12 +25,10 @@
 	z-index: 9999;
 	background: #227fa6;
 	text-align: center;
+
 	@media all and (min-width: $bp-med-2) {
 		height: 3.5em;
 	}
-
-
-
 
 	ul {
 		display: inline-block;
