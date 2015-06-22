@@ -100,18 +100,19 @@ input[type="search"]::-webkit-search-decoration {
 \*------------------------------------*/
 
 /* Search Form */
-.search-field {
-	max-width: 78%;
-		@media all and (max-width: $bp-med-2){
-			margin: 0 10px;
-			max-width: 60%;
-		}
+.inline-form.search-form {
+		width: 100%;
+	  	padding: 0;
+			@media all and (max-width: $bp-med-2) {
+				padding: 0 10px;
+			}
 }
 .inline-form .search-submit {
 	background: $orange;
 	border: 0;
 	color: $white;
 	font-weight: bold;
+	margin: 10px 0 0;
 	padding: 0.78em 1em;
 }
 
@@ -124,6 +125,7 @@ input[type="search"]::-webkit-search-decoration {
 	button.newsletter-submit{
 		background: $classicblue;
 		padding: 0.75rem 1.3rem;
+		margin: 10px 0 0;
 		&:hover{
 			background: $gray-med;
 		}
