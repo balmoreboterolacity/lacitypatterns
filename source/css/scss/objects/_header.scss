@@ -159,16 +159,11 @@
 }
 
 .search-form {
-		float: right;
+	float: right;
+	margin: 1em 0;
+	width: 100%;
 		
-
-	@media all and (max-width: $bp-med) {
-		margin: 1em 0.5em;
-		width: 100%;
-	}
-
-	@media all and (min-width: $bp-med) {
-		margin: 1em 0.5em;
-		width: 100%;
+	@media all and (min-width: $bp-med)and (max-width: $bp-med-2){
+		text-align: center;
 	}
 }
