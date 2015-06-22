@@ -8,9 +8,14 @@
 	max-height: none;
 	float: left;
 	margin-top: 0;
-	@media all and (min-width: $bp-med-2){
-		margin: 0.5em 0 0 1%;
+	@media all and (min-width: $bp-med) {
+		float: right;
+		margin: 1.5em 1em 0 0;		
 	}
+	@media all and (min-width: $bp-med-2){
+		margin: 0.5em 0 0 0;
+	}
+
 
 	
 	.nav-links {
@@ -37,7 +42,7 @@
 		background: $orange;
 		@include vendor-prefix(border-radius, 8px);
 		@media all and (min-width: $bp-med-2) {
-			margin: 0.5em;margin: 0.5em;
+			margin: 0.5em;
 		}
 		&.hide {
 			display: none;
@@ -67,9 +72,7 @@
 		max-height: 40em;
 	}
 
-	@media all and (min-width: $bp-med-2) {
-		float: right;		
-	}
+
 }
 
 //Pagination
