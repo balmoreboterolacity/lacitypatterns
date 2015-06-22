@@ -19,13 +19,15 @@ $(window).load(function() {
 		animationDuration: 600,  
 		sync: "#carousel"
 	});
+	
+	$(".cbox-fit-photo").colorbox({width:"100%", height:"90%"});
 });
 </script>
 <div id="slider" class="flexslider">
   <ul class="slides">
     <li>
       <img src="../../images/slider/01_Slide.jpg" alt="Slide 1" />
-	  <p class="flex-caption">Slide 1 Caption</p>
+	  <p class="flex-caption">Slide 1 Caption <a href="../../images/slider/01_Slide.jpg" class="cboxElement cboxOverlay cboxWrapper cbox-fit-photo right"><i class="fa fa-arrows"></i></a></p>
     </li>
     <li>
       <img src="../../images/slider/02_Slide.jpg" alt="Slide 2" />

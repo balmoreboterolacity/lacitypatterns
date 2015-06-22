@@ -535,12 +535,12 @@ input[type="search"]::-webkit-search-decoration {
 /* Search Form */
 /* line 103, scss/base/_forms.scss */
 .search-field {
-  margin: 0 10px;
   max-width: 78%;
 }
 @media all and (max-width: 720px) {
   /* line 103, scss/base/_forms.scss */
   .search-field {
+    margin: 0 10px;
     max-width: 60%;
   }
 }
@@ -1148,19 +1148,13 @@ td {
 /* line 161, scss/objects/_header.scss */
 .search-form {
   float: right;
+  margin: 1em 0;
+  width: 100%;
 }
-@media all and (max-width: 480px) {
-  /* line 150, scss/objects/_header.scss */
-  .search-form {
-    margin: 1em 0.5em;
-    width: 100%;
-  }
-}
-@media all and (min-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 720px) {
   /* line 161, scss/objects/_header.scss */
   .search-form {
-    margin: 1em 0.5em;
-    width: 100%;
+    text-align: center;
   }
 }
 
