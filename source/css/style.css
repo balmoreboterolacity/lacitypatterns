@@ -534,14 +534,14 @@ input[type="search"]::-webkit-search-decoration {
 \*------------------------------------*/
 /* Search Form */
 /* line 103, scss/base/_forms.scss */
-.search-field {
-  max-width: 78%;
+.inline-form.search-form {
+  width: 100%;
+  padding: 0;
 }
 @media all and (max-width: 720px) {
   /* line 103, scss/base/_forms.scss */
-  .search-field {
-    margin: 0 10px;
-    max-width: 60%;
+  .inline-form.search-form {
+    padding: 0 10px;
   }
 }
 
@@ -551,21 +551,23 @@ input[type="search"]::-webkit-search-decoration {
   border: 0;
   color: #fff;
   font-weight: bold;
+  margin: 10px 0 0;
   padding: 0.78em 1em;
 }
 
 /* Newsletter Form */
-/* line 120, scss/base/_forms.scss */
+/* line 121, scss/base/_forms.scss */
 .newsletter-form div.inline-container {
   width: 100%;
   padding: 0 8.5em 0 0;
 }
-/* line 124, scss/base/_forms.scss */
+/* line 125, scss/base/_forms.scss */
 .newsletter-form button.newsletter-submit {
   background: #014982;
   padding: 0.75rem 1.3rem;
+  margin: 10px 0 0;
 }
-/* line 127, scss/base/_forms.scss */
+/* line 129, scss/base/_forms.scss */
 .newsletter-form button.newsletter-submit:hover {
   background: #474747;
 }
@@ -1153,12 +1155,6 @@ td {
   float: right;
   margin: 1em 0;
   width: 100%;
-}
-@media all and (min-width: 480px) and (max-width: 720px) {
-  /* line 161, scss/objects/_header.scss */
-  .search-form {
-    text-align: center;
-  }
 }
 
 /*------------------------------------*\
