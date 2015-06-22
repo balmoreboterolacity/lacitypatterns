@@ -536,12 +536,12 @@ input[type="search"]::-webkit-search-decoration {
 /* line 103, scss/base/_forms.scss */
 .search-field {
   margin: 0 10px;
-  max-width: 878px;
+  max-width: 78%;
 }
 @media all and (max-width: 720px) {
   /* line 103, scss/base/_forms.scss */
   .search-field {
-    max-width: 580px;
+    max-width: 60%;
   }
 }
 
@@ -996,6 +996,7 @@ td {
 .header-wrap-background-blur {
   max-width: 1910px;
   width: 100%;
+  height: 105px;
   z-index: 100;
   margin-left: auto;
   margin-right: auto;
@@ -1032,49 +1033,49 @@ td {
   }
 }
 
-/* line 78, scss/objects/_header.scss */
+/* line 79, scss/objects/_header.scss */
 .home .header-wrap-background-blur {
   background-image: url("../images/hero.jpg");
 }
 
-/* line 81, scss/objects/_header.scss */
+/* line 82, scss/objects/_header.scss */
 .blog .header-wrap-background-blur {
   background-image: url("../images/hero_2nd.jpg");
 }
 
-/* line 84, scss/objects/_header.scss */
+/* line 85, scss/objects/_header.scss */
 .article .header-wrap-background-blur {
   background-image: url("../images/hero_2nd.jpg");
 }
 
-/* line 87, scss/objects/_header.scss */
+/* line 88, scss/objects/_header.scss */
 .header {
   display: block;
   max-width: 310px;
 }
 @media all and (min-width: 720px) {
-  /* line 87, scss/objects/_header.scss */
+  /* line 88, scss/objects/_header.scss */
   .header {
     padding: 0 10px;
     max-width: 1020px;
   }
 }
 
-/* line 97, scss/objects/_header.scss */
+/* line 98, scss/objects/_header.scss */
 .logo {
   float: left;
   max-width: 5.5em;
   margin: 0.8em 0 0.8em 1.4em;
 }
 @media all and (min-width: 720px) {
-  /* line 97, scss/objects/_header.scss */
+  /* line 98, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
     margin: 0;
   }
 }
 
-/* line 108, scss/objects/_header.scss */
+/* line 109, scss/objects/_header.scss */
 .title {
   float: left;
   margin: 1.2em 0 0 1em;
@@ -1085,7 +1086,7 @@ td {
   margin-bottom: 0;
 }
 @media all and (min-width: 720px) {
-  /* line 108, scss/objects/_header.scss */
+  /* line 109, scss/objects/_header.scss */
   .title {
     font-size: 1.55em;
     line-height: 1.25em;
@@ -1095,7 +1096,7 @@ td {
   }
 }
 @media all and (min-width: 960px) {
-  /* line 108, scss/objects/_header.scss */
+  /* line 109, scss/objects/_header.scss */
   .title {
     font-size: 2em;
     line-height: 1.25em;
@@ -1105,7 +1106,7 @@ td {
   }
 }
 
-/* line 132, scss/objects/_header.scss */
+/* line 133, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -1115,26 +1116,26 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 480px) {
-  /* line 132, scss/objects/_header.scss */
+  /* line 133, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 132, scss/objects/_header.scss */
+  /* line 133, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 150, scss/objects/_header.scss */
+/* line 151, scss/objects/_header.scss */
 .search-form {
   overflow: hidden;
   max-height: 0;
 }
 @media all and (min-width: 480px) {
-  /* line 150, scss/objects/_header.scss */
+  /* line 151, scss/objects/_header.scss */
   .search-form {
     float: right;
     max-height: none;
@@ -2014,6 +2015,18 @@ body .wrapper:first-child {
   list-style: initial;
 }
 
+/* line 1, scss/objects/_gallery.scss */
+#carousel .slides {
+  transform: none !important;
+  width: 100% !important;
+}
+
+/* line 6, scss/objects/_gallery.scss */
+#sidebar-gallery .slides li {
+  display: inline-block;
+  width: 60px;
+}
+
 /* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
 /* line 2, scss/objects/_blocks.scss */
 .brick {
@@ -2389,6 +2402,13 @@ body .wrapper:first-child {
   margin-bottom: 0.5em;
 }
 
+/* line 8, scss/objects/_sections.scss */
+.slab-posts {
+  background-color: #92CC4E;
+  padding: 30px;
+  margin: 0px;
+}
+
 /* line 3, scss/objects/_article.scss */
 .article-header h1 {
   font-size: 2.5em;
@@ -2587,6 +2607,23 @@ ul.comment-list {
   color: #CC2A14;
   border-color: #CC2A14;
   background: #ffbebe;
+}
+
+/* line 1, scss/objects/_slab.scss */
+.slab {
+  color: #014982;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+/* line 6, scss/objects/_slab.scss */
+.slab li {
+  display: inline-block;
+  width: 25%;
+}
+/* line 10, scss/objects/_slab.scss */
+.slab li:nth-child(1)::before {
+  background-image: url(../images/OpenData_icon.png);
 }
 
 /* line 1, scss/objects/_tweets.scss */

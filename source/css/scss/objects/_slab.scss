@@ -1,0 +1,13 @@
+.slab{
+	color: #014982;
+	text-align: center;
+	width: 100%;
+ 	background-color: #ffffff;
+ 	li{
+ 		display: inline-block;
+ 		width: 25%;
+ 	}
+ 	li:nth-child(1)::before {
+ 		background-image: url(../images/OpenData_icon.png);
+ 	}
+}
