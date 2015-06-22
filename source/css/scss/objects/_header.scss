@@ -59,7 +59,8 @@
   	-o-filter: blur(5px);
   	-ms-filter: blur(5px);
   	filter: blur(5px);
-  	margin:-2px;
+  	overflow: hidden;
+  	margin:0px;
   	padding:0px;
 	@media all and (min-width: $bp-med-2) {
 		display: block;

@@ -1010,7 +1010,8 @@ td {
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
   filter: blur(5px);
-  margin: -2px;
+  overflow: hidden;
+  margin: 0px;
   padding: 0px;
 }
 @media all and (min-width: 720px) {
@@ -1033,55 +1034,55 @@ td {
   }
 }
 
-/* line 79, scss/objects/_header.scss */
+/* line 80, scss/objects/_header.scss */
 .home .header-wrap-background-blur {
   background-image: url("../images/hero.jpg");
 }
 
-/* line 82, scss/objects/_header.scss */
+/* line 83, scss/objects/_header.scss */
 .blog .header-wrap-background-blur {
   background-image: url("../images/hero_2nd.jpg");
 }
 
-/* line 85, scss/objects/_header.scss */
+/* line 86, scss/objects/_header.scss */
 .article .header-wrap-background-blur {
   background-image: url("../images/hero_2nd.jpg");
 }
 
-/* line 88, scss/objects/_header.scss */
+/* line 89, scss/objects/_header.scss */
 .header {
   display: block;
   max-width: 310px;
 }
 @media all and (min-width: 480px) {
-  /* line 88, scss/objects/_header.scss */
+  /* line 89, scss/objects/_header.scss */
   .header {
     max-width: 100%;
   }
 }
 @media all and (min-width: 720px) {
-  /* line 88, scss/objects/_header.scss */
+  /* line 89, scss/objects/_header.scss */
   .header {
     padding: 0 10px;
     max-width: 1020px;
   }
 }
 
-/* line 101, scss/objects/_header.scss */
+/* line 102, scss/objects/_header.scss */
 .logo {
   float: left;
   max-width: 5.5em;
   margin: 0.8em 0 0.8em 1.4em;
 }
 @media all and (min-width: 720px) {
-  /* line 101, scss/objects/_header.scss */
+  /* line 102, scss/objects/_header.scss */
   .logo {
     max-width: 9rem;
     margin: 0;
   }
 }
 
-/* line 112, scss/objects/_header.scss */
+/* line 113, scss/objects/_header.scss */
 .title {
   float: left;
   margin: 1.2em 0 0 1em;
@@ -1092,7 +1093,7 @@ td {
   margin-bottom: 0;
 }
 @media all and (min-width: 480px) {
-  /* line 112, scss/objects/_header.scss */
+  /* line 113, scss/objects/_header.scss */
   .title {
     font-size: 1.1em;
     line-height: 1.25em;
@@ -1102,7 +1103,7 @@ td {
   }
 }
 @media all and (min-width: 720px) {
-  /* line 112, scss/objects/_header.scss */
+  /* line 113, scss/objects/_header.scss */
   .title {
     font-size: 1.55em;
     line-height: 1.25em;
@@ -1112,7 +1113,7 @@ td {
   }
 }
 @media all and (min-width: 960px) {
-  /* line 112, scss/objects/_header.scss */
+  /* line 113, scss/objects/_header.scss */
   .title {
     font-size: 2em;
     line-height: 1.25em;
@@ -1122,7 +1123,7 @@ td {
   }
 }
 
-/* line 143, scss/objects/_header.scss */
+/* line 144, scss/objects/_header.scss */
 .nav-toggle {
   float: right;
   display: block;
@@ -1132,32 +1133,32 @@ td {
   border-left: 1px solid #dbdbdb;
 }
 @media all and (min-width: 480px) {
-  /* line 143, scss/objects/_header.scss */
+  /* line 144, scss/objects/_header.scss */
   .nav-toggle {
     display: none;
   }
 }
 @media all and (max-width: 17em) {
-  /* line 143, scss/objects/_header.scss */
+  /* line 144, scss/objects/_header.scss */
   .nav-toggle {
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
 }
 
-/* line 161, scss/objects/_header.scss */
+/* line 162, scss/objects/_header.scss */
 .search-form {
   float: right;
 }
 @media all and (max-width: 480px) {
-  /* line 161, scss/objects/_header.scss */
+  /* line 162, scss/objects/_header.scss */
   .search-form {
     margin: 1em 0.5em;
     width: 100%;
   }
 }
 @media all and (min-width: 480px) {
-  /* line 161, scss/objects/_header.scss */
+  /* line 162, scss/objects/_header.scss */
   .search-form {
     margin: 1em 0.5em;
     width: 100%;
