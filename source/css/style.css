@@ -188,7 +188,7 @@ header, footer, nav, section, article, hgroup, figure {
 
 /* line 84, scss/base/_global-classes.scss */
 .valid {
-  color: #92CC4E;
+  color: #326E1E;
 }
 
 /* line 88, scss/base/_global-classes.scss */
@@ -526,7 +526,7 @@ input[type="search"]::-webkit-search-decoration {
 
 /* line 91, scss/base/_forms.scss */
 .is-valid {
-  border-color: #92CC4E;
+  border-color: #326E1E;
 }
 
 /*------------------------------------*\
