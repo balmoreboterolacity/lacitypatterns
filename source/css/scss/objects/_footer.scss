@@ -7,7 +7,10 @@
 	background: $black;
 	color: $white;
 	line-height: 1.2;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
+	@media all and (min-width: $bp-med-2) {
+			margin-bottom: 3.5em;
+	}
 
 	a {
 		color: $white;
