@@ -104,6 +104,18 @@
 	height: 100%;
 	z-index: 100;
 	
+	img {
+		height: 0.5em;
+		margin-left: 0.25em;
+	}
+
+	li.open {
+		img {
+			@include vendor-prefix(transform, rotate(90deg)) {}
+		}
+	}
+
+
 	ul {
 		&.lvl1 {
 			max-width: 1020px;
