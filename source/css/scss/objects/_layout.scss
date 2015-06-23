@@ -12,6 +12,13 @@
     $TEMPLATES
 \*------------------------------------*/
 
+/* One Column Layout */
+.l-one-col {
+	.l-main {
+		width: 100%
+	}
+}
+
 /* Two Column Layout */
 .l-two-col {
 	@extend .cf;
