@@ -12,7 +12,7 @@ $(window).load(function() {
 		asNavFor: '#slider'
 	});
 	$('#slider').flexslider({
-		animation: "slide",
+		animation: "fade",
 		controlNav: false,
 		slideshow: true,
 		slideshowSpeed: 7000,
@@ -23,14 +23,45 @@ $(window).load(function() {
 	$(".cbox-fit-photo").colorbox({width:"100%", height:"90%"});
 });
 </script>
-<i class="fa fa-camera" style="font-size:70px;"></i>
 <div id="slider" class="flexslider">
   <ul class="slides">
     <li>
+		<div class="slide-expand"><a href="../../images/slider/01_Slide.jpg" class="cboxElement cboxOverlay cboxWrapper cbox-fit-photo"><i class="fa fa-2x fa-arrows"></i></a>
+		</div>
+		<div class="field-caption-content" style="display:none;">
+			<div class="field-caption-title">
+			Discover Los Angeles
+			</div>
+			<div class="field-caption">
+			Description: DiscoverLosAngeles.com is the official guide to Los Angeles. Find great deals, new attractions, free things to do and more. Start planning your perfect Southern California vacation today.
+			</div>
+			<div class="field-location">
+			Location: Los Angeles
+			</div>
+			<div class="field-photo-source">
+			Photo Source: DiscoverLosAngeles.com
+			</div>
+		</div>
       <img src="../../images/slider/01_Slide.jpg" alt="Slide 1" />
-	  <p class="flex-caption">Slide 1 Caption <a href="../../images/slider/01_Slide.jpg" class="cboxElement cboxOverlay cboxWrapper cbox-fit-photo right"><i class="fa fa-arrows"></i></a></p>
+	  <p class="flex-caption">Los Angeles World Airports consists of Los Angeles International Airport (LAX), Ontario International Airport (ONT), and Van Nuys Airport (VNY), which are among the busiest in the world.</p>
     </li>
     <li>
+		<div class="slide-expand"><a href="../../images/slider/01_Slide.jpg" class="cboxElement cboxOverlay cboxWrapper cbox-fit-photo"><i class="fa fa-2x fa-arrows"></i></a>
+		</div>
+		<div class="field-caption-content" style="display:none;">
+			<div class="field-caption-title">
+			Downtown Los Angeles
+			</div>
+			<div class="field-caption">
+			Description: Once famed for smog and traffic, today’s Downtown LA is a destination reborn with an emphases on culture and green spaces.
+			</div>
+			<div class="field-location">
+			Location: Los Angeles
+			</div>
+			<div class="field-photo-source">
+			Photo Source: Image courtesy of Expedia Tourism Media
+			</div>
+		</div>
       <img src="../../images/slider/02_Slide.jpg" alt="Slide 2" />
 	  <p class="flex-caption">Slide 2 Caption</p>
     </li>
@@ -57,7 +88,8 @@ $(window).load(function() {
     <li>
       <img src="../../images/slider/04_Slide.jpg" alt="Slide 8" />
 	  <p class="flex-caption">Slide 8 Caption</p>
-    </li>    <li>
+    </li>
+	<li>
       <img src="../../images/slider/01_Slide.jpg" alt="Slide 9" />
 	  <p class="flex-caption">Slide 9 Caption</p>
     </li>
@@ -74,6 +106,7 @@ $(window).load(function() {
 	  <p class="flex-caption">Slide 12 Caption</p>
     </li>
   </ul>
+  <i class="fa fa-2x fa-camera"></i>
 </div>
 
 <div id="carousel" class="flexslider">
