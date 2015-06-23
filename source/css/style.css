@@ -1236,38 +1236,48 @@ td {
 .nav img {
   height: 1.6em;
 }
-/* line 62, scss/objects/_nav.scss */
+/* line 61, scss/objects/_nav.scss */
+.nav i {
+  font-size: 1.6em;
+  color: #fff;
+}
+/* line 64, scss/objects/_nav.scss */
+.nav i.fa-search {
+  font-size: 1.4em;
+  margin-left: 0.2em;
+}
+/* line 70, scss/objects/_nav.scss */
 .nav a {
   border: none;
 }
-/* line 67, scss/objects/_nav.scss */
+/* line 75, scss/objects/_nav.scss */
 .nav li {
   float: left;
 }
-/* line 71, scss/objects/_nav.scss */
+/* line 79, scss/objects/_nav.scss */
 .nav.active {
   max-height: 40em;
 }
 
-/* line 79, scss/objects/_nav.scss */
+/* line 87, scss/objects/_nav.scss */
 .pagination {
   overflow: hidden;
 }
-/* line 82, scss/objects/_nav.scss */
+/* line 90, scss/objects/_nav.scss */
 .pagination li {
   float: left;
   border-right: 1px solid #E0E0E0;
 }
-/* line 86, scss/objects/_nav.scss */
+/* line 94, scss/objects/_nav.scss */
 .pagination li:last-child {
   border: 0;
 }
-/* line 91, scss/objects/_nav.scss */
+/* line 99, scss/objects/_nav.scss */
 .pagination a {
   padding: 1em;
 }
 
-/* line 98, scss/objects/_nav.scss */
+/* line 106, scss/objects/_nav.scss */
 .drop-down {
   display: none;
   position: absolute;
@@ -1277,11 +1287,11 @@ td {
   height: 100%;
   z-index: 300;
 }
-/* line 107, scss/objects/_nav.scss */
+/* line 115, scss/objects/_nav.scss */
 .drop-down i {
   margin-left: 0.25em;
 }
-/* line 112, scss/objects/_nav.scss */
+/* line 120, scss/objects/_nav.scss */
 .drop-down li.open i {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
@@ -1289,13 +1299,13 @@ td {
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-/* line 119, scss/objects/_nav.scss */
+/* line 127, scss/objects/_nav.scss */
 .drop-down ul.lvl1 {
   max-width: 1020px;
   width: 80vw;
   margin: 14em auto 0;
 }
-/* line 123, scss/objects/_nav.scss */
+/* line 131, scss/objects/_nav.scss */
 .drop-down ul.lvl1 li {
   color: #fff;
   font-weight: bold;
@@ -1303,25 +1313,25 @@ td {
   line-height: 1.15384615em;
 }
 @media all and (min-width: 720px) {
-  /* line 123, scss/objects/_nav.scss */
+  /* line 131, scss/objects/_nav.scss */
   .drop-down ul.lvl1 li {
     font-size: 2em;
     line-height: 1.25em;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 123, scss/objects/_nav.scss */
+  /* line 131, scss/objects/_nav.scss */
   .drop-down ul.lvl1 li {
     font-size: 2.25em;
     line-height: 1.25em;
   }
 }
-/* line 138, scss/objects/_nav.scss */
+/* line 146, scss/objects/_nav.scss */
 .drop-down ul.lvl2 {
   width: 60vw;
   margin: 1em 0 1em 2em;
 }
-/* line 141, scss/objects/_nav.scss */
+/* line 149, scss/objects/_nav.scss */
 .drop-down ul.lvl2 li {
   color: #fff;
   font-weight: normal;
@@ -1329,14 +1339,14 @@ td {
   line-height: 1.15384615em;
 }
 @media all and (min-width: 720px) {
-  /* line 141, scss/objects/_nav.scss */
+  /* line 149, scss/objects/_nav.scss */
   .drop-down ul.lvl2 li {
     font-size: 1.5em;
     line-height: 1.25em;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 141, scss/objects/_nav.scss */
+  /* line 149, scss/objects/_nav.scss */
   .drop-down ul.lvl2 li {
     font-size: 2em;
     line-height: 1.25em;

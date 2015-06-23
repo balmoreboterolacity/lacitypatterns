@@ -56,7 +56,15 @@
 	img {
 		height: 1.6em;
 
+	}
 
+	i {
+		font-size: 1.6em;
+		color: $white;
+		&.fa-search {
+			font-size: 1.4em;
+			margin-left: 0.2em;
+		}
 	}
 
 	a {
