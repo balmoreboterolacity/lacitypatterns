@@ -2552,23 +2552,33 @@ body .wrapper:first-child {
   }
 }
 /* line 103, scss/objects/_article.scss */
+.social-share a i {
+  font-size: 1.3em;
+}
+@media all and (min-width: 720px) {
+  /* line 103, scss/objects/_article.scss */
+  .social-share a i {
+    font-size: 2.2em;
+  }
+}
+/* line 110, scss/objects/_article.scss */
 .social-share a .text-wrap {
   text-align: left;
   height: 2.7em;
   font-size: 0.75em;
 }
 @media all and (min-width: 960px) {
-  /* line 103, scss/objects/_article.scss */
+  /* line 110, scss/objects/_article.scss */
   .social-share a .text-wrap {
     margin-left: 4em;
   }
 }
-/* line 112, scss/objects/_article.scss */
+/* line 119, scss/objects/_article.scss */
 .social-share a p {
   display: none;
 }
 @media all and (min-width: 960px) {
-  /* line 112, scss/objects/_article.scss */
+  /* line 119, scss/objects/_article.scss */
   .social-share a p {
     display: inherit;
   }
