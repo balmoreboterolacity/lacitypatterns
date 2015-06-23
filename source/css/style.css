@@ -554,20 +554,26 @@ input[type="search"]::-webkit-search-decoration {
   margin: 10px 0 0;
   padding: 0.78em 1em;
 }
+@media all and (max-width: 480px) {
+  /* line 110, scss/base/_forms.scss */
+  .inline-form .search-submit {
+    width: 100%;
+  }
+}
 
 /* Newsletter Form */
-/* line 121, scss/base/_forms.scss */
+/* line 124, scss/base/_forms.scss */
 .newsletter-form div.inline-container {
   width: 100%;
   padding: 0 8.5em 0 0;
 }
-/* line 125, scss/base/_forms.scss */
+/* line 128, scss/base/_forms.scss */
 .newsletter-form button.newsletter-submit {
   background: #014982;
   padding: 0.75rem 1.3rem;
   margin: 10px 0 0;
 }
-/* line 129, scss/base/_forms.scss */
+/* line 132, scss/base/_forms.scss */
 .newsletter-form button.newsletter-submit:hover {
   background: #474747;
 }
@@ -2061,18 +2067,6 @@ body .wrapper:first-child {
   margin: 1em 0 1em 2em;
   padding: 0;
   list-style: initial;
-}
-
-/* line 1, scss/objects/_gallery.scss */
-#carousel .slides {
-  transform: none !important;
-  width: 100% !important;
-}
-
-/* line 6, scss/objects/_gallery.scss */
-#sidebar-gallery .slides li {
-  display: inline-block;
-  width: 60px;
 }
 
 /* Generic Placeholder Brick: REMOVE FOR PRODUCTION */

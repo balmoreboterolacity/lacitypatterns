@@ -114,6 +114,9 @@ input[type="search"]::-webkit-search-decoration {
 	font-weight: bold;
 	margin: 10px 0 0;
 	padding: 0.78em 1em;
+		@media all and (max-width: $bp-med) {
+			width: 100%;
+		}
 }
 
 /* Newsletter Form */

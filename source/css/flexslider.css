@@ -149,6 +149,24 @@ html[xmlns] .flexslider .slides {
   right: -50px;
   text-align: right;
 }
+#slider .flex-direction-nav .flex-prev {
+	left: auto;
+	opacity: 1;
+  right: 10px;
+  text-align: right;
+  top: 40%;
+}
+#slider .flex-direction-nav .flex-next {
+	opacity: 1;
+  right: 10px;
+  text-align: right;
+}
+#slider .flex-caption {
+  width: 100%;
+  padding: 0;
+  left: auto;
+  position: absolute;
+}
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
   left: 10px;
