@@ -10,11 +10,11 @@ $(document).ready(function(){
 		if ($(".drop-down").is(":visible")) {
 			$("body").css({"width": "initial", "height": "initial", "overflow": "visible"});
 			$(".drop-down").css({"width": width, "height": height, "overflow": "hidden"});
-			$(".drop-down").slideUp("slow");
+			$(".drop-down").slideUp(800);
 		} else {
 			$("body").css({"width": width, "height": height, "overflow": "hidden"});
 			$(".drop-down").css({"width": width, "height": height, "overflow": "hidden"});
-			$(".drop-down").slideDown("slow");
+			$(".drop-down").slideDown(800);
 
 		};
 
