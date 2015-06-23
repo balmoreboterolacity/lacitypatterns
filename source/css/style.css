@@ -2676,7 +2676,7 @@ ul.comment-list {
 }
 /* line 10, scss/objects/_slab.scss */
 .slab li:nth-child(1)::before {
-  background-image: url(../images/OpenData_icon.png);
+  background-image: url(../../images/OpenData_icon.png);
 }
 
 /* line 1, scss/objects/_tweets.scss */
