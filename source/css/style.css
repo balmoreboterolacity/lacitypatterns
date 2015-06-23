@@ -705,7 +705,7 @@ td {
 /* line 53, scss/objects/_layout.scss */
 .g {
   overflow: hidden;
-  margin: 0 -0.5em;
+  margin: 0;
 }
 
 /* Grid Item */
