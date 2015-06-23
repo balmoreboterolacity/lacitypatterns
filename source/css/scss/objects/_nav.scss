@@ -104,13 +104,12 @@
 	height: 100%;
 	z-index: 300;
 	
-	img {
-		height: 0.5em;
+	i {
 		margin-left: 0.25em;
 	}
 
 	li.open {
-		img {
+		i {
 			@include vendor-prefix(transform, rotate(90deg)) {}
 		}
 	}

@@ -1278,25 +1278,24 @@ td {
   z-index: 300;
 }
 /* line 107, scss/objects/_nav.scss */
-.drop-down img {
-  height: 0.5em;
+.drop-down i {
   margin-left: 0.25em;
 }
-/* line 113, scss/objects/_nav.scss */
-.drop-down li.open img {
+/* line 112, scss/objects/_nav.scss */
+.drop-down li.open i {
   -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   -moz-transform: rotate(90deg);
   -o-transform: rotate(90deg);
   transform: rotate(90deg);
 }
-/* line 120, scss/objects/_nav.scss */
+/* line 119, scss/objects/_nav.scss */
 .drop-down ul.lvl1 {
   max-width: 1020px;
   width: 80vw;
   margin: 14em auto 0;
 }
-/* line 124, scss/objects/_nav.scss */
+/* line 123, scss/objects/_nav.scss */
 .drop-down ul.lvl1 li {
   color: #fff;
   font-weight: bold;
@@ -1304,25 +1303,25 @@ td {
   line-height: 1.15384615em;
 }
 @media all and (min-width: 720px) {
-  /* line 124, scss/objects/_nav.scss */
+  /* line 123, scss/objects/_nav.scss */
   .drop-down ul.lvl1 li {
     font-size: 2em;
     line-height: 1.25em;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 124, scss/objects/_nav.scss */
+  /* line 123, scss/objects/_nav.scss */
   .drop-down ul.lvl1 li {
     font-size: 2.25em;
     line-height: 1.25em;
   }
 }
-/* line 139, scss/objects/_nav.scss */
+/* line 138, scss/objects/_nav.scss */
 .drop-down ul.lvl2 {
   width: 60vw;
   margin: 1em 0 1em 2em;
 }
-/* line 142, scss/objects/_nav.scss */
+/* line 141, scss/objects/_nav.scss */
 .drop-down ul.lvl2 li {
   color: #fff;
   font-weight: normal;
@@ -1330,14 +1329,14 @@ td {
   line-height: 1.15384615em;
 }
 @media all and (min-width: 720px) {
-  /* line 142, scss/objects/_nav.scss */
+  /* line 141, scss/objects/_nav.scss */
   .drop-down ul.lvl2 li {
     font-size: 1.5em;
     line-height: 1.25em;
   }
 }
 @media all and (min-width: 960px) {
-  /* line 142, scss/objects/_nav.scss */
+  /* line 141, scss/objects/_nav.scss */
   .drop-down ul.lvl2 li {
     font-size: 2em;
     line-height: 1.25em;
