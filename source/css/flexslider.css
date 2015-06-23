@@ -149,22 +149,27 @@ html[xmlns] .flexslider .slides {
   right: -50px;
   text-align: right;
 }
-#slider .flex-direction-nav .flex-prev {
+#slider .flex-direction-nav li a {
+	background-color: rgba(255,255,255,.7);
 	left: auto;
 	opacity: 1;
-  right: 10px;
-  text-align: right;
+	right: 10px;
+	text-align: center;
+}
+#slider .flex-direction-nav a:hover {
+	color: blue;
+}
+#slider .flex-direction-nav .flex-prev {
   top: 40%;
 }
 #slider .flex-direction-nav .flex-next {
-	opacity: 1;
-  right: 10px;
-  text-align: right;
+  top: 54%;
 }
 #slider .flex-caption {
   width: 100%;
-  padding: 0;
   left: auto;
+  max-width: 670px;
+  padding: 2px 0 2px 10px;
   position: absolute;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
