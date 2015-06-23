@@ -2206,28 +2206,29 @@ body .wrapper:first-child {
 .block-inset {
   position: relative;
   width: 100%;
+  max-height: 360px;
 }
-/* line 125, scss/objects/_blocks.scss */
+/* line 126, scss/objects/_blocks.scss */
 .block-inset .b-thumb {
   position: relative;
   z-index: 0;
 }
-/* line 129, scss/objects/_blocks.scss */
+/* line 130, scss/objects/_blocks.scss */
 .block-inset .b-thumb img {
   display: block;
 }
 
 /* Hero Block */
-/* line 136, scss/objects/_blocks.scss */
+/* line 137, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 140, scss/objects/_blocks.scss */
+/* line 141, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 144, scss/objects/_blocks.scss */
+/* line 145, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -2239,12 +2240,12 @@ body .wrapper:first-child {
 }
 
 /* Block Thumb with Summary */
-/* line 157, scss/objects/_blocks.scss */
+/* line 158, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 162, scss/objects/_blocks.scss */
+/* line 163, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;
