@@ -1,10 +1,37 @@
-
-#slider .flex-direction-nav .flex-prev {
-  right: 10px;
-  text-align: right;
-  top: 40% ;
+#slider .fa-camera {
+	background-color: rgba(255,255,255,.7);
+	cursor: pointer;
+	padding: 3px;
+	position: absolute;
+	right: 10px;
+	top: 23%;
+	z-index: 888;
+		&:hover, &:focus {
+			color: blue;
+		}
 }
-#slider .flex-direction-nav .flex-next {
-  right: 10px;
-  text-align: right;
+
+#slider .slide-expand {
+	margin: 10px;
+	position: absolute;
+	background-color: rgba(255,255,255,.9);
+	padding: 4px;
+	border-radius: 10px;
+		i {
+			&:hover, &:focus {
+				color: blue;
+			}
+		}
+}
+
+#slider .field-caption-content {
+	position: absolute;
+	max-width: 390px;
+	z-index: 999;
+	padding: 20px;
+	background: rgba(0,0,0,.7);
+	border: 2px solid white;
+	margin: 10px 0;
+	right: 60px;
+	color: #fff;
 }
