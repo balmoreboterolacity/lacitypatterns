@@ -8,10 +8,10 @@ $(document).ready(function(){
 
 		if ($(".drop-down").is(":visible")) {
 			$("body").css({"height": "initial", "overflow": "visible"});
-			$(".drop-down").slideUp(800);
+			$(".drop-down").slideUp(1000);
 		} else {
 			$("body").css({"height": height, "overflow": "hidden"});
-			$(".drop-down").slideDown(800);
+			$(".drop-down").slideDown(1000);
 
 		}
 

@@ -212,6 +212,16 @@ header, footer, nav, section, article, hgroup, figure {
   font-family: "Droid Sans", sans-serif;
 }
 
+/* line 104, scss/base/_global-classes.scss */
+.one-third {
+  width: 33.333%;
+}
+
+/* line 108, scss/base/_global-classes.scss */
+.one-quarter {
+  width: 25%;
+}
+
 /* line 1, scss/base/_main.scss */
 body {
   background: #fff;
@@ -317,13 +327,13 @@ h4, .delta {
 /* line 2, scss/base/_text.scss */
 p {
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.4em;
   margin-bottom: 1em;
 }
 @media all and (min-width: 720px) {
   /* line 2, scss/base/_text.scss */
   p {
-    line-height: 1.375em;
+    line-height: 1.6em;
   }
 }
 
@@ -618,19 +628,43 @@ td {
 
 /* line 10, scss/base/_animation.scss */
 .animate-move > .demo-shape {
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-/* line 14, scss/base/_color.scss */
+/* line 2, scss/base/_color.scss */
+ul.sg-colors li {
+  width: 100%;
+}
+@media all and (min-width: 480px) {
+  /* line 2, scss/base/_color.scss */
+  ul.sg-colors li {
+    float: left;
+    width: 8em;
+  }
+}
+/* line 8, scss/base/_color.scss */
+ul.sg-colors li span.lrg {
+  height: 1.5em;
+  width: 99%;
+}
+@media all and (min-width: 480px) {
+  /* line 8, scss/base/_color.scss */
+  ul.sg-colors li span.lrg {
+    height: 7em;
+    width: 7em;
+  }
+}
+
+/* line 19, scss/base/_color.scss */
 .color-test {
   display: none;
 }
 @media all and (min-width: 30em) {
-  /* line 14, scss/base/_color.scss */
+  /* line 19, scss/base/_color.scss */
   .color-test {
     display: inherit;
     position: relative;
@@ -638,15 +672,15 @@ td {
     left: 0.5em;
     height: 0;
   }
-  /* line 22, scss/base/_color.scss */
+  /* line 27, scss/base/_color.scss */
   .color-test .result span {
     padding-right: 0.7em;
   }
-  /* line 24, scss/base/_color.scss */
+  /* line 29, scss/base/_color.scss */
   .color-test .result span.pass {
     color: lightgreen;
   }
-  /* line 27, scss/base/_color.scss */
+  /* line 32, scss/base/_color.scss */
   .color-test .result span.fail {
     color: red;
   }
@@ -2510,7 +2544,7 @@ body .wrapper:first-child {
 
 /* line 3, scss/objects/_article.scss */
 .article-header h1 {
-  font-size: 2.5em;
+  margin-bottom: 0.2em;
 }
 
 /* line 8, scss/objects/_article.scss */
@@ -2569,7 +2603,7 @@ body .wrapper:first-child {
   /* line 50, scss/objects/_article.scss */
   .social-share a.twitter {
     background: #227fa6;
-    width: 30.9em;
+    width: 34em;
   }
 }
 /* line 57, scss/objects/_article.scss */
@@ -2639,7 +2673,7 @@ body .wrapper:first-child {
 /* line 110, scss/objects/_article.scss */
 .social-share a .text-wrap {
   text-align: left;
-  height: 2.7em;
+  height: 2.6em;
   font-size: 0.75em;
 }
 @media all and (min-width: 960px) {
@@ -2656,6 +2690,18 @@ body .wrapper:first-child {
   /* line 119, scss/objects/_article.scss */
   .social-share a p {
     display: inherit;
+  }
+}
+
+/* line 128, scss/objects/_article.scss */
+.social-share.mono {
+  background: #474747;
+  border-top: solid 0.25em #fff;
+}
+@media all and (min-width: 960px) {
+  /* line 131, scss/objects/_article.scss */
+  .social-share.mono .open {
+    width: 34em;
   }
 }
 
@@ -2720,20 +2766,32 @@ ul.comment-list {
 
 /* line 1, scss/objects/_slab.scss */
 .slab {
-  color: #014982;
   text-align: center;
   width: 100%;
-  background-color: #ffffff;
-  margin: 50px 0;
+  margin: 0 auto;
+  max-width: 64em;
+  padding: 50px 0;
 }
-/* line 8, scss/objects/_slab.scss */
-.slab h2 {
-  color: #CC4E10;
-}
-/* line 11, scss/objects/_slab.scss */
+/* line 7, scss/objects/_slab.scss */
 .slab li {
   display: inline-block;
   vertical-align: top;
+}
+/* line 11, scss/objects/_slab.scss */
+.slab h5 {
+  margin: 1em 0 3em 0;
+}
+
+/* line 16, scss/objects/_slab.scss */
+.white {
+  background: #fff;
+  color: #212121;
+}
+
+/* line 21, scss/objects/_slab.scss */
+.black {
+  background: #212121;
+  color: #fff;
 }
 
 /* line 1, scss/objects/_tweets.scss */
