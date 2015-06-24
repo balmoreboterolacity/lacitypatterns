@@ -2578,7 +2578,7 @@ body .wrapper:first-child {
   /* line 50, scss/objects/_article.scss */
   .social-share a.twitter {
     background: #227fa6;
-    width: 30.9em;
+    width: 34em;
   }
 }
 /* line 57, scss/objects/_article.scss */
@@ -2648,7 +2648,7 @@ body .wrapper:first-child {
 /* line 110, scss/objects/_article.scss */
 .social-share a .text-wrap {
   text-align: left;
-  height: 2.7em;
+  height: 2.6em;
   font-size: 0.75em;
 }
 @media all and (min-width: 960px) {
@@ -2665,6 +2665,18 @@ body .wrapper:first-child {
   /* line 119, scss/objects/_article.scss */
   .social-share a p {
     display: inherit;
+  }
+}
+
+/* line 128, scss/objects/_article.scss */
+.social-share.mono {
+  background: #474747;
+  border-top: solid 0.25em #fff;
+}
+@media all and (min-width: 960px) {
+  /* line 131, scss/objects/_article.scss */
+  .social-share.mono .open {
+    width: 34em;
   }
 }
 

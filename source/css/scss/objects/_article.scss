@@ -51,7 +51,7 @@
 			background: #5EA9DD;
 			@media all and (min-width: $bp-large){
 				background: #227fa6;
-				width: 30.9em;
+				width: 34em;
 			}
 		} 
 		&.facebook {
@@ -109,7 +109,7 @@
 
 		.text-wrap {
 		  text-align: left;
-		  height: 2.7em;
+		  height: 2.6em;
 		  font-size: 0.75em;
 		  @media all and (min-width:$bp-large){
 		  	margin-left: 4em;
@@ -125,3 +125,12 @@
 	}
 }
 
+.social-share.mono{
+	background: $gray-dark;
+	border-top: solid 0.25em $white;
+	.open {
+		@media all and (min-width: $bp-large){
+			width: 34em;
+		}
+	} 
+}
