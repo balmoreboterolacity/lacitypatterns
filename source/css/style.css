@@ -705,7 +705,7 @@ td {
 /* line 53, scss/objects/_layout.scss */
 .g {
   overflow: hidden;
-  margin: 0 -0.5em;
+  margin: 0;
 }
 
 /* Grid Item */
@@ -2068,6 +2068,47 @@ body .wrapper:first-child {
   margin: 1em 0 1em 2em;
   padding: 0;
   list-style: initial;
+}
+
+/* line 1, scss/objects/_gallery.scss */
+#slider .fa-camera {
+  background-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  padding: 3px;
+  position: absolute;
+  right: 10px;
+  top: 23%;
+  z-index: 888;
+}
+/* line 9, scss/objects/_gallery.scss */
+#slider .fa-camera:hover, #slider .fa-camera:focus {
+  color: blue;
+}
+
+/* line 14, scss/objects/_gallery.scss */
+#slider .slide-expand {
+  margin: 10px;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 4px;
+  border-radius: 10px;
+}
+/* line 21, scss/objects/_gallery.scss */
+#slider .slide-expand i:hover, #slider .slide-expand i:focus {
+  color: blue;
+}
+
+/* line 27, scss/objects/_gallery.scss */
+#slider .field-caption-content {
+  position: absolute;
+  max-width: 390px;
+  z-index: 999;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px solid white;
+  margin: 10px 0;
+  right: 60px;
+  color: #fff;
 }
 
 /* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
