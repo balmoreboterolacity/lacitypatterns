@@ -1,9 +1,9 @@
 /* Text-Related Elements */ 
 p {
     font-size: 1em;
-    line-height: 1.25em;
+    line-height: 1.4em;
     @media all and (min-width: $bp-med-2){
-        line-height: 1.375em;
+        line-height: 1.6em;
     }
     margin-bottom: $space;
 }

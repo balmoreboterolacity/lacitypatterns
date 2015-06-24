@@ -317,13 +317,13 @@ h4, .delta {
 /* line 2, scss/base/_text.scss */
 p {
   font-size: 1em;
-  line-height: 1.25em;
+  line-height: 1.4em;
   margin-bottom: 1em;
 }
 @media all and (min-width: 720px) {
   /* line 2, scss/base/_text.scss */
   p {
-    line-height: 1.375em;
+    line-height: 1.6em;
   }
 }
 
@@ -618,11 +618,11 @@ td {
 
 /* line 10, scss/base/_animation.scss */
 .animate-move > .demo-shape {
-  -webkit-transition: all 0.8s ease-in-out;
-  -moz-transition: all 0.8s ease-in-out;
-  -ms-transition: all 0.8s ease-in-out;
-  -o-transition: all 0.8s ease-in-out;
-  transition: all 0.8s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 /* line 2, scss/base/_color.scss */
@@ -2534,7 +2534,7 @@ body .wrapper:first-child {
 
 /* line 3, scss/objects/_article.scss */
 .article-header h1 {
-  font-size: 2.5em;
+  margin-bottom: 0.2em;
 }
 
 /* line 8, scss/objects/_article.scss */
