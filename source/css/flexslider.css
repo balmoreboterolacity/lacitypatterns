@@ -170,10 +170,11 @@ html[xmlns] .flexslider .slides {
 #slider .flex-caption {
 	width: 100%;
 	left: auto;
+	margin: 0;
 	max-width: 670px;
 	padding: 2px 0 2px 10px;
 	position: absolute;
-	background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+	background: rgba(0, 0, 0, 0.5);
 	padding: .5em;
 	font-size: 1.1em;
 	line-height: 1.2;
