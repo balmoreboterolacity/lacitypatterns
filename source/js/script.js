@@ -8,10 +8,10 @@ $(document).ready(function(){
 
 		if ($(".drop-down").is(":visible")) {
 			$("body").css({"height": "initial", "overflow": "visible"});
-			$(".drop-down").slideUp(600);
+			$(".drop-down").slideUp(800);
 		} else {
 			$("body").css({"height": height, "overflow": "hidden"});
-			$(".drop-down").slideDown(600);
+			$(".drop-down").slideDown(800);
 
 		}
 
@@ -31,12 +31,10 @@ $(document).ready(function(){
         $('.field-caption-content').addClass('clicked').css({
           'display': 'block'
         });
-        $('#slider .fa-camera').addClass('orange');
       } else {
         $('.field-caption-content').removeClass('clicked').css({
           'display': 'none'
         });
-        $('#slider .fa-camera').removeClass('orange');
       }
     });
 

@@ -605,11 +605,11 @@ td {
 
 /* line 1, scss/base/_animation.scss */
 .animate-fade {
-  -webkit-transition: opacity 0.3s ease-out;
-  -moz-transition: opacity 0.3s ease-out;
-  -ms-transition: opacity 0.3s ease-out;
-  -o-transition: opacity 0.3s ease-out;
-  transition: opacity 0.3s ease-out;
+  -webkit-transition: opacity 0.6s ease-out;
+  -moz-transition: opacity 0.6s ease-out;
+  -ms-transition: opacity 0.6s ease-out;
+  -o-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
 }
 /* line 4, scss/base/_animation.scss */
 .animate-fade:hover {
@@ -1890,7 +1890,10 @@ body .wrapper:first-child {
   color: #fff;
   line-height: 1;
   font-weight: bold;
-  padding: 1em;
+  padding-top: 1.25em;
+  padding-bottom: .75em;
+  padding-left: 2.5em;
+  padding-right: 1em;
   border: 0;
   text-align: center;
   width: initial;
@@ -1900,23 +1903,23 @@ body .wrapper:first-child {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 16, scss/objects/_buttons.scss */
+/* line 20, scss/objects/_buttons.scss */
 .btn:hover, .btn:focus {
   background: #474747;
   color: #fff;
 }
-/* line 21, scss/objects/_buttons.scss */
+/* line 25, scss/objects/_buttons.scss */
 .btn.disabled {
   background: #E0E0E0;
   color: #474747;
 }
 
-/* line 27, scss/objects/_buttons.scss */
+/* line 31, scss/objects/_buttons.scss */
 .btn-small {
   padding: 0.5em;
 }
 
-/* line 31, scss/objects/_buttons.scss */
+/* line 35, scss/objects/_buttons.scss */
 .btn-large {
   padding: 0.5em;
   text-transform: uppercase;
@@ -1925,7 +1928,7 @@ body .wrapper:first-child {
   font-weight: normal;
 }
 
-/* line 40, scss/objects/_buttons.scss */
+/* line 44, scss/objects/_buttons.scss */
 .text-btn {
   font-style: italic;
 }
@@ -2097,16 +2100,15 @@ body .wrapper:first-child {
 /* line 1, scss/objects/_gallery.scss */
 #slider .fa-camera {
   background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 8px;
   cursor: pointer;
-  padding: 3px;
+  padding: 10px 4px;
   position: absolute;
   right: 10px;
-  top: 23%;
-  z-index: 888;
-}
-/* line 9, scss/objects/_gallery.scss */
-#slider .fa-camera:hover, #slider .fa-camera:focus {
-  color: blue;
+  top: 12%;
+  z-index: 280;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 /* line 14, scss/objects/_gallery.scss */
@@ -2117,22 +2119,35 @@ body .wrapper:first-child {
   padding: 4px;
   border-radius: 10px;
 }
-/* line 21, scss/objects/_gallery.scss */
-#slider .slide-expand i:hover, #slider .slide-expand i:focus {
-  color: blue;
-}
 
-/* line 27, scss/objects/_gallery.scss */
+/* line 22, scss/objects/_gallery.scss */
 #slider .field-caption-content {
   position: absolute;
   max-width: 390px;
-  z-index: 999;
+  z-index: 290;
   padding: 20px;
   background: rgba(0, 0, 0, 0.7);
   border: 2px solid white;
   margin: 10px 0;
   right: 60px;
   color: #fff;
+}
+
+/* line 34, scss/objects/_gallery.scss */
+#slider .flex-direction-nav li a {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+@media all and (max-width: 480px) {
+  /* line 34, scss/objects/_gallery.scss */
+  #slider .flex-direction-nav li a {
+    display: none;
+  }
+}
+
+/* line 41, scss/objects/_gallery.scss */
+.slides li {
+  display: inline-block;
+  width: 60px;
 }
 
 /* Generic Placeholder Brick: REMOVE FOR PRODUCTION */
@@ -2745,15 +2760,16 @@ ul.comment-list {
   text-align: center;
   width: 100%;
   background-color: #ffffff;
+  margin: 50px 0;
 }
-/* line 6, scss/objects/_slab.scss */
+/* line 8, scss/objects/_slab.scss */
+.slab h2 {
+  color: #CC4E10;
+}
+/* line 11, scss/objects/_slab.scss */
 .slab li {
   display: inline-block;
-  width: 25%;
-}
-/* line 10, scss/objects/_slab.scss */
-.slab li:nth-child(1)::before {
-  background-image: url(../../images/OpenData_icon.png);
+  vertical-align: top;
 }
 
 /* line 1, scss/objects/_tweets.scss */
