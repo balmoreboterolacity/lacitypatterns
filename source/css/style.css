@@ -2709,15 +2709,16 @@ ul.comment-list {
   text-align: center;
   width: 100%;
   background-color: #ffffff;
+  margin: 50px 0;
 }
-/* line 6, scss/objects/_slab.scss */
+/* line 8, scss/objects/_slab.scss */
+.slab h2 {
+  color: #CC4E10;
+}
+/* line 11, scss/objects/_slab.scss */
 .slab li {
   display: inline-block;
-  width: 25%;
-}
-/* line 10, scss/objects/_slab.scss */
-.slab li:nth-child(1)::before {
-  background-image: url(../images/OpenData_icon.png);
+  vertical-align: top;
 }
 
 /* line 1, scss/objects/_tweets.scss */
