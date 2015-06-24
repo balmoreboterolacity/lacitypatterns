@@ -2776,19 +2776,33 @@ ul.comment-list {
 .slab li {
   display: inline-block;
   vertical-align: top;
+  padding: 0 10px;
 }
-/* line 11, scss/objects/_slab.scss */
+@media all and (max-width: 480px) {
+  /* line 7, scss/objects/_slab.scss */
+  .slab li {
+    width: 100%;
+    padding: 20px 0;
+  }
+}
+/* line 16, scss/objects/_slab.scss */
 .slab h5 {
   margin: 1em 0 3em 0;
 }
+@media all and (max-width: 480px) {
+  /* line 16, scss/objects/_slab.scss */
+  .slab h5 {
+    margin: 0;
+  }
+}
 
-/* line 16, scss/objects/_slab.scss */
+/* line 24, scss/objects/_slab.scss */
 .white {
   background: #fff;
   color: #212121;
 }
 
-/* line 21, scss/objects/_slab.scss */
+/* line 29, scss/objects/_slab.scss */
 .black {
   background: #212121;
   color: #fff;
