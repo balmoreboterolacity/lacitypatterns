@@ -1,17 +1,24 @@
 .slab{
-	color: #014982;
 	text-align: center; 
 	width: 100%;
- 	background-color: #ffffff;
- 	margin: 50px 0;
- 	
- 	h2{
- 		color: $orange;
- 	}
+ 	margin: 0 auto;
+	max-width: 64em;
+	padding: 50px 0;
  	li{
  		display: inline-block;
  		vertical-align: top;
  	}
- 	
- 	
+	h5 {
+		margin: $space 0 $space+2 0;
+	}
+}
+
+.white {
+	background: $white;
+	color: $black;
+}
+
+.black {
+	background: $black;
+	color: $white;
 }
