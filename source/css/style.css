@@ -1866,7 +1866,10 @@ body .wrapper:first-child {
   color: #fff;
   line-height: 1;
   font-weight: bold;
-  padding: 1em;
+  padding-top: 1.25em;
+  padding-bottom: .75em;
+  padding-left: 2.5em;
+  padding-right: 1em;
   border: 0;
   text-align: center;
   width: initial;
@@ -1876,23 +1879,23 @@ body .wrapper:first-child {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 16, scss/objects/_buttons.scss */
+/* line 20, scss/objects/_buttons.scss */
 .btn:hover, .btn:focus {
   background: #474747;
   color: #fff;
 }
-/* line 21, scss/objects/_buttons.scss */
+/* line 25, scss/objects/_buttons.scss */
 .btn.disabled {
   background: #E0E0E0;
   color: #474747;
 }
 
-/* line 27, scss/objects/_buttons.scss */
+/* line 31, scss/objects/_buttons.scss */
 .btn-small {
   padding: 0.5em;
 }
 
-/* line 31, scss/objects/_buttons.scss */
+/* line 35, scss/objects/_buttons.scss */
 .btn-large {
   padding: 0.5em;
   text-transform: uppercase;
@@ -1901,7 +1904,7 @@ body .wrapper:first-child {
   font-weight: normal;
 }
 
-/* line 40, scss/objects/_buttons.scss */
+/* line 44, scss/objects/_buttons.scss */
 .text-btn {
   font-style: italic;
 }
