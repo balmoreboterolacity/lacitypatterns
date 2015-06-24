@@ -625,12 +625,36 @@ td {
   transition: all 0.8s ease-in-out;
 }
 
-/* line 14, scss/base/_color.scss */
+/* line 2, scss/base/_color.scss */
+ul.sg-colors li {
+  width: 100%;
+}
+@media all and (min-width: 480px) {
+  /* line 2, scss/base/_color.scss */
+  ul.sg-colors li {
+    float: left;
+    width: 8em;
+  }
+}
+/* line 8, scss/base/_color.scss */
+ul.sg-colors li span.lrg {
+  height: 1.5em;
+  width: 99%;
+}
+@media all and (min-width: 480px) {
+  /* line 8, scss/base/_color.scss */
+  ul.sg-colors li span.lrg {
+    height: 7em;
+    width: 7em;
+  }
+}
+
+/* line 19, scss/base/_color.scss */
 .color-test {
   display: none;
 }
 @media all and (min-width: 30em) {
-  /* line 14, scss/base/_color.scss */
+  /* line 19, scss/base/_color.scss */
   .color-test {
     display: inherit;
     position: relative;
@@ -638,15 +662,15 @@ td {
     left: 0.5em;
     height: 0;
   }
-  /* line 22, scss/base/_color.scss */
+  /* line 27, scss/base/_color.scss */
   .color-test .result span {
     padding-right: 0.7em;
   }
-  /* line 24, scss/base/_color.scss */
+  /* line 29, scss/base/_color.scss */
   .color-test .result span.pass {
     color: lightgreen;
   }
-  /* line 27, scss/base/_color.scss */
+  /* line 32, scss/base/_color.scss */
   .color-test .result span.fail {
     color: red;
   }
@@ -2717,7 +2741,7 @@ ul.comment-list {
 }
 /* line 10, scss/objects/_slab.scss */
 .slab li:nth-child(1)::before {
-  background-image: url(../images/OpenData_icon.png);
+  background-image: url(../../images/OpenData_icon.png);
 }
 
 /* line 1, scss/objects/_tweets.scss */
