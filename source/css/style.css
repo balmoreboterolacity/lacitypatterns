@@ -2075,20 +2075,17 @@ body .wrapper:first-child {
 
 /* line 1, scss/objects/_gallery.scss */
 #slider .fa-camera {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #CC4E10;
+  border-radius: 8px;
   cursor: pointer;
-  padding: 3px;
+  padding: 10px 4px;
   position: absolute;
   right: 10px;
-  top: 23%;
-  z-index: 888;
-}
-/* line 9, scss/objects/_gallery.scss */
-#slider .fa-camera:hover, #slider .fa-camera:focus {
-  color: blue;
+  top: 12%;
+  z-index: 280;
 }
 
-/* line 14, scss/objects/_gallery.scss */
+/* line 12, scss/objects/_gallery.scss */
 #slider .slide-expand {
   margin: 10px;
   position: absolute;
@@ -2096,22 +2093,35 @@ body .wrapper:first-child {
   padding: 4px;
   border-radius: 10px;
 }
-/* line 21, scss/objects/_gallery.scss */
-#slider .slide-expand i:hover, #slider .slide-expand i:focus {
-  color: blue;
-}
 
-/* line 27, scss/objects/_gallery.scss */
+/* line 20, scss/objects/_gallery.scss */
 #slider .field-caption-content {
   position: absolute;
   max-width: 390px;
-  z-index: 999;
+  z-index: 290;
   padding: 20px;
   background: rgba(0, 0, 0, 0.7);
   border: 2px solid white;
   margin: 10px 0;
   right: 60px;
   color: #fff;
+}
+
+/* line 32, scss/objects/_gallery.scss */
+#slider .flex-direction-nav li a {
+  background-color: #CC4E10;
+}
+@media all and (max-width: 480px) {
+  /* line 32, scss/objects/_gallery.scss */
+  #slider .flex-direction-nav li a {
+    display: none;
+  }
+}
+
+/* line 39, scss/objects/_gallery.scss */
+.slides li {
+  display: inline-block;
+  width: 60px;
 }
 
 /* Generic Placeholder Brick: REMOVE FOR PRODUCTION */

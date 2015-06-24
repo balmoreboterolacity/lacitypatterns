@@ -9,7 +9,9 @@ $(window).load(function() {
 		slideshow: false,
 		itemWidth: 134,
 		itemMargin: 0,
-		asNavFor: '#slider'
+		asNavFor: '#slider',
+		useCSS: true,
+		touch: true
 	});
 	$('#slider').flexslider({
 		animation: "fade",
@@ -17,17 +19,15 @@ $(window).load(function() {
 		slideshow: true,
 		slideshowSpeed: 7000,
 		animationDuration: 600,  
-		sync: "#carousel"
+		sync: "#carousel",
+		useCSS: true,
+		touch: true
 	});
-	
-	$(".cbox-fit-photo").colorbox({width:"100%", height:"90%"});
 });
 </script>
 <div id="slider" class="flexslider">
   <ul class="slides">
     <li>
-		<div class="slide-expand"><a href="../../images/slider/01_Slide.jpg" class="cboxElement cboxOverlay cboxWrapper cbox-fit-photo"><i class="fa fa-2x fa-arrows"></i></a>
-		</div>
 		<div class="field-caption-content" style="display:none;">
 			<div class="field-caption-title">
 			Discover Los Angeles
@@ -46,8 +46,6 @@ $(window).load(function() {
 	  <p class="flex-caption">Los Angeles World Airports consists of Los Angeles International Airport (LAX), Ontario International Airport (ONT), and Van Nuys Airport (VNY), which are among the busiest in the world.</p>
     </li>
     <li>
-		<div class="slide-expand"><a href="../../images/slider/01_Slide.jpg" class="cboxElement cboxOverlay cboxWrapper cbox-fit-photo"><i class="fa fa-2x fa-arrows"></i></a>
-		</div>
 		<div class="field-caption-content" style="display:none;">
 			<div class="field-caption-title">
 			Downtown Los Angeles
