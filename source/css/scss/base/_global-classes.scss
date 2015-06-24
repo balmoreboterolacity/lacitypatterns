@@ -101,12 +101,19 @@
     font-family: $font-secondary;
 }
 
+/* Percentage Widths */
 .one-third {
     width: 33.333%;
+		@media all and (max-width: $bp-med){
+			width: 100%;
+		}
 }
 
 .one-quarter {
     width: 25%;
+		@media all and (max-width: $bp-med){
+			width: 100%;
+		}
 }
 
 

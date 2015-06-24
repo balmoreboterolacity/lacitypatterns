@@ -212,14 +212,27 @@ header, footer, nav, section, article, hgroup, figure {
   font-family: "Droid Sans", sans-serif;
 }
 
-/* line 104, scss/base/_global-classes.scss */
+/* Percentage Widths */
+/* line 105, scss/base/_global-classes.scss */
 .one-third {
   width: 33.333%;
 }
+@media all and (max-width: 480px) {
+  /* line 105, scss/base/_global-classes.scss */
+  .one-third {
+    width: 100%;
+  }
+}
 
-/* line 108, scss/base/_global-classes.scss */
+/* line 112, scss/base/_global-classes.scss */
 .one-quarter {
   width: 25%;
+}
+@media all and (max-width: 480px) {
+  /* line 112, scss/base/_global-classes.scss */
+  .one-quarter {
+    width: 100%;
+  }
 }
 
 /* line 1, scss/base/_main.scss */
@@ -2745,28 +2758,27 @@ ul.comment-list {
 @media all and (max-width: 480px) {
   /* line 7, scss/objects/_slab.scss */
   .slab li {
-    width: 100%;
     padding: 20px 0;
   }
 }
-/* line 16, scss/objects/_slab.scss */
+/* line 15, scss/objects/_slab.scss */
 .slab h5 {
   margin: 1em 0 3em 0;
 }
 @media all and (max-width: 480px) {
-  /* line 16, scss/objects/_slab.scss */
+  /* line 15, scss/objects/_slab.scss */
   .slab h5 {
     margin: 0;
   }
 }
 
-/* line 24, scss/objects/_slab.scss */
+/* line 23, scss/objects/_slab.scss */
 .white {
   background: #fff;
   color: #212121;
 }
 
-/* line 29, scss/objects/_slab.scss */
+/* line 28, scss/objects/_slab.scss */
 .black {
   background: #212121;
   color: #fff;
