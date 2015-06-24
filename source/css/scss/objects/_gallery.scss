@@ -1,5 +1,5 @@
 #slider .fa-camera {
-	background-color: $orange;
+	background-color: rgba(255,255,255,.7);
 	border-radius: 8px;
 	cursor: pointer;
 	padding: 10px 4px;
@@ -7,6 +7,8 @@
 	right: 10px;
 	top: 12%;
 	z-index: 280;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 #slider .slide-expand {
@@ -30,7 +32,7 @@
 }
 
 #slider .flex-direction-nav li a {
-	background-color: $orange;
+	background-color: rgba(255,255,255,.7);
 		@media all and (max-width: $bp-med){
 			display: none;
 		}
