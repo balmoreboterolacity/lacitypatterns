@@ -2296,66 +2296,62 @@ body .wrapper:first-child {
 /* line 2, scss/objects/_lists.scss */
 .inline-list li {
   display: inline-block;
-  border-top: 1.25em;
-  border-bottom: .75em;
-  border-left: 2.5em;
-  border-right: 1em;
 }
 
 /* Social List */
-/* line 13, scss/objects/_lists.scss */
+/* line 9, scss/objects/_lists.scss */
 .social-list li {
   margin: 0 0.4rem 1em 0;
 }
-/* line 17, scss/objects/_lists.scss */
+/* line 13, scss/objects/_lists.scss */
 .social-list a {
   font-size: 1.6em;
 }
 
 /* Headline List */
-/* line 24, scss/objects/_lists.scss */
+/* line 20, scss/objects/_lists.scss */
 .headline-list {
   margin-bottom: 1em;
 }
-/* line 27, scss/objects/_lists.scss */
+/* line 23, scss/objects/_lists.scss */
 .headline-list.flush {
   margin: 0;
 }
-/* line 31, scss/objects/_lists.scss */
+/* line 27, scss/objects/_lists.scss */
 .headline-list h4 {
   font-weight: normal;
 }
-/* line 35, scss/objects/_lists.scss */
+/* line 31, scss/objects/_lists.scss */
 .headline-list li {
   padding: 0.25em 0;
   border-top: 1px solid #E0E0E0;
 }
 
 /* Post List */
-/* line 43, scss/objects/_lists.scss */
+/* line 39, scss/objects/_lists.scss */
 .post-list li {
   margin-bottom: 1em;
 }
 
 /* Bullet List */
-/* line 49, scss/objects/_lists.scss */
+/* line 45, scss/objects/_lists.scss */
 .bullet-list {
   list-style: square;
   margin: 0 0 1em 1.2em;
   line-height: 1.3;
 }
-/* line 54, scss/objects/_lists.scss */
+/* line 50, scss/objects/_lists.scss */
 .bullet-list li {
   margin-bottom: 1em;
 }
 
 /* Text List */
-/* line 60, scss/objects/_lists.scss */
+/* line 56, scss/objects/_lists.scss */
 .text-list {
   margin: 0 0 1em;
   line-height: 1.3;
 }
-/* line 64, scss/objects/_lists.scss */
+/* line 60, scss/objects/_lists.scss */
 .text-list li {
   margin-bottom: 1em;
 }
