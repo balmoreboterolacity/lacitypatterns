@@ -212,6 +212,16 @@ header, footer, nav, section, article, hgroup, figure {
   font-family: "Droid Sans", sans-serif;
 }
 
+/* line 104, scss/base/_global-classes.scss */
+.one-third {
+  width: 33.333%;
+}
+
+/* line 108, scss/base/_global-classes.scss */
+.one-quarter {
+  width: 25%;
+}
+
 /* line 1, scss/base/_main.scss */
 body {
   background: #fff;
@@ -2720,20 +2730,32 @@ ul.comment-list {
 
 /* line 1, scss/objects/_slab.scss */
 .slab {
-  color: #014982;
   text-align: center;
   width: 100%;
-  background-color: #ffffff;
-  margin: 50px 0;
+  margin: 0 auto;
+  max-width: 64em;
+  padding: 50px 0;
 }
-/* line 8, scss/objects/_slab.scss */
-.slab h2 {
-  color: #CC4E10;
-}
-/* line 11, scss/objects/_slab.scss */
+/* line 7, scss/objects/_slab.scss */
 .slab li {
   display: inline-block;
   vertical-align: top;
+}
+/* line 11, scss/objects/_slab.scss */
+.slab h5 {
+  margin: 1em 0 3em 0;
+}
+
+/* line 16, scss/objects/_slab.scss */
+.white {
+  background: #fff;
+  color: #212121;
+}
+
+/* line 21, scss/objects/_slab.scss */
+.black {
+  background: #212121;
+  color: #fff;
 }
 
 /* line 1, scss/objects/_tweets.scss */
