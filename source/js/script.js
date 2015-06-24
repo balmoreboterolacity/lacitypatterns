@@ -31,12 +31,10 @@ $(document).ready(function(){
         $('.field-caption-content').addClass('clicked').css({
           'display': 'block'
         });
-        $('#slider .fa-camera').addClass('orange');
       } else {
         $('.field-caption-content').removeClass('clicked').css({
           'display': 'none'
         });
-        $('#slider .fa-camera').removeClass('orange');
       }
     });
 
