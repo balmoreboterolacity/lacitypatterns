@@ -1224,6 +1224,20 @@ ul.sg-colors li span.lrg {
   width: 100%;
 }
 
+/*STYLEGUIDE HEADER REMOVE*/
+/* line 175, scss/objects/_header.scss */
+#sg-patterns #organisms-header .header-wrap,
+#sg-patterns #organisms-header .header-wrap-background,
+#sg-patterns #organisms-header .header-wrap-background-blur {
+  top: auto;
+}
+
+/* line 180, scss/objects/_header.scss */
+#sg-patterns #organisms-header {
+  margin-bottom: 120px;
+}
+
+/*END STYLEGUIDE HEADER REMOVE*/
 /*------------------------------------*\
     $NAVIGATION
 \*------------------------------------*/
@@ -1689,6 +1703,13 @@ body .wrapper:first-child {
   text-align: center;
 }
 
+/*STYLEGUIDE FOOTER REMOVE*/
+/* line 192, scss/objects/_footer.scss */
+#organisms-footer .footer {
+  margin-bottom: 0;
+}
+
+/*END STYLEGUIDE FOOTER REMOVE*/
 /*------------------------------------*\
     $TEXT Styles
 \*------------------------------------*/
@@ -2301,41 +2322,48 @@ body .wrapper:first-child {
   }
 }
 
+/*STYLEGUIDE PATTERNS REMOVE*/
+/* line 113, scss/objects/_blocks.scss */
+#sg-patterns .b-text {
+  max-width: 266px !important;
+}
+
+/*STYLEGUIDE PATTERNS REMOVE END*/
 /* Block Headline Summary */
-/* line 115, scss/objects/_blocks.scss */
+/* line 121, scss/objects/_blocks.scss */
 .block-headline-summary a {
   display: block;
   padding: 0.5em;
 }
 
 /* Block Inset */
-/* line 122, scss/objects/_blocks.scss */
+/* line 128, scss/objects/_blocks.scss */
 .block-inset {
   position: relative;
   width: 100%;
   max-height: 360px;
 }
-/* line 127, scss/objects/_blocks.scss */
+/* line 133, scss/objects/_blocks.scss */
 .block-inset .b-thumb {
   position: relative;
   z-index: 0;
 }
-/* line 131, scss/objects/_blocks.scss */
+/* line 137, scss/objects/_blocks.scss */
 .block-inset .b-thumb img {
   display: block;
 }
 
 /* Hero Block */
-/* line 138, scss/objects/_blocks.scss */
+/* line 144, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 142, scss/objects/_blocks.scss */
+/* line 148, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 146, scss/objects/_blocks.scss */
+/* line 152, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -2347,12 +2375,12 @@ body .wrapper:first-child {
 }
 
 /* Block Thumb with Summary */
-/* line 159, scss/objects/_blocks.scss */
+/* line 165, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 164, scss/objects/_blocks.scss */
+/* line 170, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;
@@ -2812,6 +2840,14 @@ ul.comment-list {
   background: #ffbebe;
 }
 
+/*STYLEGUIDE ALERT REMOVE*/
+/* line 22, scss/objects/_messaging.scss */
+#sg-patterns #molecules-alert .alert {
+  overflow: hidden !important;
+  padding: 0.7em;
+}
+
+/*END STYLEGUIDE ALERT REMOVE*/
 /* line 1, scss/objects/_slab.scss */
 .slab {
   text-align: center;
