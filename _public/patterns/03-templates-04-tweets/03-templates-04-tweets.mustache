@@ -1,0 +1,22 @@
+&lt;div class=&quot;page&quot; id=&quot;page&quot;&gt;
+	{{&gt; organisms-header }}
+	{{# hero}}
+		{{&gt; molecules-block-hero-secondary }}
+	{{/ hero}}
+	&lt;div role=&quot;main&quot;&gt;
+		&lt;div class=&quot;l-two-col&quot;&gt;
+			&lt;div class=&quot;l-main&quot;&gt;
+				&lt;h1&gt;Tweets&lt;/h1&gt;
+				{{&gt; organisms-tweets-list }}
+				{{&gt; molecules-pager }}
+			&lt;/div&gt;&lt;!--end l-main--&gt;
+
+			&lt;div class=&quot;l-sidebar&quot;&gt;
+				{{&gt; organisms-related-posts }}
+				{{&gt; organisms-poll }}
+			&lt;/div&gt;&lt;!--end l-sidebar--&gt;
+		&lt;/div&gt;&lt;!--end l-two-col--&gt;	
+	&lt;/div&gt;&lt;!--End role=main--&gt;
+	{{&gt; organisms-footer }}
+	{{&gt; molecules-social-share }}
+&lt;/div&gt;

@@ -1,0 +1,135 @@
+&lt;!-- Slider --&gt;
+&lt;script type=&quot;text/javascript&quot; charset=&quot;utf-8&quot;&gt;
+$(window).load(function() {
+	$('#carousel').flexslider({
+		animation: &quot;slide&quot;,
+		controlNav: false,
+		directionNav: true,   
+		animationLoop: false,
+		slideshow: false,
+		itemWidth: 134,
+		itemMargin: 0,
+		asNavFor: '#slider',
+		useCSS: true,
+		touch: true
+	});
+	$('#slider').flexslider({
+		animation: &quot;fade&quot;,
+		controlNav: false,
+		slideshow: true,
+		slideshowSpeed: 7000,
+		animationDuration: 600,  
+		sync: &quot;#carousel&quot;,
+		useCSS: true,
+		touch: true
+	});
+});
+&lt;/script&gt;
+&lt;div id=&quot;slider&quot; class=&quot;flexslider&quot;&gt;
+  &lt;ul class=&quot;slides&quot;&gt;
+    &lt;li&gt;
+		&lt;div class=&quot;field-caption-content&quot; style=&quot;display:none;&quot;&gt;
+			&lt;div class=&quot;field-caption-title&quot;&gt;
+			Discover Los Angeles
+			&lt;/div&gt;
+			&lt;div class=&quot;field-caption&quot;&gt;
+			Description: DiscoverLosAngeles.com is the official guide to Los Angeles. Find great deals, new attractions, free things to do and more. Start planning your perfect Southern California vacation today.
+			&lt;/div&gt;
+			&lt;div class=&quot;field-location&quot;&gt;
+			Location: Los Angeles
+			&lt;/div&gt;
+			&lt;div class=&quot;field-photo-source&quot;&gt;
+			Photo Source: DiscoverLosAngeles.com
+			&lt;/div&gt;
+		&lt;/div&gt;
+      &lt;img src=&quot;../../images/slider/01_Slide.jpg&quot; alt=&quot;Slide 1&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Los Angeles World Airports consists of Los Angeles International Airport (LAX), Ontario International Airport (ONT), and Van Nuys Airport (VNY), which are among the busiest in the world.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+		&lt;div class=&quot;field-caption-content&quot; style=&quot;display:none;&quot;&gt;
+			&lt;div class=&quot;field-caption-title&quot;&gt;
+			Downtown Los Angeles
+			&lt;/div&gt;
+			&lt;div class=&quot;field-caption&quot;&gt;
+			Description: Once famed for smog and traffic, today&rsquo;s Downtown LA is a destination reborn with an emphases on culture and green spaces.
+			&lt;/div&gt;
+			&lt;div class=&quot;field-location&quot;&gt;
+			Location: Los Angeles
+			&lt;/div&gt;
+			&lt;div class=&quot;field-photo-source&quot;&gt;
+			Photo Source: Image courtesy of Expedia Tourism Media
+			&lt;/div&gt;
+		&lt;/div&gt;
+      &lt;img src=&quot;../../images/slider/02_Slide.jpg&quot; alt=&quot;Slide 2&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 2 Caption&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/03_Slide.jpg&quot; alt=&quot;Slide 3&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 3 Caption&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/04_Slide.jpg&quot; alt=&quot;Slide 4&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 4 Caption&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/05_Slide.jpg&quot; alt=&quot;Slide 5&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 5 Caption&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/06_Slide.jpg&quot; alt=&quot;Slide 6&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 6 Caption&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/07_Slide.jpg&quot; alt=&quot;Slide 7&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 7 Caption&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/08_Slide.jpg&quot; alt=&quot;Slide 8&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 8 Caption&lt;/p&gt;
+    &lt;/li&gt;
+	&lt;li&gt;
+      &lt;img src=&quot;../../images/slider/09_Slide.jpg&quot; alt=&quot;Slide 9&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 9 Caption&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/10_Slide.jpg&quot; alt=&quot;Slide 10&quot; /&gt;
+	  &lt;p class=&quot;flex-caption&quot;&gt;Slide 10 Caption&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;i class=&quot;fa fa-2x fa-camera&quot;&gt;&lt;/i&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;carousel&quot; class=&quot;flexslider&quot;&gt;
+  &lt;ul class=&quot;slides&quot;&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/01_Slide.jpg&quot; alt=&quot;Slide 1&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/02_Slide.jpg&quot; alt=&quot;Slide 2&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/03_Slide.jpg&quot; alt=&quot;Slide 3&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/04_Slide.jpg&quot; alt=&quot;Slide 4&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/05_Slide.jpg&quot; alt=&quot;Slide 5&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/06_Slide.jpg&quot; alt=&quot;Slide 6&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/07_Slide.jpg&quot; alt=&quot;Slide 7&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/08_Slide.jpg&quot; alt=&quot;Slide 8&quot; /&gt;
+    &lt;/li&gt;
+	    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/09_Slide.jpg&quot; alt=&quot;Slide 9&quot; /&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;img src=&quot;../../images/slider/10_Slide.jpg&quot; alt=&quot;Slide 10&quot; /&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
