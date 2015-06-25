@@ -7,11 +7,7 @@
 	color: $white;
 	line-height: 1;
 	font-weight: bold;
-	// padding: $pad;
-	padding-top: 1.25em;
-	padding-bottom: .75em;
-	padding-left: 2.5em;
-	padding-right: 1em;
+	padding: $pad;
 	border: 0;
 	text-align: center;
 	width: initial;
@@ -26,6 +22,11 @@
 		background: $gray-light-2;
 		color: $gray-med;
 	}
+  
+  &:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    padding-right: .75em;
+  }
 }
 
 .btn-small {
@@ -39,7 +40,6 @@
 	font-size: 1.4rem;
 	font-weight: normal;
 }
-
 
 .text-btn {
 	font-style: italic;
