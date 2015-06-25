@@ -1,64 +1,88 @@
 ## City of Los Angeles Pattern Library
 
-## About Pattern Lab
-- [Pattern Lab Website](http://patternlab.io/)
-- [About Pattern Lab](http://patternlab.io/about.html)
-- [Documentation](http://patternlab.io/docs/index.html)
-- [Demo](http://demo.patternlab.io/)
+GovStyle LA / Style LA
 
-The PHP version of Pattern Lab is, at its core, a static site generator. It combines platform-agnostic assets, like the [Mustache](http://mustache.github.io/)-based patterns and the JavaScript-based viewer, with a PHP-based "builder" that transforms and dynamically builds the Pattern Lab site. By making it a static site generator, Pattern Lab strongly separates patterns, data, and presentation from build logic. 
+Take part in a unique opportunity to help unify and improve the design and usability of City of LA websites and apps.  The City’s Web Team has been working on a proposed Style Guide to be used as the go-to style resource for all site and app development.  Not only is this Style Guide supposed to help streamline development, but it should provide great-looking style that can be used by all City Departments while ensuring responsiveness and accessibility.  
 
-## Demo
+View the Style Guide at [contact.lacity.org/style/](http://contact.lacity.org/style/).
 
-You can play with a demo of the front-end of Pattern Lab at [demo.patternlab.io](http://demo.patternlab.io).
+Here are instructions on how you can participate:
 
-## Getting Started
+1.Software Requirements 
 
-* [Requirements](http://patternlab.io/docs/requirements.html)
-* [Installing the PHP Version of Pattern Lab](http://patternlab.io/docs/installation.html)
-* [Upgrading the PHP Version of Pattern Lab](http://patternlab.io/docs/upgrading.html)
-* [Generating the Pattern Lab Website for the First Time](http://patternlab.io/docs/first-run.html)
-* [Editing the Pattern Lab Website Source Files](http://patternlab.io/docs/editing-source-files.html)
-* [Using the Command-line Options](http://patternlab.io/docs/command-line.html)
-* [Command Prompt on Windows](http://patternlab.io/docs/command-prompt-windows.html)
+Install the following in the order listed:
 
-## Working with Patterns
+- Git 
+    - [https://git-scm.com/downloads](https://git-scm.com/downloads)
+    - For Windows : Make sure you select “Use Git from the Windows Command Prompt”
 
-Patterns are the core element of Pattern Lab. Understanding how they work is the key to getting the most out of the system. Patterns use [Mustache](http://mustache.github.io/) so please read [Mustache's docs](http://mustache.github.io/mustache.5.html) as well.
+- PHP 5.3+
+    - For Windows: [http://windows.php.net/download/#php-5.5](http://windows.php.net/download/#php-5.5)
+    - For Mac OS X, PHP already installed
 
-* [How Patterns Are Organized](http://patternlab.io/docs/pattern-organization.html)
-* [Adding New Patterns](http://patternlab.io/docs/pattern-add-new.html)
-* [Reorganizing Patterns](http://patternlab.io/docs/pattern-reorganizing.html)
-* [Including One Pattern Within Another via Partials](http://patternlab.io/docs/pattern-including.html)
-* [Managing Assets for a Pattern: JavaScript, images, CSS, etc.](http://patternlab.io/docs/pattern-managing-assets.html)
-* [Modifying the Pattern Header and Footer](http://patternlab.io/docs/pattern-header-footer.html)
-* [Using Pseudo-Patterns](http://patternlab.io/docs/pattern-pseudo-patterns.html)
-* [Using Pattern Parameters](http://patternlab.io/docs/pattern-parameters.html)
-* [Using Pattern State](http://patternlab.io/docs/pattern-states.html)
-* ["Hiding" Patterns in the Navigation](http://patternlab.io/docs/pattern-hiding.html)
-* [Adding Annotations](http://patternlab.io/docs/pattern-adding-annotations.html)
-* [Viewing Patterns on a Mobile Device](http://patternlab.io/docs/pattern-mobile-view.html)
+- Ruby
+    - [https://www.ruby-lang.org/en/documentation/installation/#homebrew](https://www.ruby-lang.org/en/documentation/installation/#homebrew)
 
-## Creating & Working With Dynamic Data for a Pattern
 
-The PHP version of Pattern Lab utilizes Mustache as the template language for patterns. In addition to allowing for the [inclusion of one pattern within another](http://patternlab.io/docs/pattern-including.html) it also gives pattern developers the ability to include variables. This means that attributes like image sources can be centralized in one file for easy modification across one or more patterns. The PHP version of Pattern Lab uses a JSON file, `source/_data/data.json`, to centralize many of these attributes.
 
-* [Introduction to JSON & Mustache Variables](http://patternlab.io/docs/data-json-mustache.html)
-* [Overriding the Central `data.json` Values with Pattern-specific Values](http://patternlab.io/docs/data-pattern-specific.html)
-* [Linking to Patterns with Pattern Lab's Default `link` Variable](http://patternlab.io/docs/data-link-variable.html)
-* [Creating Lists with Pattern Lab's Default `listItems` Variable](http://patternlab.io/docs/data-listitems.html)
+- Sass
+    - [http://sass-lang.com/install](http://sass-lang.com/install)
 
-## Using Pattern Lab's Advanced Features
+- Compass
+    - [http://thesassway.com/beginner/getting-started-with-sass-and-compass](http://thesassway.com/beginner/getting-started-with-sass-and-compass)
 
-By default, the Pattern Lab assets can be manually generated and the Pattern Lab site manually refreshed but who wants to waste time doing that? Here are some ways that Pattern Lab can make your development workflow a little smoother:
 
-* [Watching for Changes and Auto-Regenerating Patterns](http://patternlab.io/docs/advanced-auto-regenerate.html)
-* [Auto-Reloading the Browser Window When Changes Are Made](http://patternlab.io/docs/advanced-reload-browser.html)
-* [Multi-browser & Multi-device Testing with Page Follow](http://patternlab.io/docs/advanced-page-follow.html)
-* [Keyboard Shortcuts](http://patternlab.io/docs/advanced-keyboard-shortcuts.html)
-* [Special Pattern Lab-specific Query String Variables ](http://patternlab.io/docs/pattern-linking.html)
-* [Preventing the Cleaning of public/](http://patternlab.io/docs/advanced-clean-public.html)
-* [Generating CSS](http://patternlab.io/docs/advanced-generating-css.html)
-* [Modifying the Pattern Lab Nav](http://patternlab.io/docs/advanced-pattern-lab-nav.html)
-* [Editing the config.ini Options](http://patternlab.io/docs/advanced-config-options.html)
-* [Integration with Compass](http://patternlab.io/docs/advanced-integration-with-compass.html)
+2.GitLab.com Instructions
+
+- Create a free GitLab.com account and sign in
+    - https://gitlab.com/users/sign_in
+    
+- Go to the ITA LA City Patterns GitLab.com Repo
+    - https://gitlab.com/itawebservices/lacitypatterns
+    
+- Fork the repo to your account ( The Fork link is in the top right of the page )
+
+- Run the following Git Commands from the command line
+
+    - Bring in the forked repo locally
+        - git clone [fork-repo-url]
+        
+    - Branch off of Master with your own branch 
+        - git checkout -b [branch-name]
+        
+    - Add an Upstream Remote
+        - git remote add upstream https://gitlab.com/itawebservices/lacitypatterns.git
+        
+3.Pattern Lab Instructions
+
+The LA City Style Guide is built using Pattern Lab.  Those new to Pattern Lab should get more acquainted with its structure with the instructions below:
+
+- Go to the Pattern Lab site for documentation
+    - http://patternlab.io/docs/index.html
+    
+- Once the LACity Patterns repo is cloned locally open the “lacitypatterns” folder
+    - rename the “_public” folder to “public”
+    
+- Use the command line to run Compass Watch on the “source” folder in “lacitypatterns”
+    - compass watch
+    - Leave the Compass watch terminal window open
+    
+- Use the command line to generate and watch the “lacitypatterns” folder
+    - php core/builder.php -w -r
+    - Leave the PHP watch command terminal window open
+    
+- Edit the files in the “source” folder ONLY 
+
+- Work on LACity Patterns files. Upon save, the Compass and PHP watch commands will run and rewrite the “public” folder 
+
+- Run the following Git Commands from the command line
+    - Commit your changes to your own forked repo
+        - git add [files-to-add] or git add -A
+        - git commit -m "Commit message"
+        - git push origin [branch-name] -u
+        
+4.Hack Night Instructions
+
+On Hack Night all participants who have forked the LACity Patterns repo will be given collaborator access in order to push their branches directly into the LACity Patterns Repo.
+- Committed changes upstream to the LACity Patterns repo (Note the following step can only be done at Hack Night after you have been added as a collaborator )
+    - git push -u upstream  [branch-name]
