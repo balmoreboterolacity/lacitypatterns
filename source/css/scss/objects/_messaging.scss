@@ -17,3 +17,10 @@
 	border-color: $error;
 	background: #ffbebe;
 }
+
+/*STYLEGUIDE ALERT REMOVE*/
+#sg-patterns #molecules-alert .alert {
+  overflow: hidden !important;
+  padding: 0.7em;
+}
+/*END STYLEGUIDE ALERT REMOVE*/

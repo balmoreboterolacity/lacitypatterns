@@ -170,3 +170,14 @@
 	margin: 1em 0;
 	width: 100%;
 }
+
+/*STYLEGUIDE HEADER REMOVE*/
+#sg-patterns #organisms-header .header-wrap,
+#sg-patterns #organisms-header .header-wrap-background,
+#sg-patterns #organisms-header .header-wrap-background-blur {
+  top: auto;
+}
+#sg-patterns #organisms-header {
+    margin-bottom: 120px;
+}
+/*END STYLEGUIDE HEADER REMOVE*/
