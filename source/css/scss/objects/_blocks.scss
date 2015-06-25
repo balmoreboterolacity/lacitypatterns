@@ -53,6 +53,7 @@
 		padding: 1em;
 		text-align: center;
 		@include vendor-prefix(border-radius, 10px);
+		background: rgba(33, 33, 33, .5);
 		
 	}
 
