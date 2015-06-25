@@ -2324,7 +2324,7 @@ body .wrapper:first-child {
 
 /*STYLEGUIDE PATTERNS REMOVE*/
 /* line 113, scss/objects/_blocks.scss */
-#sg-patterns .b-text {
+#sg-patterns #molecules-block-inset .b-text {
   max-width: 266px !important;
 }
 
