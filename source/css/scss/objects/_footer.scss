@@ -15,6 +15,25 @@
 	a {
 		color: $white;
 	}
+  
+  i.fa {
+    padding: 0 12px 0 0;
+  }
+  
+  li {
+    padding: 0 0 16px;
+  }
+  
+  .address-container,
+  .email {
+      padding-bottom: 0;
+  }
+  
+  .nav-footer li {
+    padding: 8px 0;
+  }
+  
+  
 }
 
 //Footer Nav

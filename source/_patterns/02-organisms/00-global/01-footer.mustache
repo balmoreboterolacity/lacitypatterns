@@ -1,23 +1,23 @@
 <!-- Begin Footer -->
 <footer class="footer" role="contentinfo">
-	<div class=" lc wrapper flexGRID">
+	<div class="lc wrapper flexGRID">
         <div class="row">
             <div class="col_4">
-			<h3>Style Guide</h3>
-			<p>City of Los Angeles</p>
-			<p class="copyright">&copy; 2015 Company Name. All rights reserved. | Disclaimer | Privacy Policy</p>
+                <h3>Style Guide</h3>
+                <p>City of Los Angeles</p>
+                <ul class="address-container left">
+                  <i class="fa fa-map-marker"></i><li class="location right">200 N. Main Street,<br />
+                  RM 1500 CHE<br />
+                  Los Angeles, CA 90012</li>
+                  <li class="phone clearfix"><i class="fa fa-phone"></i>+1-213-473-7500</li>
+                  <li class="email"><i class="fa fa-envelope"></i>innovate@lacity.org</li>
+                </ul>
             </div>
             <div class="col_4">
-            <div class="left"><img src="../../images/icons/icon-location.png"></div><div>200 N. Main Street,<br>
-			RM 1500 CHE<br>
-			Los Angeles, CA 90012
-			</div>
-			<br><br>
-			<div class="left"><img src="../../images/icons/icon-phone.png"></div><div>+1-213-473-7500</div><br><br>
-			<div class="left"><img src="../../images/icons/icon-email.png"></div><div>innovate@lacity.org</div>
+			{{> molecules-footer-nav }}
             </div>
             <div class="col_4 last">
-			{{> molecules-footer-nav }}
+			<p class="copyright">&copy; 2015. All rights reserved.<br />Disclaimer | Privacy Policy</p>
             </div>
         </div>
     </div>
