@@ -1,0 +1,22 @@
+/*------------------------------------*\
+    $BREADCRUMBS
+\*------------------------------------*/
+
+.breadcrumbs {
+
+  padding: 0 0 20px;
+
+      li {
+         display: inline;
+          a {
+            font-weight: bold;
+          }
+      }
+      
+      .location {
+          a {
+            font-weight: normal;
+        }
+      }
+  
+}

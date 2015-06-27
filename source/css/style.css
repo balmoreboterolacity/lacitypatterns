@@ -1465,24 +1465,41 @@ ul.sg-colors li span.lrg {
 .footer a {
   color: #fff;
 }
+/* line 19, scss/objects/_footer.scss */
+.footer i.fa {
+  padding: 0 12px 0 0;
+}
+/* line 23, scss/objects/_footer.scss */
+.footer li {
+  padding: 0 0 16px;
+}
+/* line 27, scss/objects/_footer.scss */
+.footer .address-container,
+.footer .email {
+  padding-bottom: 0;
+}
+/* line 32, scss/objects/_footer.scss */
+.footer .nav-footer li {
+  padding: 8px 0;
+}
 
-/* line 24, scss/objects/_footer.scss */
+/* line 43, scss/objects/_footer.scss */
 .nav-footer li {
   border-bottom: 1px solid #474747;
 }
 @media all and (min-width: 480px) {
-  /* line 24, scss/objects/_footer.scss */
+  /* line 43, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
   }
 }
-/* line 33, scss/objects/_footer.scss */
+/* line 52, scss/objects/_footer.scss */
 .nav-footer a {
   display: block;
   padding: 0;
 }
 
-/* line 44, scss/objects/_footer.scss */
+/* line 63, scss/objects/_footer.scss */
 .wrapper {
   width: 100%;
   border-collapse: collapse;
@@ -1493,12 +1510,12 @@ ul.sg-colors li span.lrg {
   margin: 4% 0 0;
 }
 
-/* line 53, scss/objects/_footer.scss */
+/* line 72, scss/objects/_footer.scss */
 body .wrapper:first-child {
   margin: 0 auto 0 auto;
 }
 
-/* line 56, scss/objects/_footer.scss */
+/* line 75, scss/objects/_footer.scss */
 .row {
   clear: both;
   max-width: 92%;
@@ -1506,14 +1523,14 @@ body .wrapper:first-child {
   margin: 0 auto;
 }
 
-/* line 62, scss/objects/_footer.scss */
+/* line 81, scss/objects/_footer.scss */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 67, scss/objects/_footer.scss */
+/* line 86, scss/objects/_footer.scss */
 .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
   font-size: 14px;
   float: left;
@@ -1526,7 +1543,7 @@ body .wrapper:first-child {
   margin: 4% 0 0;
 }
 
-/* line 78, scss/objects/_footer.scss */
+/* line 97, scss/objects/_footer.scss */
 .wrapper .row .col_1,
 .wrapper .row .col_2,
 .wrapper .row .col_3,
@@ -1542,7 +1559,7 @@ body .wrapper:first-child {
   padding: 20px;
 }
 
-/* line 92, scss/objects/_footer.scss */
+/* line 111, scss/objects/_footer.scss */
 .no_padding,
 .row.no_padding .col_1,
 .row.no_padding .col_2,
@@ -1560,14 +1577,14 @@ body .wrapper:first-child {
 }
 
 @media all and (min-width: 768px) {
-  /* line 109, scss/objects/_footer.scss */
+  /* line 128, scss/objects/_footer.scss */
   .wrapper {
     width: 100%;
     padding: 1% 0;
     margin: 2% 0 0;
   }
 
-  /* line 114, scss/objects/_footer.scss */
+  /* line 133, scss/objects/_footer.scss */
   .row {
     display: -webkit-box;
     display: -moz-box;
@@ -1581,19 +1598,19 @@ body .wrapper:first-child {
     padding: 2% 0 0;
   }
 
-  /* line 126, scss/objects/_footer.scss */
+  /* line 145, scss/objects/_footer.scss */
   .wrapper .row {
     padding: 1% 0;
   }
 
-  /* line 129, scss/objects/_footer.scss */
+  /* line 148, scss/objects/_footer.scss */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* line 134, scss/objects/_footer.scss */
+  /* line 153, scss/objects/_footer.scss */
   .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
     margin: 0 2% 0 0;
     float: left;
@@ -1601,78 +1618,78 @@ body .wrapper:first-child {
     position: relative;
   }
 
-  /* line 141, scss/objects/_footer.scss */
+  /* line 160, scss/objects/_footer.scss */
   .col_1 {
     width: 6.5%;
   }
 
-  /* line 142, scss/objects/_footer.scss */
+  /* line 161, scss/objects/_footer.scss */
   .col_2 {
     width: 15%;
   }
 
-  /* line 143, scss/objects/_footer.scss */
+  /* line 162, scss/objects/_footer.scss */
   .col_3 {
     width: 23.5%;
   }
 
-  /* line 144, scss/objects/_footer.scss */
+  /* line 163, scss/objects/_footer.scss */
   .col_4 {
     width: 32%;
   }
 
-  /* line 145, scss/objects/_footer.scss */
+  /* line 164, scss/objects/_footer.scss */
   .col_5 {
     width: 40.5%;
   }
 
-  /* line 146, scss/objects/_footer.scss */
+  /* line 165, scss/objects/_footer.scss */
   .col_6 {
     width: 49%;
   }
 
-  /* line 147, scss/objects/_footer.scss */
+  /* line 166, scss/objects/_footer.scss */
   .col_7 {
     width: 57.5%;
   }
 
-  /* line 148, scss/objects/_footer.scss */
+  /* line 167, scss/objects/_footer.scss */
   .col_8 {
     width: 66%;
   }
 
-  /* line 149, scss/objects/_footer.scss */
+  /* line 168, scss/objects/_footer.scss */
   .col_9 {
     width: 74.5%;
   }
 
-  /* line 150, scss/objects/_footer.scss */
+  /* line 169, scss/objects/_footer.scss */
   .col_10 {
     width: 83%;
   }
 
-  /* line 151, scss/objects/_footer.scss */
+  /* line 170, scss/objects/_footer.scss */
   .col_11 {
     width: 91.5%;
   }
 
-  /* line 152, scss/objects/_footer.scss */
+  /* line 171, scss/objects/_footer.scss */
   .col_12 {
     width: 100%;
     margin: 0;
   }
 
-  /* line 154, scss/objects/_footer.scss */
+  /* line 173, scss/objects/_footer.scss */
   .last {
     margin: 0;
   }
 }
-/* line 162, scss/objects/_footer.scss */
+/* line 181, scss/objects/_footer.scss */
 .flexGRID {
   background: #212121;
 }
 
-/* line 165, scss/objects/_footer.scss */
+/* line 184, scss/objects/_footer.scss */
 .flexGRID .row .col_1,
 .flexGRID .row .col_2,
 .flexGRID .row .col_3,
@@ -1689,14 +1706,14 @@ body .wrapper:first-child {
   border-radius: 5px;
 }
 
-/* line 180, scss/objects/_footer.scss */
+/* line 199, scss/objects/_footer.scss */
 .flexGRID .row:first-child .col_12 {
   color: #FFF;
   background: none;
   padding: 0;
 }
 
-/* line 185, scss/objects/_footer.scss */
+/* line 204, scss/objects/_footer.scss */
 .flexGRID .row:first-child .col_12 h1 {
   font-size: 32px;
   margin-bottom: 2%;
@@ -1704,7 +1721,7 @@ body .wrapper:first-child {
 }
 
 /*STYLEGUIDE FOOTER REMOVE*/
-/* line 192, scss/objects/_footer.scss */
+/* line 211, scss/objects/_footer.scss */
 #organisms-footer .footer {
   margin-bottom: 0;
 }
@@ -1922,6 +1939,26 @@ body .wrapper:first-child {
   color: #fff;
   margin-left: -1.7rem;
   margin-right: 0.5em;
+}
+
+/*------------------------------------*\
+    $BREADCRUMBS
+\*------------------------------------*/
+/* line 5, scss/objects/_breadcrumbs.scss */
+.breadcrumbs {
+  padding: 0 0 20px;
+}
+/* line 9, scss/objects/_breadcrumbs.scss */
+.breadcrumbs li {
+  display: inline;
+}
+/* line 11, scss/objects/_breadcrumbs.scss */
+.breadcrumbs li a {
+  font-weight: bold;
+}
+/* line 17, scss/objects/_breadcrumbs.scss */
+.breadcrumbs .location a {
+  font-weight: normal;
 }
 
 /*------------------------------------*\
