@@ -20,6 +20,36 @@
 	line-height: 1.2;
 }
 
+/* Slider Hero Block */
+.slider-hero {
+
+  .flexslider {
+  width:100%;border:0;
+  }
+
+  .flex-overlay {
+    border:0;
+    position: absolute;
+    text-align:center;
+    top:10%;
+    width:100%;
+    z-index:999;
+  }
+
+  .b-text {
+    background: rgba(33, 33, 33, .5);
+    border: 2px solid $white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1em;
+    width: 60%;
+  
+    a {
+      color:#fff;
+    }
+  }
+}
+
 /* Hero Block */
 .block-hero {
 	margin-bottom: $space-half;
