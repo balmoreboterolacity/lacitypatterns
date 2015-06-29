@@ -92,6 +92,21 @@
 .article .header-wrap-background-blur{
 	background-image: url('../images/hero_2nd.jpg');
 }
+.calendar .header-wrap-background-blur{
+	background-image: url('../images/hero_2nd.jpg');
+}
+.tweets .header-wrap-background-blur{
+	background-image: url('../images/hero_2nd.jpg');
+}
+.poll .header-wrap-background-blur{
+	background-image: url('../images/hero_2nd.jpg');
+}
+.gallery .header-wrap-background-blur{
+	background-image: url('../images/hero_2nd.jpg');
+}
+.slider-hero .header-wrap-background{
+	opacity: .7;
+}
 .header {
 	@extend .lc;
 	display: block;

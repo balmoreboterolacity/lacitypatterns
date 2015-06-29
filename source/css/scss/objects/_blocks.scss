@@ -24,10 +24,12 @@
 .slider-hero {
 
   .flexslider {
-  width:100%;border:0;
+    width:100%;
+    border:0;
   }
 
-  .flex-overlay {
+  #flex-overlay {
+    background: none;
     border:0;
     position: absolute;
     text-align:center;
