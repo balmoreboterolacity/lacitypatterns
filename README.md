@@ -84,5 +84,6 @@ The LA City Style Guide is built using Pattern Lab.  Those new to Pattern Lab sh
 4.Hack Night Instructions
 
 On Hack Night all participants who have forked the LACity Patterns repo will be given collaborator access in order to push their branches directly into the LACity Patterns Repo.
+- Please submit a pull request to ITA Web Services / lacitypatterns and we will use your pull request information to add your account as a developer to the project
 - Committed changes upstream to the LACity Patterns repo (Note the following step can only be done at Hack Night after you have been added as a collaborator )
     - git push -u upstream  [branch-name]
