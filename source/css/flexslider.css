@@ -149,6 +149,7 @@ html[xmlns] .flexslider .slides {
   right: -50px;
   text-align: right;
 }
+#slider-hero .flex-direction-nav li a,
 #slider .flex-direction-nav li a {
 	width: 2.7em;
 	height: 3.5em;
@@ -178,6 +179,12 @@ html[xmlns] .flexslider .slides {
 	padding: .5em;
 	font-size: 1.1em;
 	line-height: 1.2;
+}
+#slider-hero .flex-direction-nav .flex-prev {
+  top: 1px;
+}
+#slider-hero .flex-direction-nav .flex-next {
+  top: 70px;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
   opacity: 0.7;
