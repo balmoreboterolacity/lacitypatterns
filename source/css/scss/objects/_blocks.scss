@@ -45,10 +45,40 @@
     margin: 0 auto;
     padding: 1em;
     width: 60%;
+        @media all and (max-width: $bp-med){
+          margin-top: -86px;
+        } 
+        @media all and (max-width: $bp-med-2){
+          margin-top: -50px;
+        } 
   
     a {
       color:#fff;
     }
+  }
+  
+  .fa-camera {
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 4px;
+    position: absolute;
+    right: 10px;
+    top: 6.6%;
+    z-index: 280;
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3); 
+      background-color: rgba(255,255,255,.7);
+        @media all and (max-width: $bp-med-2){
+          display: none;
+        } 
+  }
+  
+  .flex-direction-nav li a,
+  .fa-camera  {
+    background-color: rgba(255,255,255,.7);
+      @media all and (max-width: $bp-med){
+        display: none;
+      }
   }
 }
 
