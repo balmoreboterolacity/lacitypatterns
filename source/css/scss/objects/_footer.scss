@@ -17,11 +17,11 @@
 	}
   
   i.fa {
-    padding: 0 12px 0 0;
+    padding: 0 1em 1em 0;
   }
   
   li {
-    padding: 0 0 16px;
+    padding: 0 0 1em;
   }
   
   .address-container,
@@ -38,13 +38,14 @@
 
 //Footer Nav
 .nav-footer {
-	// margin: (-$pad) (-$pad) $space;
+	border-top: 1px solid $white;
+	@media all and (min-width: $bp-med-3) {
+		border: 0;
+	}
 
 	li {
-		border-bottom: 1px solid $gray-dark;
-
-
-		@media all and (min-width: $bp-med) {
+		border-bottom: 1px solid $white;
+		@media all and (min-width: $bp-med-3) {
 			border: 0;
 		}
 	}
@@ -124,7 +125,7 @@ body .wrapper:first-child {
 	padding: 0 !important;
 }
 
-@media all and (min-width : 768px) {
+@media all and (min-width : $bp-med-3) {
 	.wrapper {
 		width: 100%;
 		padding: 1% 0;
