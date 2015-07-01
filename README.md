@@ -87,3 +87,7 @@ On Hack Night all participants who have forked the LACity Patterns repo will be 
 - Please submit a pull request to ITA Web Services / lacitypatterns and we will use your pull request information to add your account as a developer to the project
 - Committed changes upstream to the LACity Patterns repo (Note the following step can only be done at Hack Night after you have been added as a collaborator )
     - git push -u upstream  [branch-name]
+    
+Deadline for  submission of branches is July 7.
+
+For Questions and Comments please contact: balmore.botero@lacity.org
