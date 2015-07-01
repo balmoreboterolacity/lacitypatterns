@@ -1512,7 +1512,7 @@ ul.sg-colors li span.lrg {
 .nav-footer {
   border-top: 1px solid #fff;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 830px) {
   /* line 40, scss/objects/_footer.scss */
   .nav-footer {
     border: 0;
@@ -1522,7 +1522,7 @@ ul.sg-colors li span.lrg {
 .nav-footer li {
   border-bottom: 1px solid #fff;
 }
-@media all and (min-width: 720px) {
+@media all and (min-width: 830px) {
   /* line 46, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
@@ -1611,7 +1611,7 @@ body .wrapper:first-child {
   padding: 0 !important;
 }
 
-@media all and (min-width: 720px) {
+@media all and (min-width: 830px) {
   /* line 129, scss/objects/_footer.scss */
   .wrapper {
     width: 100%;
