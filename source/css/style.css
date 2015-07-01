@@ -1513,38 +1513,50 @@ ul.sg-colors li span.lrg {
 .footer .nav-footer li {
   padding: 14px 0;
 }
-/* line 40, scss/objects/_footer.scss */
+@media all and (min-width: 830px) {
+  /* line 38, scss/objects/_footer.scss */
+  .footer .nav-footer li {
+    padding: 0;
+    line-height: 2em;
+  }
+}
+/* line 44, scss/objects/_footer.scss */
 .footer .nav-footer li a {
   margin-left: 40px;
 }
 
-/* line 49, scss/objects/_footer.scss */
+/* line 53, scss/objects/_footer.scss */
 .nav-footer {
   border-top: 1px solid #fff;
 }
 @media all and (min-width: 830px) {
-  /* line 49, scss/objects/_footer.scss */
+  /* line 53, scss/objects/_footer.scss */
   .nav-footer {
     border: 0;
   }
 }
-/* line 55, scss/objects/_footer.scss */
+/* line 59, scss/objects/_footer.scss */
 .nav-footer li {
   border-bottom: 1px solid #fff;
 }
 @media all and (min-width: 830px) {
-  /* line 55, scss/objects/_footer.scss */
+  /* line 59, scss/objects/_footer.scss */
   .nav-footer li {
     border: 0;
   }
 }
-/* line 62, scss/objects/_footer.scss */
+/* line 66, scss/objects/_footer.scss */
 .nav-footer a {
   display: block;
   padding: 0;
 }
 
-/* line 74, scss/objects/_footer.scss */
+/* line 72, scss/objects/_footer.scss */
+.copyright {
+  line-height: 2em;
+}
+
+/* line 79, scss/objects/_footer.scss */
 .wrapper {
   width: 100%;
   border-collapse: collapse;
@@ -1555,12 +1567,12 @@ ul.sg-colors li span.lrg {
   margin: 4% 0 0;
 }
 
-/* line 83, scss/objects/_footer.scss */
+/* line 88, scss/objects/_footer.scss */
 body .wrapper:first-child {
   margin: 0 auto 0 auto;
 }
 
-/* line 86, scss/objects/_footer.scss */
+/* line 91, scss/objects/_footer.scss */
 .row {
   clear: both;
   max-width: 100%;
@@ -1568,14 +1580,14 @@ body .wrapper:first-child {
   margin: 0 auto;
 }
 
-/* line 92, scss/objects/_footer.scss */
+/* line 97, scss/objects/_footer.scss */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 97, scss/objects/_footer.scss */
+/* line 102, scss/objects/_footer.scss */
 .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
   font-size: 14px;
   float: left;
@@ -1588,7 +1600,7 @@ body .wrapper:first-child {
   margin: 4% 0 0;
 }
 
-/* line 111, scss/objects/_footer.scss */
+/* line 116, scss/objects/_footer.scss */
 .wrapper .row .col_1,
 .wrapper .row .col_2,
 .wrapper .row .col_3,
@@ -1604,7 +1616,12 @@ body .wrapper:first-child {
   padding: 20px 40px;
 }
 
-/* line 125, scss/objects/_footer.scss */
+/* line 131, scss/objects/_footer.scss */
+.wrapper .row .col_4.last {
+  padding: 0;
+}
+
+/* line 135, scss/objects/_footer.scss */
 .no_padding,
 .row.no_padding .col_1,
 .row.no_padding .col_2,
@@ -1622,14 +1639,14 @@ body .wrapper:first-child {
 }
 
 @media all and (min-width: 830px) {
-  /* line 144, scss/objects/_footer.scss */
+  /* line 154, scss/objects/_footer.scss */
   .wrapper {
     width: 100%;
     padding: 1% 0;
     margin: 2% 0 0;
   }
 
-  /* line 149, scss/objects/_footer.scss */
+  /* line 159, scss/objects/_footer.scss */
   .row {
     display: -webkit-box;
     display: -moz-box;
@@ -1643,19 +1660,19 @@ body .wrapper:first-child {
     padding: 2% 0 0;
   }
 
-  /* line 161, scss/objects/_footer.scss */
+  /* line 171, scss/objects/_footer.scss */
   .wrapper .row {
     padding: 1% 0;
   }
 
-  /* line 164, scss/objects/_footer.scss */
+  /* line 174, scss/objects/_footer.scss */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* line 169, scss/objects/_footer.scss */
+  /* line 179, scss/objects/_footer.scss */
   .col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
     margin: 0 2% 0 0;
     float: left;
@@ -1663,7 +1680,7 @@ body .wrapper:first-child {
     position: relative;
   }
 
-  /* line 176, scss/objects/_footer.scss */
+  /* line 186, scss/objects/_footer.scss */
   .wrapper .row .col_1,
   .wrapper .row .col_2,
   .wrapper .row .col_3,
@@ -1679,78 +1696,79 @@ body .wrapper:first-child {
     padding: 20px;
   }
 
-  /* line 191, scss/objects/_footer.scss */
+  /* line 201, scss/objects/_footer.scss */
+  .wrapper .row .col_4.last {
+    margin: 0;
+    padding: 20px;
+  }
+
+  /* line 206, scss/objects/_footer.scss */
   .col_1 {
     width: 6.5%;
   }
 
-  /* line 192, scss/objects/_footer.scss */
+  /* line 207, scss/objects/_footer.scss */
   .col_2 {
     width: 15%;
   }
 
-  /* line 193, scss/objects/_footer.scss */
+  /* line 208, scss/objects/_footer.scss */
   .col_3 {
     width: 23.5%;
   }
 
-  /* line 194, scss/objects/_footer.scss */
+  /* line 209, scss/objects/_footer.scss */
   .col_4 {
     width: 32%;
   }
 
-  /* line 195, scss/objects/_footer.scss */
+  /* line 210, scss/objects/_footer.scss */
   .col_5 {
     width: 40.5%;
   }
 
-  /* line 196, scss/objects/_footer.scss */
+  /* line 211, scss/objects/_footer.scss */
   .col_6 {
     width: 49%;
   }
 
-  /* line 197, scss/objects/_footer.scss */
+  /* line 212, scss/objects/_footer.scss */
   .col_7 {
     width: 57.5%;
   }
 
-  /* line 198, scss/objects/_footer.scss */
+  /* line 213, scss/objects/_footer.scss */
   .col_8 {
     width: 66%;
   }
 
-  /* line 199, scss/objects/_footer.scss */
+  /* line 214, scss/objects/_footer.scss */
   .col_9 {
     width: 74.5%;
   }
 
-  /* line 200, scss/objects/_footer.scss */
+  /* line 215, scss/objects/_footer.scss */
   .col_10 {
     width: 83%;
   }
 
-  /* line 201, scss/objects/_footer.scss */
+  /* line 216, scss/objects/_footer.scss */
   .col_11 {
     width: 91.5%;
   }
 
-  /* line 202, scss/objects/_footer.scss */
+  /* line 217, scss/objects/_footer.scss */
   .col_12 {
     width: 100%;
     margin: 0;
   }
-
-  /* line 204, scss/objects/_footer.scss */
-  .last {
-    margin: 0;
-  }
 }
-/* line 212, scss/objects/_footer.scss */
+/* line 225, scss/objects/_footer.scss */
 .flexGRID {
   background: #212121;
 }
 
-/* line 215, scss/objects/_footer.scss */
+/* line 228, scss/objects/_footer.scss */
 .flexGRID .row .col_1,
 .flexGRID .row .col_2,
 .flexGRID .row .col_3,
@@ -1767,14 +1785,14 @@ body .wrapper:first-child {
   border-radius: 5px;
 }
 
-/* line 230, scss/objects/_footer.scss */
+/* line 243, scss/objects/_footer.scss */
 .flexGRID .row:first-child .col_12 {
   color: #FFF;
   background: none;
   padding: 0;
 }
 
-/* line 235, scss/objects/_footer.scss */
+/* line 248, scss/objects/_footer.scss */
 .flexGRID .row:first-child .col_12 h1 {
   font-size: 32px;
   margin-bottom: 2%;
@@ -1782,7 +1800,7 @@ body .wrapper:first-child {
 }
 
 /* STYLEGUIDE FOOTER REMOVE */
-/* line 242, scss/objects/_footer.scss */
+/* line 255, scss/objects/_footer.scss */
 #organisms-footer .footer {
   margin-bottom: 0;
 }
