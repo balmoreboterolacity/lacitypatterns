@@ -15,6 +15,12 @@
 	a {
 		color: $white;
 	}
+
+	.full {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
   
   i.fa {
     padding: 0 1em 1em 0;
@@ -31,6 +37,9 @@
   
   .nav-footer li {
     padding: 8px 0;
+    	a {
+    		margin-left: 40px;
+    	}
   }
   
   
@@ -60,6 +69,7 @@
 	@media all and (min-width: $bp-med) {
 	}
 }
+
 // FlexGRID
 .wrapper {
 	width: 100%;
@@ -75,7 +85,7 @@ body .wrapper:first-child {
 }
 .row {
 	clear: both;
-	max-width: 92%;
+	max-width: 100%;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -95,6 +105,9 @@ body .wrapper:first-child {
 	word-break: break-word;
 	margin: 4% 0 0;
 }
+
+
+
 .wrapper .row .col_1,
 .wrapper .row .col_2,
 .wrapper .row .col_3,
@@ -107,7 +120,7 @@ body .wrapper:first-child {
 .wrapper .row .col_10,
 .wrapper .row .col_11,
 .wrapper .row .col_12 {
-	padding: 20px;
+	padding: 20px 40px;
 }
 .no_padding,
 .row.no_padding .col_1,
@@ -124,6 +137,8 @@ body .wrapper:first-child {
 .row.no_padding .col_12 {
 	padding: 0 !important;
 }
+
+
 
 @media all and (min-width : $bp-med-3) {
 	.wrapper {
@@ -156,6 +171,21 @@ body .wrapper:first-child {
 		float: left;
 		word-break: break-word;
 		position: relative;
+	}
+
+	.wrapper .row .col_1,
+	.wrapper .row .col_2,
+	.wrapper .row .col_3,
+	.wrapper .row .col_4,
+	.wrapper .row .col_5,
+	.wrapper .row .col_6,
+	.wrapper .row .col_7,
+	.wrapper .row .col_8,
+	.wrapper .row .col_9,
+	.wrapper .row .col_10,
+	.wrapper .row .col_11,
+	.wrapper .row .col_12 {
+		padding: 20px;
 	}
 	
 	.col_1 { width: 6.5%; }
@@ -208,8 +238,8 @@ body .wrapper:first-child {
 	text-align: center;
 }
 
-/*STYLEGUIDE FOOTER REMOVE*/
+/* STYLEGUIDE FOOTER REMOVE */
 #organisms-footer .footer {
   margin-bottom: 0;
 }
-/*END STYLEGUIDE FOOTER REMOVE*/
+/* END STYLEGUIDE FOOTER REMOVE */
