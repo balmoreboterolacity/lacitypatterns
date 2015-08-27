@@ -1,0 +1,41 @@
+<div class="page" id="page">
+	{{> organisms-header }}
+	{{# emergency }}
+	{{> molecules-alert:error }}
+	{{/ emergency }}
+	{{# hero }}
+	{{> molecules-block-hero }}
+	{{/ hero}}
+	{{> organisms-slab }}
+	<div class="g">
+		{{# touts}}
+		<div class="gi one-third">
+			{{> molecules-block-inset }}
+		</div>
+		{{/ touts}}
+	</div><!--end 3up-->
+	<div role="main">
+		<div class="demo">
+			{{> molecules-slider }}
+			<hr />
+			<div class="l-one-col">
+				<div class="l-main">
+					<section class="section latest-posts">
+						<h2 class="section-title">Latest Posts</h2>
+						<ul class="post-list">
+							{{# latest-posts }}
+							<li>{{> molecules-media-block }}</li>
+							{{/ latest-posts }}
+						</ul>
+						<a href="#" class="text-btn">View more posts</a>
+					</section>
+				</div><!--end .l-main-->
+				<!-- <div class="l-sidebar">
+					{{> organisms-recent-tweets }}
+					{{> organisms-poll }}
+				</div> --><!--end .l-sidebar-->
+			</div><!--end .l-two-col-->
+		</div><!--end .demo-->
+	</div><!--End role=main-->
+	{{> organisms-footer }}	
+</div><!--End #page.page-->
