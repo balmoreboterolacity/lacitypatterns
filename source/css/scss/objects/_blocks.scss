@@ -171,6 +171,25 @@
 	}
 }
 
+/* Block Login */
+.block-log-in {
+	margin-bottom: 0;
+	.b-thumb {
+		img {
+			min-width: 600px;
+		}
+	}
+	.b-text {
+		width: 90%;
+		max-width: 24em;
+		top: 20%;
+		height: 11em;
+		@media all and (min-width: $bp-med-2) {
+			top: 40%;
+		}
+	}
+}
+
 /*STYLEGUIDE PATTERNS REMOVE*/
 #sg-patterns #molecules-block-inset .b-text {
   max-width: 266px !important;
