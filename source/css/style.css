@@ -3138,6 +3138,34 @@ ul.comment-list {
   color: #fff;
 }
 
+/* line 35, scss/objects/_slab.scss */
+.disclaimer-slab {
+  background: #474747;
+  text-align: center;
+  color: #fff;
+}
+/* line 39, scss/objects/_slab.scss */
+.disclaimer-slab .disclaimer-wrapper {
+  display: block;
+  padding: 1em;
+}
+/* line 42, scss/objects/_slab.scss */
+.disclaimer-slab .disclaimer-wrapper a {
+  color: #fff;
+}
+@media all and (max-width: 480px) {
+  /* line 42, scss/objects/_slab.scss */
+  .disclaimer-slab .disclaimer-wrapper a {
+    display: block;
+  }
+}
+@media all and (max-width: 480px) {
+  /* line 48, scss/objects/_slab.scss */
+  .disclaimer-slab .disclaimer-wrapper span {
+    display: none;
+  }
+}
+
 /* line 1, scss/objects/_tweets.scss */
 .element-hidden {
   display: none;
