@@ -160,7 +160,7 @@
 				  height: auto;
 	 		}
  		}
-	}
+	} 
 
 	.b-text {
 		@media all and (min-width: $bp-small-2) {
@@ -171,19 +171,36 @@
 	}
 }
 
-/* Block Login */
+/* Block Log In */
 .block-log-in {
-	margin-bottom: 0;
+	margin-bottom: 11.25em;
+	overflow: visible;
+	@media all and (min-width: $bp-med) {
+			margin-bottom: 0;
+			overflow: hidden;
+	}
 	.b-thumb {
 		img {
-			min-width: 600px;
+			@media all and (min-width: $bp-med) {
+				min-width: 600px;
+			}
 		}
 	}
 	.b-text {
-		width: 90%;
-		max-width: 24em;
-		top: 20%;
-		height: 11em;
+		width: 100%;
+		padding: 1.4em 2.2em 0;
+		background: none;
+		border: none;
+		top: 100%;
+		@media all and (min-width: $bp-med) {
+			width: 90%;
+			height: 11em;
+			max-width: 24em;
+			padding: 1em;
+			border: 2px solid $white;
+			background: rgba(33, 33, 33, .5);
+			top: 24%;
+		}
 		@media all and (min-width: $bp-med-2) {
 			top: 40%;
 		}
