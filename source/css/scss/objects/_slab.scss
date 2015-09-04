@@ -29,3 +29,26 @@
 	background: $black;
 	color: $white;
 }
+
+// Log In Disclaimer Slab
+
+.disclaimer-slab {
+	background: $gray-med;
+	text-align: center;
+	color: $white;
+	.disclaimer-wrapper {
+		display: block;
+		padding: 1em;
+		a {
+			color: $white;
+			@media all and (max-width: $bp-med){
+				display: block;
+			}
+		}
+		span {
+			@media all and (max-width: $bp-med){
+				display: none;
+			}
+		}
+	}
+}
