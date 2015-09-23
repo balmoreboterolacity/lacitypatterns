@@ -604,14 +604,27 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Log In Form */
 /* line 141, scss/base/_forms.scss */
+.log-in-form label {
+  color: initial;
+}
+@media all and (min-width: 480px) {
+  /* line 141, scss/base/_forms.scss */
+  .log-in-form label {
+    color: #fff;
+  }
+}
+/* line 147, scss/base/_forms.scss */
 .log-in-form .username-field, .log-in-form .password-field {
-  font-family: FontAwesome, "Varela", sans-serif;
   margin-bottom: 16px;
 }
-/* line 145, scss/base/_forms.scss */
+/* line 150, scss/base/_forms.scss */
 .log-in-form .btn.log-in-submit {
-  width: 100%;
   padding: 0.9em;
+  background: #CC4E10;
+}
+/* line 153, scss/base/_forms.scss */
+.log-in-form .btn.log-in-submit:hover {
+  background: #E0E0E0;
 }
 
 /*------------------------------------*\
@@ -2526,7 +2539,7 @@ body .wrapper:first-child {
 /* Block Log In */
 /* line 175, scss/objects/_blocks.scss */
 .block-log-in {
-  margin-bottom: 11.25em;
+  margin-bottom: 16em;
   overflow: visible;
 }
 @media all and (min-width: 480px) {
@@ -2545,72 +2558,73 @@ body .wrapper:first-child {
 /* line 189, scss/objects/_blocks.scss */
 .block-log-in .b-text {
   width: 100%;
-  padding: 1.4em 2.2em 0;
+  padding: 1.2em 2.2em 0;
   background: none;
   border: none;
   top: 100%;
+  text-align: left;
 }
 @media all and (min-width: 480px) {
   /* line 189, scss/objects/_blocks.scss */
   .block-log-in .b-text {
     width: 90%;
-    height: 11em;
+    height: 16em;
     max-width: 24em;
     padding: 1em;
     border: 2px solid #fff;
     background: rgba(33, 33, 33, 0.5);
-    top: 24%;
+    top: 14%;
   }
 }
 @media all and (min-width: 720px) {
   /* line 189, scss/objects/_blocks.scss */
   .block-log-in .b-text {
-    top: 40%;
+    top: 36%;
   }
 }
 
 /*STYLEGUIDE PATTERNS REMOVE*/
-/* line 211, scss/objects/_blocks.scss */
+/* line 212, scss/objects/_blocks.scss */
 #sg-patterns #molecules-block-inset .b-text {
   max-width: 266px !important;
 }
 
 /*STYLEGUIDE PATTERNS REMOVE END*/
 /* Block Headline Summary */
-/* line 219, scss/objects/_blocks.scss */
+/* line 220, scss/objects/_blocks.scss */
 .block-headline-summary a {
   display: block;
   padding: 0.5em;
 }
 
 /* Block Inset */
-/* line 226, scss/objects/_blocks.scss */
+/* line 227, scss/objects/_blocks.scss */
 .block-inset {
   position: relative;
   width: 100%;
   max-height: 360px;
 }
-/* line 231, scss/objects/_blocks.scss */
+/* line 232, scss/objects/_blocks.scss */
 .block-inset .b-thumb {
   position: relative;
   z-index: 0;
 }
-/* line 235, scss/objects/_blocks.scss */
+/* line 236, scss/objects/_blocks.scss */
 .block-inset .b-thumb img {
   display: block;
 }
 
 /* Hero Block */
-/* line 242, scss/objects/_blocks.scss */
+/* line 243, scss/objects/_blocks.scss */
 .block-inset {
   margin-bottom: 0.5em;
   position: relative;
 }
-/* line 246, scss/objects/_blocks.scss */
+/* line 247, scss/objects/_blocks.scss */
 .block-inset .headline {
   font-size: 1.1em;
 }
-/* line 250, scss/objects/_blocks.scss */
+/* line 251, scss/objects/_blocks.scss */
 .block-inset .b-text {
   position: absolute;
   bottom: 0;
@@ -2622,12 +2636,12 @@ body .wrapper:first-child {
 }
 
 /* Block Thumb with Summary */
-/* line 263, scss/objects/_blocks.scss */
+/* line 264, scss/objects/_blocks.scss */
 .block-thumb-summary .b-thumb {
   float: left;
   width: 50%;
 }
-/* line 268, scss/objects/_blocks.scss */
+/* line 269, scss/objects/_blocks.scss */
 .block-thumb-summary .b-text {
   margin-left: 50%;
   padding: 0.5em;
