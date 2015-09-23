@@ -138,12 +138,20 @@ input[type="search"]::-webkit-search-decoration {
 
 /* Log In Form */
 .log-in-form {
+	label {
+		color: initial;
+		@media all and (min-width: $bp-med) {
+			color: $white;
+		}
+	}
 	.username-field, .password-field {
-		font-family: FontAwesome, $font;
 		margin-bottom: 16px;
 	}
 	.btn.log-in-submit {
-		width: 100%;
 		padding: 0.9em;
+		background: $orange;
+		&:hover {
+			background: $gray;
+		}
 	}
 }

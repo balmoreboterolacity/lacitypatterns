@@ -173,7 +173,7 @@
 
 /* Block Log In */
 .block-log-in {
-	margin-bottom: 11.25em;
+	margin-bottom: 16em;
 	overflow: visible;
 	@media all and (min-width: $bp-med) {
 			margin-bottom: 0;
@@ -188,21 +188,22 @@
 	}
 	.b-text {
 		width: 100%;
-		padding: 1.4em 2.2em 0;
+		padding: 1.2em 2.2em 0;
 		background: none;
 		border: none;
 		top: 100%;
+		text-align: left;
 		@media all and (min-width: $bp-med) {
 			width: 90%;
-			height: 11em;
+			height: 16em;
 			max-width: 24em;
 			padding: 1em;
 			border: 2px solid $white;
 			background: rgba(33, 33, 33, .5);
-			top: 24%;
+			top: 14%;
 		}
 		@media all and (min-width: $bp-med-2) {
-			top: 40%;
+			top: 36%;
 		}
 	}
 }
