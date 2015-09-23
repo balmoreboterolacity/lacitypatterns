@@ -181,7 +181,9 @@
 	}
 	.b-thumb {
 		img {
+			display: none;
 			@media all and (min-width: $bp-med) {
+				display: block;
 				min-width: 600px;
 			}
 		}
